@@ -1,0 +1,1487 @@
+{
+  "version": 2,
+  "workspace": "ryze marketing",
+  "builtAt": "2026-11-20T11:43:45.764Z",
+  "reason": "files deleted",
+  "policy": {
+    "localOnly": true,
+    "sendFullIndexToAi": false,
+    "candidateLimit": 5,
+    "incremental": true
+  },
+  "stats": {
+    "reused": 3,
+    "rescanned": 13,
+    "skipped": 0
+  },
+  "files": [
+    {
+      "path": ".clinerules/07-technomantra-eco-execution.md",
+      "size": 1982,
+      "mtimeMs": 1795151046012.2124,
+      "hash": "9ef5a742dc131dde34557377d2eec85fae45e74f57418c29e9d44c09dfdacf37",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/10-technomantra-project-memory.md",
+      "size": 799,
+      "mtimeMs": 1795152037672.641,
+      "hash": "0f5aa7df279d851ee7f379ea7adab6483070a72524ab8d003adea40b2dde89bf",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/11-technomantra-code-knowledge.md",
+      "size": 266,
+      "mtimeMs": 1795152037669.641,
+      "hash": "2b6aeb0a5ef567feb23fc31967a16fa8ac47d1afea3e387150636f1a2382404d",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/11-technomantra-patch-index.md",
+      "size": 706,
+      "mtimeMs": 1795152037366.5554,
+      "hash": "87b645eb147cf1465660330d582a8071dba61a4108972f9f7e5774cfa7b372ff",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/12-technomantra-task-capsules.md",
+      "size": 2345,
+      "mtimeMs": 1795175024440.3599,
+      "hash": "9b9fbdace7409959393097a780e7af9606253eed3c01650655d77031d52cb049",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/90-technomantra-selected-agent.md",
+      "size": 411,
+      "mtimeMs": 1795151040235.4314,
+      "hash": "7fccc4e80676a9bbb675bc04ec498cef4e4a7627df0c5d2fd710504403b76aa1",
+      "locators": []
+    },
+    {
+      "path": ".openai/hosting.json",
+      "size": 98,
+      "mtimeMs": 1795151954315.895,
+      "hash": "a749eeb62166e0eaf85dc7d9ecc6a19abbc5673d1acddfeecd0dbafd0254608d",
+      "locators": []
+    },
+    {
+      "path": ".vscode/settings.json",
+      "size": 42,
+      "mtimeMs": 1795163805884.1921,
+      "hash": "d7c4c5969a13be89c26b96373e811c72455b9bcc938c3e2ee1de236c55773289",
+      "locators": []
+    },
+    {
+      "path": "compare_wc.html",
+      "size": 563,
+      "mtimeMs": 1795174813468.861,
+      "hash": "3c2df53b58b03ce98461a16f7fbc9c19675699cc415d40320c714138017f0125",
+      "locators": [
+        {
+          "kind": "heading",
+          "name": "Uploaded by user:",
+          "line": 5
+        },
+        {
+          "kind": "heading",
+          "name": "assets/why-choose-products.png on white:",
+          "line": 9
+        }
+      ]
+    },
+    {
+      "path": "index.html",
+      "size": 31518,
+      "mtimeMs": 1795174103483.303,
+      "hash": "356bae5b5393e4002f21f753f89fe2cf20983384fa4807f2660424441fe6e02e",
+      "locators": [
+        {
+          "kind": "class",
+          "name": ".svg-sprite",
+          "line": 11
+        },
+        {
+          "kind": "id",
+          "name": "#icon-chevron",
+          "line": 12
+        },
+        {
+          "kind": "id",
+          "name": "#icon-arrow",
+          "line": 13
+        },
+        {
+          "kind": "id",
+          "name": "#icon-diamond",
+          "line": 14
+        },
+        {
+          "kind": "id",
+          "name": "#icon-sliders",
+          "line": 15
+        },
+        {
+          "kind": "id",
+          "name": "#icon-bulb",
+          "line": 16
+        },
+        {
+          "kind": "id",
+          "name": "#icon-chat",
+          "line": 17
+        },
+        {
+          "kind": "id",
+          "name": "#icon-box",
+          "line": 18
+        },
+        {
+          "kind": "id",
+          "name": "#icon-calendar-check",
+          "line": 19
+        },
+        {
+          "kind": "id",
+          "name": "#icon-chart",
+          "line": 20
+        },
+        {
+          "kind": "id",
+          "name": "#icon-target",
+          "line": 21
+        },
+        {
+          "kind": "id",
+          "name": "#icon-mountain",
+          "line": 22
+        },
+        {
+          "kind": "id",
+          "name": "#icon-handshake",
+          "line": 23
+        },
+        {
+          "kind": "id",
+          "name": "#icon-medical",
+          "line": 24
+        },
+        {
+          "kind": "id",
+          "name": "#icon-gift",
+          "line": 25
+        },
+        {
+          "kind": "id",
+          "name": "#icon-calendar",
+          "line": 26
+        },
+        {
+          "kind": "id",
+          "name": "#icon-megaphone",
+          "line": 27
+        },
+        {
+          "kind": "id",
+          "name": "#icon-search",
+          "line": 28
+        },
+        {
+          "kind": "id",
+          "name": "#icon-pencil",
+          "line": 29
+        },
+        {
+          "kind": "id",
+          "name": "#icon-gear",
+          "line": 30
+        },
+        {
+          "kind": "id",
+          "name": "#icon-check",
+          "line": 31
+        },
+        {
+          "kind": "id",
+          "name": "#icon-pin",
+          "line": 32
+        },
+        {
+          "kind": "id",
+          "name": "#icon-phone",
+          "line": 33
+        },
+        {
+          "kind": "id",
+          "name": "#icon-mail",
+          "line": 34
+        },
+        {
+          "kind": "id",
+          "name": "#icon-linkedin",
+          "line": 35
+        },
+        {
+          "kind": "id",
+          "name": "#icon-instagram",
+          "line": 36
+        },
+        {
+          "kind": "id",
+          "name": "#icon-facebook",
+          "line": 37
+        },
+        {
+          "kind": "id",
+          "name": "#icon-youtube",
+          "line": 38
+        },
+        {
+          "kind": "class",
+          "name": ".site-header",
+          "line": 40
+        },
+        {
+          "kind": "class",
+          "name": ".container",
+          "line": 41
+        },
+        {
+          "kind": "class",
+          "name": ".nav-wrap",
+          "line": 41
+        },
+        {
+          "kind": "class",
+          "name": ".brand",
+          "line": 42
+        },
+        {
+          "kind": "class",
+          "name": ".logo-image",
+          "line": 43
+        },
+        {
+          "kind": "class",
+          "name": ".menu-toggle",
+          "line": 46
+        },
+        {
+          "kind": "id",
+          "name": "#main-nav",
+          "line": 50
+        },
+        {
+          "kind": "class",
+          "name": ".main-nav",
+          "line": 50
+        },
+        {
+          "kind": "class",
+          "name": ".nav-links",
+          "line": 51
+        },
+        {
+          "kind": "class",
+          "name": ".active",
+          "line": 52
+        },
+        {
+          "kind": "class",
+          "name": ".nav-chevron",
+          "line": 54
+        },
+        {
+          "kind": "class",
+          "name": ".nav-cta",
+          "line": 59
+        },
+        {
+          "kind": "id",
+          "name": "#top",
+          "line": 64
+        },
+        {
+          "kind": "class",
+          "name": ".marquee-strip",
+          "line": 65
+        },
+        {
+          "kind": "class",
+          "name": ".body-marquee-top",
+          "line": 65
+        },
+        {
+          "kind": "class",
+          "name": ".marquee-track",
+          "line": 66
+        },
+        {
+          "kind": "class",
+          "name": ".marquee-group",
+          "line": 67
+        },
+        {
+          "kind": "class",
+          "name": ".marquee-item",
+          "line": 68
+        },
+        {
+          "kind": "class",
+          "name": ".hero",
+          "line": 83
+        },
+        {
+          "kind": "class",
+          "name": ".hero-video",
+          "line": 84
+        },
+        {
+          "kind": "class",
+          "name": ".body-marquee-after",
+          "line": 89
+        },
+        {
+          "kind": "id",
+          "name": "#about",
+          "line": 108
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference",
+          "line": 108
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-shape",
+          "line": 109
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-shape-top",
+          "line": 109
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-shape-bottom",
+          "line": 110
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-inner",
+          "line": 111
+        },
+        {
+          "kind": "class",
+          "name": ".about-collage-wrap",
+          "line": 112
+        },
+        {
+          "kind": "class",
+          "name": ".about-collage-ring",
+          "line": 113
+        },
+        {
+          "kind": "class",
+          "name": ".about-collage",
+          "line": 114
+        },
+        {
+          "kind": "class",
+          "name": ".about-copy",
+          "line": 116
+        },
+        {
+          "kind": "class",
+          "name": ".about-kicker",
+          "line": 117
+        },
+        {
+          "kind": "class",
+          "name": ".about-lead",
+          "line": 119
+        },
+        {
+          "kind": "class",
+          "name": ".about-mission-grid",
+          "line": 120
+        },
+        {
+          "kind": "class",
+          "name": ".about-mission-card",
+          "line": 121
+        },
+        {
+          "kind": "heading",
+          "name": "Our Vision",
+          "line": 121
+        },
+        {
+          "kind": "heading",
+          "name": "Our Mission",
+          "line": 122
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-cta",
+          "line": 124
+        },
+        {
+          "kind": "class",
+          "name": ".button",
+          "line": 124
+        },
+        {
+          "kind": "id",
+          "name": "#why-choose",
+          "line": 129
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-section",
+          "line": 129
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-wave",
+          "line": 130
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-wave-top",
+          "line": 130
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-wave-bottom",
+          "line": 131
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-inner",
+          "line": 132
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-copy",
+          "line": 133
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-kicker",
+          "line": 134
+        },
+        {
+          "kind": "id",
+          "name": "#why-choose-title",
+          "line": 135
+        },
+        {
+          "kind": "heading",
+          "name": "More Than Gifts.",
+          "line": 135
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-lead",
+          "line": 136
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-grid",
+          "line": 137
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-card",
+          "line": 138
+        }
+      ]
+    },
+    {
+      "path": "script.js",
+      "size": 3116,
+      "mtimeMs": 1795166607703.338,
+      "hash": "2fcc28f22e47922c04d126b9695fe211968f64c862f1792e485de720c658413c",
+      "locators": []
+    },
+    {
+      "path": "site-source/script.js",
+      "size": 3163,
+      "mtimeMs": 1795166459420.5332,
+      "hash": "c51b226c1f20e3a7f187822f88a8c3a351815ae42669baa0fa2e57a817e0091f",
+      "locators": []
+    },
+    {
+      "path": "site-source/styles.css",
+      "size": 66327,
+      "mtimeMs": 1795166432714.928,
+      "hash": "9218b9bb1b44bc919bdac5a35ca39bbadf77642168f102c812d3b4af5064dfc0",
+      "locators": [
+        {
+          "kind": "property-use",
+          "name": "--ink",
+          "line": 4
+        },
+        {
+          "kind": "property-use",
+          "name": "--sans",
+          "line": 4
+        },
+        {
+          "kind": "selector",
+          "name": ".site-header",
+          "line": 5
+        },
+        {
+          "kind": "property-use",
+          "name": "--navy",
+          "line": 5
+        },
+        {
+          "kind": "property-use",
+          "name": "--orange",
+          "line": 5
+        },
+        {
+          "kind": "selector",
+          "name": ".hero",
+          "line": 6
+        },
+        {
+          "kind": "property-use",
+          "name": "--serif",
+          "line": 6
+        },
+        {
+          "kind": "selector",
+          "name": ".proof-strip",
+          "line": 7
+        },
+        {
+          "kind": "property-use",
+          "name": "--orange-soft",
+          "line": 7
+        },
+        {
+          "kind": "selector",
+          "name": ".section",
+          "line": 8
+        },
+        {
+          "kind": "selector",
+          "name": ".approach",
+          "line": 9
+        },
+        {
+          "kind": "property-use",
+          "name": "--cream",
+          "line": 9
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-section",
+          "line": 10
+        },
+        {
+          "kind": "selector",
+          "name": ".site-footer",
+          "line": 11
+        },
+        {
+          "kind": "property-use",
+          "name": "--navy-deep",
+          "line": 11
+        },
+        {
+          "kind": "selector",
+          "name": ".hero-shade",
+          "line": 15
+        },
+        {
+          "kind": "selector",
+          "name": ".hero-content",
+          "line": 16
+        },
+        {
+          "kind": "selector",
+          "name": ".hero h1",
+          "line": 17
+        },
+        {
+          "kind": "selector",
+          "name": ".hero-video",
+          "line": 22
+        },
+        {
+          "kind": "selector",
+          "name": ".svg-sprite",
+          "line": 38
+        },
+        {
+          "kind": "selector",
+          "name": ".container",
+          "line": 42
+        },
+        {
+          "kind": "selector",
+          "name": ".reference-footer",
+          "line": 47
+        },
+        {
+          "kind": "selector",
+          "name": ".main-nav",
+          "line": 53
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links",
+          "line": 54
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links>a",
+          "line": 55
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links>a.active",
+          "line": 56
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links>a.active:after",
+          "line": 57
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-cta",
+          "line": 58
+        },
+        {
+          "kind": "selector",
+          "name": ".reference-footer .footer-grid",
+          "line": 63
+        },
+        {
+          "kind": "selector",
+          "name": ".reference-footer .footer-column",
+          "line": 70
+        },
+        {
+          "kind": "selector",
+          "name": ".footer-about",
+          "line": 71
+        },
+        {
+          "kind": "selector",
+          "name": ".reference-footer .footer-column>a .footer-arrow",
+          "line": 72
+        },
+        {
+          "kind": "selector",
+          "name": ".footer-logo",
+          "line": 74
+        },
+        {
+          "kind": "selector",
+          "name": ".footer-logo img",
+          "line": 75
+        },
+        {
+          "kind": "selector",
+          "name": ".footer-about h3",
+          "line": 76
+        },
+        {
+          "kind": "selector",
+          "name": ".footer-about h3:after",
+          "line": 77
+        },
+        {
+          "kind": "selector",
+          "name": ".footer-about p",
+          "line": 78
+        },
+        {
+          "kind": "selector",
+          "name": ".reference-footer .footer-bottom .container",
+          "line": 79
+        },
+        {
+          "kind": "selector",
+          "name": ".copyright-link",
+          "line": 80
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-strip",
+          "line": 91
+        },
+        {
+          "kind": "selector",
+          "name": ".footer-marquee",
+          "line": 92
+        },
+        {
+          "kind": "selector",
+          "name": ".body-marquee-after",
+          "line": 94
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference",
+          "line": 98
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-inner",
+          "line": 99
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage-wrap",
+          "line": 100
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage-logo",
+          "line": 101
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage-ring",
+          "line": 102
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy",
+          "line": 103
+        },
+        {
+          "kind": "selector",
+          "name": ".about-kicker",
+          "line": 104
+        },
+        {
+          "kind": "selector",
+          "name": ".about-kicker span",
+          "line": 105
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy h2",
+          "line": 106
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy h2 em:after",
+          "line": 107
+        },
+        {
+          "kind": "selector",
+          "name": ".about-lead",
+          "line": 108
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-grid",
+          "line": 109
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card",
+          "line": 110
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-icon",
+          "line": 111
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-icon .ui-icon",
+          "line": 112
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card h3",
+          "line": 113
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card p",
+          "line": 114
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-cta",
+          "line": 115
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card:hover",
+          "line": 151
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-shape-top",
+          "line": 154
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-shape-bottom",
+          "line": 155
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage-wrap::before",
+          "line": 204
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage",
+          "line": 216
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy h2>span",
+          "line": 284
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-legacy",
+          "line": 370
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference",
+          "line": 371
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-inner",
+          "line": 372
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-inner:before",
+          "line": 373
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-inner:after",
+          "line": 374
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-copy",
+          "line": 375
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-kicker",
+          "line": 376
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-kicker span",
+          "line": 377
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-copy h2",
+          "line": 378
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-copy h2 em",
+          "line": 379
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-copy h2 em:after",
+          "line": 380
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-lead",
+          "line": 381
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-products",
+          "line": 382
+        },
+        {
+          "kind": "selector",
+          "name": ".cta-reference-products>img:first-child",
+          "line": 383
+        }
+      ]
+    },
+    {
+      "path": "styles.css",
+      "size": 33517,
+      "mtimeMs": 1795174051423.5686,
+      "hash": "9f61cb02841547c238cccb1e21fce035aee6e64a31b54027700cff6497de2cac",
+      "locators": [
+        {
+          "kind": "custom-property",
+          "name": "--yellow",
+          "line": 4
+        },
+        {
+          "kind": "custom-property",
+          "name": "--yellow-dark",
+          "line": 5
+        },
+        {
+          "kind": "custom-property",
+          "name": "--ink",
+          "line": 6
+        },
+        {
+          "kind": "custom-property",
+          "name": "--muted",
+          "line": 7
+        },
+        {
+          "kind": "custom-property",
+          "name": "--navy",
+          "line": 8
+        },
+        {
+          "kind": "custom-property",
+          "name": "--navy-deep",
+          "line": 9
+        },
+        {
+          "kind": "custom-property",
+          "name": "--cream",
+          "line": 10
+        },
+        {
+          "kind": "custom-property",
+          "name": "--line",
+          "line": 11
+        },
+        {
+          "kind": "custom-property",
+          "name": "--shadow",
+          "line": 12
+        },
+        {
+          "kind": "custom-property",
+          "name": "--sans",
+          "line": 13
+        },
+        {
+          "kind": "property-use",
+          "name": "--ink",
+          "line": 18
+        },
+        {
+          "kind": "property-use",
+          "name": "--sans",
+          "line": 18
+        },
+        {
+          "kind": "selector",
+          "name": ".svg-sprite",
+          "line": 22
+        },
+        {
+          "kind": "selector",
+          "name": ".button-icon",
+          "line": 25
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-chevron",
+          "line": 26
+        },
+        {
+          "kind": "selector",
+          "name": ".container",
+          "line": 27
+        },
+        {
+          "kind": "selector",
+          "name": ".site-header",
+          "line": 30
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-wrap",
+          "line": 31
+        },
+        {
+          "kind": "selector",
+          "name": ".brand",
+          "line": 32
+        },
+        {
+          "kind": "selector",
+          "name": ".logo-image",
+          "line": 33
+        },
+        {
+          "kind": "selector",
+          "name": ".main-nav",
+          "line": 34
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links",
+          "line": 35
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links>a",
+          "line": 36
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links>a:hover",
+          "line": 37
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links>a.active",
+          "line": 38
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-links>a.active::after",
+          "line": 39
+        },
+        {
+          "kind": "property-use",
+          "name": "--yellow",
+          "line": 39
+        },
+        {
+          "kind": "selector",
+          "name": ".nav-cta",
+          "line": 41
+        },
+        {
+          "kind": "property-use",
+          "name": "--yellow-dark",
+          "line": 42
+        },
+        {
+          "kind": "selector",
+          "name": ".menu-toggle",
+          "line": 43
+        },
+        {
+          "kind": "selector",
+          "name": ".menu-toggle span",
+          "line": 44
+        },
+        {
+          "kind": "selector",
+          "name": ".hero",
+          "line": 47
+        },
+        {
+          "kind": "selector",
+          "name": ".hero-video",
+          "line": 48
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-strip",
+          "line": 50
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-strip::before",
+          "line": 52
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-strip::after",
+          "line": 53
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-track",
+          "line": 54
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-group",
+          "line": 55
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-item",
+          "line": 56
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-icon",
+          "line": 57
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-group>i",
+          "line": 58
+        },
+        {
+          "kind": "selector",
+          "name": ".marquee-strip:hover .marquee-track",
+          "line": 59
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference",
+          "line": 63
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-inner",
+          "line": 64
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage-wrap",
+          "line": 65
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage-wrap::before",
+          "line": 66
+        },
+        {
+          "kind": "selector",
+          "name": ".about-collage",
+          "line": 67
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-shape-bottom",
+          "line": 69
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-shape-bottom::after",
+          "line": 70
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy",
+          "line": 71
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy h2",
+          "line": 74
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy h2>span",
+          "line": 75
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy h2 em",
+          "line": 76
+        },
+        {
+          "kind": "selector",
+          "name": ".about-copy h2 em::after",
+          "line": 77
+        },
+        {
+          "kind": "selector",
+          "name": ".about-lead",
+          "line": 78
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-grid",
+          "line": 79
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card",
+          "line": 80
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card:hover",
+          "line": 81
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-icon",
+          "line": 82
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-icon .ui-icon",
+          "line": 83
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card h3",
+          "line": 84
+        },
+        {
+          "kind": "selector",
+          "name": ".about-mission-card p",
+          "line": 85
+        },
+        {
+          "kind": "selector",
+          "name": ".about-reference-cta",
+          "line": 86
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-showcase",
+          "line": 89
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-container",
+          "line": 90
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-intro",
+          "line": 91
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-kicker",
+          "line": 92
+        },
+        {
+          "kind": "selector",
+          "name": ".kicker-line",
+          "line": 93
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-heading",
+          "line": 94
+        },
+        {
+          "kind": "selector",
+          "name": ".heading-line",
+          "line": 95
+        },
+        {
+          "kind": "selector",
+          "name": ".highlight-pill",
+          "line": 96
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-desc",
+          "line": 97
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-controls",
+          "line": 98
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-arrows",
+          "line": 99
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-arrow",
+          "line": 100
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-arrow svg",
+          "line": 101
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-arrow:hover",
+          "line": 102
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-arrow.next",
+          "line": 103
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-dots",
+          "line": 104
+        },
+        {
+          "kind": "selector",
+          "name": ".verticals-dots .dot",
+          "line": 105
+        }
+      ]
+    },
+    {
+      "path": "test_why_choose_perfect.html",
+      "size": 13387,
+      "mtimeMs": 1795174898493.3398,
+      "hash": "93af3abc517f9169d9a1dd4025eb104f1e1cf4359fdd961fb5062c0fc9b86c47",
+      "locators": [
+        {
+          "kind": "id",
+          "name": "#why-choose",
+          "line": 284
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-section",
+          "line": 284
+        },
+        {
+          "kind": "class",
+          "name": ".wc-decor-bottom-left",
+          "line": 286
+        },
+        {
+          "kind": "class",
+          "name": ".wc-decor-bottom-wave",
+          "line": 293
+        },
+        {
+          "kind": "class",
+          "name": ".wc-container",
+          "line": 300
+        },
+        {
+          "kind": "class",
+          "name": ".wc-content-col",
+          "line": 302
+        },
+        {
+          "kind": "class",
+          "name": ".wc-kicker",
+          "line": 303
+        },
+        {
+          "kind": "class",
+          "name": ".wc-kicker-line",
+          "line": 304
+        },
+        {
+          "kind": "class",
+          "name": ".wc-kicker-text",
+          "line": 305
+        },
+        {
+          "kind": "id",
+          "name": "#why-choose-title",
+          "line": 308
+        },
+        {
+          "kind": "class",
+          "name": ".wc-headline",
+          "line": 308
+        },
+        {
+          "kind": "class",
+          "name": ".gold-text",
+          "line": 310
+        },
+        {
+          "kind": "class",
+          "name": ".title-underline-svg",
+          "line": 312
+        },
+        {
+          "kind": "class",
+          "name": ".wc-subhead",
+          "line": 318
+        },
+        {
+          "kind": "class",
+          "name": ".wc-cards-grid",
+          "line": 323
+        },
+        {
+          "kind": "class",
+          "name": ".wc-card",
+          "line": 325
+        },
+        {
+          "kind": "class",
+          "name": ".wc-card-top",
+          "line": 326
+        },
+        {
+          "kind": "class",
+          "name": ".wc-card-icon",
+          "line": 327
+        },
+        {
+          "kind": "class",
+          "name": ".wc-card-title",
+          "line": 332
+        },
+        {
+          "kind": "class",
+          "name": ".wc-card-desc",
+          "line": 334
+        },
+        {
+          "kind": "class",
+          "name": ".wc-cta-btn",
+          "line": 416
+        },
+        {
+          "kind": "class",
+          "name": ".wc-visual-col",
+          "line": 425
+        },
+        {
+          "kind": "class",
+          "name": ".wc-visual-wrapper",
+          "line": 426
+        }
+      ]
+    },
+    {
+      "path": "test_why_choose.html",
+      "size": 811,
+      "mtimeMs": 1795174572349.988,
+      "hash": "bf8dd3b942d4b5d4b3f8dfca1b00a3a4754b432b361cea02c050cdfe7decd57b",
+      "locators": [
+        {
+          "kind": "heading",
+          "name": "Inspection of why-choose assets",
+          "line": 12
+        },
+        {
+          "kind": "class",
+          "name": ".grid",
+          "line": 13
+        },
+        {
+          "kind": "class",
+          "name": ".box",
+          "line": 14
+        },
+        {
+          "kind": "heading",
+          "name": "Uploaded Reference (media_1795174382330_22ab683d.jpg)",
+          "line": 15
+        },
+        {
+          "kind": "heading",
+          "name": "assets/why-choose-products.png",
+          "line": 19
+        }
+      ]
+    }
+  ]
+}
