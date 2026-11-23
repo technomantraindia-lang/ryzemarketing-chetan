@@ -19,6 +19,13 @@ window.addEventListener('scroll', () => {
 const year = document.querySelector('[data-year]');
 if (year) year.textContent = new Date().getFullYear();
 
+// Keep the business verticals directly below the About section in the page flow.
+const aboutSection = document.querySelector('.about-reference:not(.about-reference-later)');
+const verticalsSection = document.querySelector('.verticals-showcase');
+if (aboutSection && verticalsSection) {
+  aboutSection.insertAdjacentElement('afterend', verticalsSection);
+}
+
 const heroVideo = document.querySelector('.hero-video');
 if (heroVideo) {
   heroVideo.defaultPlaybackRate = 0.8;
@@ -85,4 +92,142 @@ if (sliderTrack) {
       sliderTrack.scrollTo({ left: targetScroll, behavior: 'smooth' });
     });
   });
+}
+
+// Testimonials: infinite multi-card loop with a seamless right-to-left handoff.
+const testimonialsSection = document.querySelector('.testimonials-section');
+const testimonialsTrack = document.querySelector('.testimonials-track');
+
+if (testimonialsSection && testimonialsTrack) {
+  const originalTestimonialCards = Array.from(testimonialsTrack.children);
+  const originalCardCount = originalTestimonialCards.length;
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let testimonialTimer = null;
+  let carouselStarted = false;
+  let currentTestimonialIndex = 0;
+  let isMoving = false;
+
+  originalTestimonialCards.forEach((card) => {
+    const clone = card.cloneNode(true);
+    clone.setAttribute('aria-hidden', 'true');
+    clone.dataset.testimonialClone = 'true';
+    clone.querySelectorAll('a, button, input, select, textarea').forEach((control) => {
+      control.setAttribute('tabindex', '-1');
+    });
+    testimonialsTrack.appendChild(clone);
+  });
+
+  const getTestimonialStep = () => {
+    const firstCard = testimonialsTrack.querySelector('.testimonial-card');
+    if (!firstCard) return 0;
+    const trackStyles = window.getComputedStyle(testimonialsTrack);
+    const gap = parseFloat(trackStyles.columnGap || trackStyles.gap) || 0;
+    return firstCard.getBoundingClientRect().width + gap;
+  };
+
+  const moveToNextTestimonial = () => {
+    if (isMoving) return;
+    const step = getTestimonialStep();
+    if (!step) return;
+    isMoving = true;
+    currentTestimonialIndex += 1;
+    testimonialsTrack.style.transform = `translate3d(-${currentTestimonialIndex * step}px, 0, 0)`;
+  };
+
+  const startTestimonialsCarousel = () => {
+    if (carouselStarted || prefersReducedMotion) return;
+    carouselStarted = true;
+    testimonialTimer = window.setInterval(moveToNextTestimonial, 4500);
+  };
+
+  testimonialsTrack.addEventListener('transitionend', (event) => {
+    if (event.propertyName !== 'transform' || !isMoving) return;
+    if (currentTestimonialIndex >= originalCardCount) {
+      testimonialsTrack.style.transition = 'none';
+      currentTestimonialIndex = 0;
+      testimonialsTrack.style.transform = `translate3d(0, 0, 0)`;
+      requestAnimationFrame(() => {
+        testimonialsTrack.style.transition = '';
+        isMoving = false;
+      });
+      return;
+    }
+    isMoving = false;
+  });
+
+  testimonialsSection.classList.add('has-reveal');
+  const resetTestimonialPosition = () => {
+    testimonialsTrack.style.transition = 'none';
+    currentTestimonialIndex = 0;
+    testimonialsTrack.style.transform = 'translate3d(0, 0, 0)';
+    requestAnimationFrame(() => {
+      testimonialsTrack.style.transition = '';
+      isMoving = false;
+    });
+  };
+  requestAnimationFrame(resetTestimonialPosition);
+  window.addEventListener('load', resetTestimonialPosition, { once: true });
+  window.addEventListener('resize', resetTestimonialPosition, { passive: true });
+
+  if ('IntersectionObserver' in window) {
+    const testimonialsObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          testimonialsSection.classList.add('is-visible');
+          startTestimonialsCarousel();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.18 });
+    testimonialsObserver.observe(testimonialsSection);
+  } else {
+    testimonialsSection.classList.add('is-visible');
+    startTestimonialsCarousel();
+  }
+
+  window.addEventListener('pagehide', () => {
+    if (testimonialTimer) window.clearInterval(testimonialTimer);
+  }, { once: true });
+}
+
+// Industries: reveal cards from different directions as the section enters view.
+const industriesSection = document.querySelector('.industries-section');
+if (industriesSection) {
+  industriesSection.classList.add('has-reveal');
+  const showIndustries = () => industriesSection.classList.add('is-visible');
+
+  if ('IntersectionObserver' in window) {
+    const industriesObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          showIndustries();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    industriesObserver.observe(industriesSection);
+  } else {
+    showIndustries();
+  }
+}
+
+// Trusted brands: reveal the heading and logos in a staggered sequence.
+const brandsSection = document.querySelector('.brands-section');
+if (brandsSection) {
+  brandsSection.classList.add('has-reveal');
+  const showBrands = () => brandsSection.classList.add('is-visible');
+
+  if ('IntersectionObserver' in window) {
+    const brandsObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          showBrands();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.18 });
+    brandsObserver.observe(brandsSection);
+  } else {
+    showBrands();
+  }
 }

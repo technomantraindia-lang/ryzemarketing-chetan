@@ -19,7 +19,7 @@ The extension refreshes this file automatically. Prefer its concise state over o
 - Workspace ID: tm-ws-eb56b454384bb1e5d737bed0
 - Window ID: tm-win-9bfe5ff91f42e0a34e92393d
 - Project: ryze marketing
-- Framework: 
+- Framework: html-static
 - Developer mode: smart
 - Model mode: eco
 - Active file: index.html

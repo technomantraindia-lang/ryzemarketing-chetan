@@ -1,8 +1,8 @@
 {
   "version": 2,
   "workspace": "ryze marketing",
-  "builtAt": "2026-11-20T11:43:45.764Z",
-  "reason": "files deleted",
+  "builtAt": "2026-11-23T04:26:43.937Z",
+  "reason": "files renamed",
   "policy": {
     "localOnly": true,
     "sendFullIndexToAi": false,
@@ -10,11 +10,25 @@
     "incremental": true
   },
   "stats": {
-    "reused": 3,
-    "rescanned": 13,
+    "reused": 15,
+    "rescanned": 3,
     "skipped": 0
   },
   "files": [
+    {
+      "path": ".clinerules/05-technomantra-execution-mode.md",
+      "size": 504,
+      "mtimeMs": 1795403801147.5437,
+      "hash": "cfe4e31c978cc57329739733daf9c669ef1d3de77ce9958f9f60aa70e4eb48d5",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/06-technomantra-developer-mode.md",
+      "size": 453,
+      "mtimeMs": 1795403801147.5437,
+      "hash": "24302e90e32c445afc09689cda13e6682d9ae1dd88c49361c761eee04ad35e7b",
+      "locators": []
+    },
     {
       "path": ".clinerules/07-technomantra-eco-execution.md",
       "size": 1982,
@@ -23,31 +37,66 @@
       "locators": []
     },
     {
+      "path": ".clinerules/08-technomantra-task-watchdog.md",
+      "size": 1827,
+      "mtimeMs": 1795403801147.5437,
+      "hash": "363c5bc4d61ed575b0dc3e2350c689b6093517c161241f6efca4c473feafc24c",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/09-technomantra-multitask-isolation.md",
+      "size": 2813,
+      "mtimeMs": 1795403801157.6812,
+      "hash": "0375609553f971ceddcebac652d62356ec69b8e0461de77b684f9057181459c3",
+      "locators": []
+    },
+    {
       "path": ".clinerules/10-technomantra-project-memory.md",
-      "size": 799,
-      "mtimeMs": 1795152037672.641,
-      "hash": "0f5aa7df279d851ee7f379ea7adab6483070a72524ab8d003adea40b2dde89bf",
+      "size": 1356,
+      "mtimeMs": 1795407997685.172,
+      "hash": "125bb6f7352148affbbb255d9cf65fb2ec1c350d3456ecffed095b466131db35",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-code-knowledge.md",
-      "size": 266,
-      "mtimeMs": 1795152037669.641,
-      "hash": "2b6aeb0a5ef567feb23fc31967a16fa8ac47d1afea3e387150636f1a2382404d",
+      "size": 1006,
+      "mtimeMs": 1795407997685.172,
+      "hash": "0957026478bdf88cbe522094de86439c8b8bc1874e76fa498b3b9609c8a4c0ee",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-patch-index.md",
-      "size": 706,
-      "mtimeMs": 1795152037366.5554,
-      "hash": "87b645eb147cf1465660330d582a8071dba61a4108972f9f7e5774cfa7b372ff",
+      "size": 708,
+      "mtimeMs": 1795407997364.4292,
+      "hash": "6ef9f2209b3d2ba9b84a92eaac3432469cb79c514bd7e6e98a5434f6863398a8",
       "locators": []
     },
     {
       "path": ".clinerules/12-technomantra-task-capsules.md",
-      "size": 2345,
-      "mtimeMs": 1795175024440.3599,
-      "hash": "9b9fbdace7409959393097a780e7af9606253eed3c01650655d77031d52cb049",
+      "size": 2356,
+      "mtimeMs": 1795403840014.3142,
+      "hash": "150b88181f51881d1c4c01d44f17491a0435bebe79b0fb3cb891d137fbafaaee",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/13-technomantra-runtime-price-optimizer.md",
+      "size": 541,
+      "mtimeMs": 1795403801165.46,
+      "hash": "63f350d85a96d1cffc9bcc7e2823febd39ae7e1d0d1b7f2a49678d660e653e33",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/14-technomantra-adaptive-cost-optimizer.md",
+      "size": 441,
+      "mtimeMs": 1795403801166.4995,
+      "hash": "15fd9320cb9f3b012d404cb363073f3139567b65f8c4a3fed86000773296623b",
+      "locators": []
+    },
+    {
+      "path": ".clinerules/15-technomantra-fast-coding-engine.md",
+      "size": 558,
+      "mtimeMs": 1795403801167.552,
+      "hash": "1fbbaf6e9ebf232f95ed9d9bca4bcfdf2f82ef3c306f8eda9a647187fe2be5a2",
       "locators": []
     },
     {
@@ -72,28 +121,10 @@
       "locators": []
     },
     {
-      "path": "compare_wc.html",
-      "size": 563,
-      "mtimeMs": 1795174813468.861,
-      "hash": "3c2df53b58b03ce98461a16f7fbc9c19675699cc415d40320c714138017f0125",
-      "locators": [
-        {
-          "kind": "heading",
-          "name": "Uploaded by user:",
-          "line": 5
-        },
-        {
-          "kind": "heading",
-          "name": "assets/why-choose-products.png on white:",
-          "line": 9
-        }
-      ]
-    },
-    {
       "path": "index.html",
-      "size": 31518,
-      "mtimeMs": 1795174103483.303,
-      "hash": "356bae5b5393e4002f21f753f89fe2cf20983384fa4807f2660424441fe6e02e",
+      "size": 41354,
+      "mtimeMs": 1795407604742.7368,
+      "hash": "a62cfd734b209f0243cc106c5ccbd4bba102363cdac20808b6e9693e84b27808",
       "locators": [
         {
           "kind": "class",
@@ -157,773 +188,358 @@
         },
         {
           "kind": "id",
-          "name": "#icon-handshake",
+          "name": "#icon-building",
           "line": 23
         },
         {
           "kind": "id",
-          "name": "#icon-medical",
+          "name": "#icon-laptop",
           "line": 24
         },
         {
           "kind": "id",
-          "name": "#icon-gift",
+          "name": "#icon-handshake",
           "line": 25
         },
         {
           "kind": "id",
-          "name": "#icon-calendar",
+          "name": "#icon-medical",
           "line": 26
         },
         {
           "kind": "id",
-          "name": "#icon-megaphone",
+          "name": "#icon-gift",
           "line": 27
         },
         {
           "kind": "id",
-          "name": "#icon-search",
+          "name": "#icon-calendar",
           "line": 28
         },
         {
           "kind": "id",
-          "name": "#icon-pencil",
+          "name": "#icon-megaphone",
           "line": 29
         },
         {
           "kind": "id",
-          "name": "#icon-gear",
+          "name": "#icon-search",
           "line": 30
         },
         {
           "kind": "id",
-          "name": "#icon-check",
+          "name": "#icon-pencil",
           "line": 31
         },
         {
           "kind": "id",
-          "name": "#icon-pin",
+          "name": "#icon-gear",
           "line": 32
         },
         {
           "kind": "id",
-          "name": "#icon-phone",
+          "name": "#icon-check",
           "line": 33
         },
         {
           "kind": "id",
-          "name": "#icon-mail",
+          "name": "#icon-pin",
           "line": 34
         },
         {
           "kind": "id",
-          "name": "#icon-linkedin",
+          "name": "#icon-phone",
           "line": 35
         },
         {
           "kind": "id",
-          "name": "#icon-instagram",
+          "name": "#icon-mail",
           "line": 36
         },
         {
           "kind": "id",
-          "name": "#icon-facebook",
+          "name": "#icon-linkedin",
           "line": 37
         },
         {
           "kind": "id",
-          "name": "#icon-youtube",
+          "name": "#icon-instagram",
           "line": 38
         },
         {
-          "kind": "class",
-          "name": ".site-header",
+          "kind": "id",
+          "name": "#icon-facebook",
+          "line": 39
+        },
+        {
+          "kind": "id",
+          "name": "#icon-youtube",
           "line": 40
         },
         {
           "kind": "class",
-          "name": ".container",
-          "line": 41
-        },
-        {
-          "kind": "class",
-          "name": ".nav-wrap",
-          "line": 41
-        },
-        {
-          "kind": "class",
-          "name": ".brand",
+          "name": ".site-header",
           "line": 42
         },
         {
           "kind": "class",
-          "name": ".logo-image",
+          "name": ".container",
           "line": 43
         },
         {
           "kind": "class",
+          "name": ".nav-wrap",
+          "line": 43
+        },
+        {
+          "kind": "class",
+          "name": ".brand",
+          "line": 44
+        },
+        {
+          "kind": "class",
+          "name": ".logo-image",
+          "line": 45
+        },
+        {
+          "kind": "class",
           "name": ".menu-toggle",
-          "line": 46
+          "line": 48
         },
         {
           "kind": "id",
           "name": "#main-nav",
-          "line": 50
-        },
-        {
-          "kind": "class",
-          "name": ".main-nav",
-          "line": 50
-        },
-        {
-          "kind": "class",
-          "name": ".nav-links",
-          "line": 51
-        },
-        {
-          "kind": "class",
-          "name": ".active",
           "line": 52
         },
         {
           "kind": "class",
-          "name": ".nav-chevron",
+          "name": ".main-nav",
+          "line": 52
+        },
+        {
+          "kind": "class",
+          "name": ".nav-links",
+          "line": 53
+        },
+        {
+          "kind": "class",
+          "name": ".active",
           "line": 54
         },
         {
           "kind": "class",
+          "name": ".nav-chevron",
+          "line": 56
+        },
+        {
+          "kind": "class",
           "name": ".nav-cta",
-          "line": 59
+          "line": 61
         },
         {
           "kind": "id",
           "name": "#top",
-          "line": 64
-        },
-        {
-          "kind": "class",
-          "name": ".marquee-strip",
-          "line": 65
-        },
-        {
-          "kind": "class",
-          "name": ".body-marquee-top",
-          "line": 65
-        },
-        {
-          "kind": "class",
-          "name": ".marquee-track",
           "line": 66
         },
         {
           "kind": "class",
-          "name": ".marquee-group",
+          "name": ".marquee-strip",
           "line": 67
         },
         {
           "kind": "class",
-          "name": ".marquee-item",
+          "name": ".body-marquee-top",
+          "line": 67
+        },
+        {
+          "kind": "class",
+          "name": ".marquee-track",
           "line": 68
         },
         {
           "kind": "class",
+          "name": ".marquee-group",
+          "line": 69
+        },
+        {
+          "kind": "class",
+          "name": ".marquee-item",
+          "line": 70
+        },
+        {
+          "kind": "class",
           "name": ".hero",
-          "line": 83
+          "line": 85
         },
         {
           "kind": "class",
           "name": ".hero-video",
-          "line": 84
+          "line": 86
         },
         {
           "kind": "class",
           "name": ".body-marquee-after",
-          "line": 89
+          "line": 91
         },
         {
           "kind": "id",
           "name": "#about",
-          "line": 108
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference",
-          "line": 108
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape",
-          "line": 109
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape-top",
-          "line": 109
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape-bottom",
           "line": 110
         },
         {
           "kind": "class",
-          "name": ".about-reference-inner",
+          "name": ".about-reference",
+          "line": 110
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-shape",
           "line": 111
         },
         {
           "kind": "class",
-          "name": ".about-collage-wrap",
+          "name": ".about-reference-shape-top",
+          "line": 111
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-shape-bottom",
           "line": 112
         },
         {
           "kind": "class",
-          "name": ".about-collage-ring",
+          "name": ".about-reference-inner",
           "line": 113
         },
         {
           "kind": "class",
-          "name": ".about-collage",
+          "name": ".about-collage-wrap",
           "line": 114
         },
         {
           "kind": "class",
-          "name": ".about-copy",
+          "name": ".about-collage-ring",
+          "line": 115
+        },
+        {
+          "kind": "class",
+          "name": ".about-collage",
           "line": 116
         },
         {
           "kind": "class",
-          "name": ".about-kicker",
-          "line": 117
+          "name": ".about-copy",
+          "line": 118
         },
         {
           "kind": "class",
-          "name": ".about-lead",
+          "name": ".about-kicker",
           "line": 119
         },
         {
           "kind": "class",
-          "name": ".about-mission-grid",
-          "line": 120
+          "name": ".about-lead",
+          "line": 121
         },
         {
           "kind": "class",
-          "name": ".about-mission-card",
-          "line": 121
-        },
-        {
-          "kind": "heading",
-          "name": "Our Vision",
-          "line": 121
-        },
-        {
-          "kind": "heading",
-          "name": "Our Mission",
+          "name": ".about-mission-grid",
           "line": 122
         },
         {
           "kind": "class",
-          "name": ".about-reference-cta",
+          "name": ".about-mission-card",
+          "line": 123
+        },
+        {
+          "kind": "heading",
+          "name": "Our Vision",
+          "line": 123
+        },
+        {
+          "kind": "heading",
+          "name": "Our Mission",
           "line": 124
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-cta",
+          "line": 126
         },
         {
           "kind": "class",
           "name": ".button",
-          "line": 124
+          "line": 126
         },
         {
           "kind": "id",
           "name": "#why-choose",
-          "line": 129
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-section",
-          "line": 129
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-wave",
-          "line": 130
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-wave-top",
-          "line": 130
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-wave-bottom",
           "line": 131
         },
         {
           "kind": "class",
-          "name": ".why-choose-inner",
+          "name": ".why-choose-section",
+          "line": 131
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-wave",
           "line": 132
         },
         {
           "kind": "class",
-          "name": ".why-choose-copy",
+          "name": ".why-choose-wave-top",
+          "line": 132
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-wave-bottom",
           "line": 133
         },
         {
           "kind": "class",
-          "name": ".why-choose-kicker",
+          "name": ".why-choose-inner",
           "line": 134
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-copy",
+          "line": 135
+        },
+        {
+          "kind": "class",
+          "name": ".why-choose-kicker",
+          "line": 136
         },
         {
           "kind": "id",
           "name": "#why-choose-title",
-          "line": 135
+          "line": 137
         },
         {
           "kind": "heading",
           "name": "More Than Gifts.",
-          "line": 135
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-lead",
-          "line": 136
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-grid",
           "line": 137
         },
         {
           "kind": "class",
-          "name": ".why-choose-card",
+          "name": ".why-choose-lead",
           "line": 138
         }
       ]
     },
     {
       "path": "script.js",
-      "size": 3116,
-      "mtimeMs": 1795166607703.338,
-      "hash": "2fcc28f22e47922c04d126b9695fe211968f64c862f1792e485de720c658413c",
+      "size": 8098,
+      "mtimeMs": 1795407530777.7544,
+      "hash": "009c2fdc5a81a9f3b47223003e2fc5fccd1e49bdd8914877da1e02c9904cab7e",
       "locators": []
-    },
-    {
-      "path": "site-source/script.js",
-      "size": 3163,
-      "mtimeMs": 1795166459420.5332,
-      "hash": "c51b226c1f20e3a7f187822f88a8c3a351815ae42669baa0fa2e57a817e0091f",
-      "locators": []
-    },
-    {
-      "path": "site-source/styles.css",
-      "size": 66327,
-      "mtimeMs": 1795166432714.928,
-      "hash": "9218b9bb1b44bc919bdac5a35ca39bbadf77642168f102c812d3b4af5064dfc0",
-      "locators": [
-        {
-          "kind": "property-use",
-          "name": "--ink",
-          "line": 4
-        },
-        {
-          "kind": "property-use",
-          "name": "--sans",
-          "line": 4
-        },
-        {
-          "kind": "selector",
-          "name": ".site-header",
-          "line": 5
-        },
-        {
-          "kind": "property-use",
-          "name": "--navy",
-          "line": 5
-        },
-        {
-          "kind": "property-use",
-          "name": "--orange",
-          "line": 5
-        },
-        {
-          "kind": "selector",
-          "name": ".hero",
-          "line": 6
-        },
-        {
-          "kind": "property-use",
-          "name": "--serif",
-          "line": 6
-        },
-        {
-          "kind": "selector",
-          "name": ".proof-strip",
-          "line": 7
-        },
-        {
-          "kind": "property-use",
-          "name": "--orange-soft",
-          "line": 7
-        },
-        {
-          "kind": "selector",
-          "name": ".section",
-          "line": 8
-        },
-        {
-          "kind": "selector",
-          "name": ".approach",
-          "line": 9
-        },
-        {
-          "kind": "property-use",
-          "name": "--cream",
-          "line": 9
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-section",
-          "line": 10
-        },
-        {
-          "kind": "selector",
-          "name": ".site-footer",
-          "line": 11
-        },
-        {
-          "kind": "property-use",
-          "name": "--navy-deep",
-          "line": 11
-        },
-        {
-          "kind": "selector",
-          "name": ".hero-shade",
-          "line": 15
-        },
-        {
-          "kind": "selector",
-          "name": ".hero-content",
-          "line": 16
-        },
-        {
-          "kind": "selector",
-          "name": ".hero h1",
-          "line": 17
-        },
-        {
-          "kind": "selector",
-          "name": ".hero-video",
-          "line": 22
-        },
-        {
-          "kind": "selector",
-          "name": ".svg-sprite",
-          "line": 38
-        },
-        {
-          "kind": "selector",
-          "name": ".container",
-          "line": 42
-        },
-        {
-          "kind": "selector",
-          "name": ".reference-footer",
-          "line": 47
-        },
-        {
-          "kind": "selector",
-          "name": ".main-nav",
-          "line": 53
-        },
-        {
-          "kind": "selector",
-          "name": ".nav-links",
-          "line": 54
-        },
-        {
-          "kind": "selector",
-          "name": ".nav-links>a",
-          "line": 55
-        },
-        {
-          "kind": "selector",
-          "name": ".nav-links>a.active",
-          "line": 56
-        },
-        {
-          "kind": "selector",
-          "name": ".nav-links>a.active:after",
-          "line": 57
-        },
-        {
-          "kind": "selector",
-          "name": ".nav-cta",
-          "line": 58
-        },
-        {
-          "kind": "selector",
-          "name": ".reference-footer .footer-grid",
-          "line": 63
-        },
-        {
-          "kind": "selector",
-          "name": ".reference-footer .footer-column",
-          "line": 70
-        },
-        {
-          "kind": "selector",
-          "name": ".footer-about",
-          "line": 71
-        },
-        {
-          "kind": "selector",
-          "name": ".reference-footer .footer-column>a .footer-arrow",
-          "line": 72
-        },
-        {
-          "kind": "selector",
-          "name": ".footer-logo",
-          "line": 74
-        },
-        {
-          "kind": "selector",
-          "name": ".footer-logo img",
-          "line": 75
-        },
-        {
-          "kind": "selector",
-          "name": ".footer-about h3",
-          "line": 76
-        },
-        {
-          "kind": "selector",
-          "name": ".footer-about h3:after",
-          "line": 77
-        },
-        {
-          "kind": "selector",
-          "name": ".footer-about p",
-          "line": 78
-        },
-        {
-          "kind": "selector",
-          "name": ".reference-footer .footer-bottom .container",
-          "line": 79
-        },
-        {
-          "kind": "selector",
-          "name": ".copyright-link",
-          "line": 80
-        },
-        {
-          "kind": "selector",
-          "name": ".marquee-strip",
-          "line": 91
-        },
-        {
-          "kind": "selector",
-          "name": ".footer-marquee",
-          "line": 92
-        },
-        {
-          "kind": "selector",
-          "name": ".body-marquee-after",
-          "line": 94
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference",
-          "line": 98
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference-inner",
-          "line": 99
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage-wrap",
-          "line": 100
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage-logo",
-          "line": 101
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage-ring",
-          "line": 102
-        },
-        {
-          "kind": "selector",
-          "name": ".about-copy",
-          "line": 103
-        },
-        {
-          "kind": "selector",
-          "name": ".about-kicker",
-          "line": 104
-        },
-        {
-          "kind": "selector",
-          "name": ".about-kicker span",
-          "line": 105
-        },
-        {
-          "kind": "selector",
-          "name": ".about-copy h2",
-          "line": 106
-        },
-        {
-          "kind": "selector",
-          "name": ".about-copy h2 em:after",
-          "line": 107
-        },
-        {
-          "kind": "selector",
-          "name": ".about-lead",
-          "line": 108
-        },
-        {
-          "kind": "selector",
-          "name": ".about-mission-grid",
-          "line": 109
-        },
-        {
-          "kind": "selector",
-          "name": ".about-mission-card",
-          "line": 110
-        },
-        {
-          "kind": "selector",
-          "name": ".about-mission-icon",
-          "line": 111
-        },
-        {
-          "kind": "selector",
-          "name": ".about-mission-icon .ui-icon",
-          "line": 112
-        },
-        {
-          "kind": "selector",
-          "name": ".about-mission-card h3",
-          "line": 113
-        },
-        {
-          "kind": "selector",
-          "name": ".about-mission-card p",
-          "line": 114
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference-cta",
-          "line": 115
-        },
-        {
-          "kind": "selector",
-          "name": ".about-mission-card:hover",
-          "line": 151
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference-shape-top",
-          "line": 154
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference-shape-bottom",
-          "line": 155
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage-wrap::before",
-          "line": 204
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage",
-          "line": 216
-        },
-        {
-          "kind": "selector",
-          "name": ".about-copy h2>span",
-          "line": 284
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-legacy",
-          "line": 370
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference",
-          "line": 371
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-inner",
-          "line": 372
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-inner:before",
-          "line": 373
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-inner:after",
-          "line": 374
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-copy",
-          "line": 375
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-kicker",
-          "line": 376
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-kicker span",
-          "line": 377
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-copy h2",
-          "line": 378
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-copy h2 em",
-          "line": 379
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-copy h2 em:after",
-          "line": 380
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-lead",
-          "line": 381
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-products",
-          "line": 382
-        },
-        {
-          "kind": "selector",
-          "name": ".cta-reference-products>img:first-child",
-          "line": 383
-        }
-      ]
     },
     {
       "path": "styles.css",
-      "size": 33517,
-      "mtimeMs": 1795174051423.5686,
-      "hash": "9f61cb02841547c238cccb1e21fce035aee6e64a31b54027700cff6497de2cac",
+      "size": 57322,
+      "mtimeMs": 1795407746178.7993,
+      "hash": "6184982b968b9f1ad6b1824168c7825922bc9ed5835c556a6cd682c882b40008",
       "locators": [
         {
           "kind": "custom-property",
@@ -1324,162 +940,6 @@
           "kind": "selector",
           "name": ".verticals-dots .dot",
           "line": 105
-        }
-      ]
-    },
-    {
-      "path": "test_why_choose_perfect.html",
-      "size": 13387,
-      "mtimeMs": 1795174898493.3398,
-      "hash": "93af3abc517f9169d9a1dd4025eb104f1e1cf4359fdd961fb5062c0fc9b86c47",
-      "locators": [
-        {
-          "kind": "id",
-          "name": "#why-choose",
-          "line": 284
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-section",
-          "line": 284
-        },
-        {
-          "kind": "class",
-          "name": ".wc-decor-bottom-left",
-          "line": 286
-        },
-        {
-          "kind": "class",
-          "name": ".wc-decor-bottom-wave",
-          "line": 293
-        },
-        {
-          "kind": "class",
-          "name": ".wc-container",
-          "line": 300
-        },
-        {
-          "kind": "class",
-          "name": ".wc-content-col",
-          "line": 302
-        },
-        {
-          "kind": "class",
-          "name": ".wc-kicker",
-          "line": 303
-        },
-        {
-          "kind": "class",
-          "name": ".wc-kicker-line",
-          "line": 304
-        },
-        {
-          "kind": "class",
-          "name": ".wc-kicker-text",
-          "line": 305
-        },
-        {
-          "kind": "id",
-          "name": "#why-choose-title",
-          "line": 308
-        },
-        {
-          "kind": "class",
-          "name": ".wc-headline",
-          "line": 308
-        },
-        {
-          "kind": "class",
-          "name": ".gold-text",
-          "line": 310
-        },
-        {
-          "kind": "class",
-          "name": ".title-underline-svg",
-          "line": 312
-        },
-        {
-          "kind": "class",
-          "name": ".wc-subhead",
-          "line": 318
-        },
-        {
-          "kind": "class",
-          "name": ".wc-cards-grid",
-          "line": 323
-        },
-        {
-          "kind": "class",
-          "name": ".wc-card",
-          "line": 325
-        },
-        {
-          "kind": "class",
-          "name": ".wc-card-top",
-          "line": 326
-        },
-        {
-          "kind": "class",
-          "name": ".wc-card-icon",
-          "line": 327
-        },
-        {
-          "kind": "class",
-          "name": ".wc-card-title",
-          "line": 332
-        },
-        {
-          "kind": "class",
-          "name": ".wc-card-desc",
-          "line": 334
-        },
-        {
-          "kind": "class",
-          "name": ".wc-cta-btn",
-          "line": 416
-        },
-        {
-          "kind": "class",
-          "name": ".wc-visual-col",
-          "line": 425
-        },
-        {
-          "kind": "class",
-          "name": ".wc-visual-wrapper",
-          "line": 426
-        }
-      ]
-    },
-    {
-      "path": "test_why_choose.html",
-      "size": 811,
-      "mtimeMs": 1795174572349.988,
-      "hash": "bf8dd3b942d4b5d4b3f8dfca1b00a3a4754b432b361cea02c050cdfe7decd57b",
-      "locators": [
-        {
-          "kind": "heading",
-          "name": "Inspection of why-choose assets",
-          "line": 12
-        },
-        {
-          "kind": "class",
-          "name": ".grid",
-          "line": 13
-        },
-        {
-          "kind": "class",
-          "name": ".box",
-          "line": 14
-        },
-        {
-          "kind": "heading",
-          "name": "Uploaded Reference (media_1795174382330_22ab683d.jpg)",
-          "line": 15
-        },
-        {
-          "kind": "heading",
-          "name": "assets/why-choose-products.png",
-          "line": 19
         }
       ]
     }

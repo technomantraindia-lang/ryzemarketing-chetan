@@ -3,10 +3,10 @@
 > The full source locator is stored locally in .technomantra/workspace-index.json and is never injected wholesale. The native resolver supplies only the best task candidates. Hashes identify content versions; reread only a stale target before patching.
 
 - Workspace: ryze marketing
-- Indexed: 16 source files
-- Reused unchanged: 3
-- Rescanned: 13
-- Built: 2026-11-20T11:43:45.764Z
+- Indexed: 18 source files
+- Reused unchanged: 15
+- Rescanned: 3
+- Built: 2026-11-23T04:26:43.937Z
 
 ## Retrieval policy
 - The native resolver reads the local index and injects at most five task-ranked candidate paths/locators.
