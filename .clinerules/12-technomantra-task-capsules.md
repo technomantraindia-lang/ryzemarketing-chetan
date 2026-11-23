@@ -22,7 +22,7 @@ The extension refreshes this file automatically. Prefer its concise state over o
 - Framework: html-static
 - Developer mode: smart
 - Model mode: eco
-- Active file: pages/contact.html
+- Active file: index.html
 - Objective: Continue work in this project session.
 - Blocker: none
 - Next action: Continue from current project evidence and the newest developer instruction.
@@ -33,8 +33,8 @@ The extension refreshes this file automatically. Prefer its concise state over o
 - pages/contact.html
 
 ## Recent files in this workspace/window
-- pages/contact.html
 - index.html
+- pages/contact.html
 - site-source/index.html
 - site-source/dist/index.html
 - dist/index.html

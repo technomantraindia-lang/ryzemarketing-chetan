@@ -239,6 +239,46 @@ if (brandsSection) {
   }
 }
 
+// Home page entrance animations: reveal each visible section once as it enters the viewport.
+const homeEntranceSections = [
+  { selector: '.hero', targets: ['.hero-video'], name: 'hero' },
+  { selector: '.about-reference:not([aria-hidden="true"])', targets: ['.about-reference-inner'], name: 'about' },
+  { selector: '.why-choose-section', targets: ['.why-choose-layout'], name: 'why' },
+  { selector: '.verticals-showcase', targets: ['.verticals-container'], name: 'verticals' },
+  { selector: '.industries-section', targets: ['.industries-header', '.industries-arch-stage'], name: 'industries' },
+  { selector: '.testimonials-section', targets: ['.testimonials-inner'], name: 'testimonials' },
+  { selector: '.brands-section', targets: ['.brands-inner'], name: 'brands' },
+  { selector: '.process-section:not([aria-hidden="true"])', targets: ['.process-container'], name: 'process' },
+  { selector: '.cta-reference', targets: ['.cta-reference-inner'], name: 'cta' }
+];
+
+const entranceObserver = 'IntersectionObserver' in window
+  ? new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.18, rootMargin: '0px' })
+  : null;
+
+homeEntranceSections.forEach(({ selector, targets, name }) => {
+  document.querySelectorAll(selector).forEach((section) => {
+    section.classList.add('home-entrance', `home-entrance-${name}`);
+    targets.forEach((targetSelector) => {
+      section.querySelectorAll(targetSelector).forEach((target) => {
+        target.classList.add('home-entrance-target');
+      });
+    });
+
+    if (entranceObserver) {
+      entranceObserver.observe(section);
+    } else {
+      section.classList.add('is-visible');
+    }
+  });
+});
+
 // ==========================================================================
 // Enquiry Popup Modal Controller
 // ==========================================================================
