@@ -1,8 +1,8 @@
 {
   "version": 2,
   "workspace": "ryze marketing",
-  "builtAt": "2026-11-23T04:26:43.937Z",
-  "reason": "files renamed",
+  "builtAt": "2026-11-23T06:34:00.836Z",
+  "reason": "file saved",
   "policy": {
     "localOnly": true,
     "sendFullIndexToAi": false,
@@ -10,8 +10,8 @@
     "incremental": true
   },
   "stats": {
-    "reused": 15,
-    "rescanned": 3,
+    "reused": 12,
+    "rescanned": 7,
     "skipped": 0
   },
   "files": [
@@ -52,30 +52,30 @@
     },
     {
       "path": ".clinerules/10-technomantra-project-memory.md",
-      "size": 1356,
-      "mtimeMs": 1795407997685.172,
-      "hash": "125bb6f7352148affbbb255d9cf65fb2ec1c350d3456ecffed095b466131db35",
+      "size": 1431,
+      "mtimeMs": 1795415468430.0159,
+      "hash": "a6122d0641ad4766fb375c7f86ae20abe0ac4e0b10c157344d89f25efacfea5d",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-code-knowledge.md",
       "size": 1006,
-      "mtimeMs": 1795407997685.172,
-      "hash": "0957026478bdf88cbe522094de86439c8b8bc1874e76fa498b3b9609c8a4c0ee",
+      "mtimeMs": 1795415639435.3313,
+      "hash": "0f76fd71576045fe85060b167992187f7a1ab9219dbe2267d83d61f47ecaadd7",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-patch-index.md",
       "size": 708,
-      "mtimeMs": 1795407997364.4292,
-      "hash": "6ef9f2209b3d2ba9b84a92eaac3432469cb79c514bd7e6e98a5434f6863398a8",
+      "mtimeMs": 1795415468361.9016,
+      "hash": "a61c4c018d66d33c49db55fb3c0c7c0708778d04cf5dba4884b0b63753a1a376",
       "locators": []
     },
     {
       "path": ".clinerules/12-technomantra-task-capsules.md",
-      "size": 2356,
-      "mtimeMs": 1795403840014.3142,
-      "hash": "150b88181f51881d1c4c01d44f17491a0435bebe79b0fb3cb891d137fbafaaee",
+      "size": 2406,
+      "mtimeMs": 1795415639447.684,
+      "hash": "67d385901945e7253b168a068dc6d3857aa53af979467ef263422fa25e158a53",
       "locators": []
     },
     {
@@ -116,15 +116,15 @@
     {
       "path": ".vscode/settings.json",
       "size": 42,
-      "mtimeMs": 1795163805884.1921,
-      "hash": "d7c4c5969a13be89c26b96373e811c72455b9bcc938c3e2ee1de236c55773289",
+      "mtimeMs": 1795415480297.9058,
+      "hash": "33bdcb4d0bc5cf42950dcce4aa99361a1e1492aad161cef47ccc0e4a5264f2d4",
       "locators": []
     },
     {
       "path": "index.html",
-      "size": 41354,
-      "mtimeMs": 1795407604742.7368,
-      "hash": "a62cfd734b209f0243cc106c5ccbd4bba102363cdac20808b6e9693e84b27808",
+      "size": 51659,
+      "mtimeMs": 1795415450930.021,
+      "hash": "697fbe2b7c5bb742d1952ddee1ffc91e3190184f439c738f1907b4ff414dc3c1",
       "locators": [
         {
           "kind": "class",
@@ -277,269 +277,276 @@
           "line": 40
         },
         {
-          "kind": "class",
-          "name": ".site-header",
+          "kind": "id",
+          "name": "#icon-stethoscope",
+          "line": 41
+        },
+        {
+          "kind": "id",
+          "name": "#icon-cart",
           "line": 42
         },
         {
-          "kind": "class",
-          "name": ".container",
+          "kind": "id",
+          "name": "#icon-bank",
           "line": 43
         },
         {
-          "kind": "class",
-          "name": ".nav-wrap",
-          "line": 43
-        },
-        {
-          "kind": "class",
-          "name": ".brand",
+          "kind": "id",
+          "name": "#icon-shield-check",
           "line": 44
         },
         {
-          "kind": "class",
-          "name": ".logo-image",
+          "kind": "id",
+          "name": "#icon-paint-roller",
           "line": 45
         },
         {
-          "kind": "class",
-          "name": ".menu-toggle",
+          "kind": "id",
+          "name": "#icon-cement-layers",
+          "line": 46
+        },
+        {
+          "kind": "id",
+          "name": "#icon-tiles",
+          "line": 47
+        },
+        {
+          "kind": "id",
+          "name": "#icon-monitor",
           "line": 48
         },
         {
           "kind": "id",
-          "name": "#main-nav",
+          "name": "#icon-factory",
+          "line": 49
+        },
+        {
+          "kind": "id",
+          "name": "#icon-growth-bars",
+          "line": 50
+        },
+        {
+          "kind": "class",
+          "name": ".site-header",
           "line": 52
         },
         {
           "kind": "class",
-          "name": ".main-nav",
-          "line": 52
-        },
-        {
-          "kind": "class",
-          "name": ".nav-links",
+          "name": ".container",
           "line": 53
         },
         {
           "kind": "class",
-          "name": ".active",
+          "name": ".nav-wrap",
+          "line": 53
+        },
+        {
+          "kind": "class",
+          "name": ".brand",
           "line": 54
         },
         {
           "kind": "class",
-          "name": ".nav-chevron",
-          "line": 56
+          "name": ".logo-image",
+          "line": 55
         },
         {
           "kind": "class",
-          "name": ".nav-cta",
-          "line": 61
+          "name": ".menu-toggle",
+          "line": 58
         },
         {
           "kind": "id",
-          "name": "#top",
+          "name": "#main-nav",
+          "line": 62
+        },
+        {
+          "kind": "class",
+          "name": ".main-nav",
+          "line": 62
+        },
+        {
+          "kind": "class",
+          "name": ".nav-links",
+          "line": 63
+        },
+        {
+          "kind": "class",
+          "name": ".active",
+          "line": 64
+        },
+        {
+          "kind": "class",
+          "name": ".nav-chevron",
           "line": 66
         },
         {
           "kind": "class",
+          "name": ".nav-cta",
+          "line": 71
+        },
+        {
+          "kind": "id",
+          "name": "#top",
+          "line": 76
+        },
+        {
+          "kind": "class",
           "name": ".marquee-strip",
-          "line": 67
+          "line": 77
         },
         {
           "kind": "class",
           "name": ".body-marquee-top",
-          "line": 67
+          "line": 77
         },
         {
           "kind": "class",
           "name": ".marquee-track",
-          "line": 68
+          "line": 78
         },
         {
           "kind": "class",
           "name": ".marquee-group",
-          "line": 69
+          "line": 79
         },
         {
           "kind": "class",
           "name": ".marquee-item",
-          "line": 70
+          "line": 80
         },
         {
           "kind": "class",
           "name": ".hero",
-          "line": 85
+          "line": 95
         },
         {
           "kind": "class",
           "name": ".hero-video",
-          "line": 86
+          "line": 96
         },
         {
           "kind": "class",
           "name": ".body-marquee-after",
-          "line": 91
+          "line": 101
         },
         {
           "kind": "id",
           "name": "#about",
-          "line": 110
+          "line": 120
         },
         {
           "kind": "class",
           "name": ".about-reference",
-          "line": 110
+          "line": 120
         },
         {
           "kind": "class",
           "name": ".about-reference-shape",
-          "line": 111
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape-top",
-          "line": 111
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape-bottom",
-          "line": 112
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-inner",
-          "line": 113
-        },
-        {
-          "kind": "class",
-          "name": ".about-collage-wrap",
-          "line": 114
-        },
-        {
-          "kind": "class",
-          "name": ".about-collage-ring",
-          "line": 115
-        },
-        {
-          "kind": "class",
-          "name": ".about-collage",
-          "line": 116
-        },
-        {
-          "kind": "class",
-          "name": ".about-copy",
-          "line": 118
-        },
-        {
-          "kind": "class",
-          "name": ".about-kicker",
-          "line": 119
-        },
-        {
-          "kind": "class",
-          "name": ".about-lead",
           "line": 121
         },
         {
           "kind": "class",
-          "name": ".about-mission-grid",
+          "name": ".about-reference-shape-top",
+          "line": 121
+        },
+        {
+          "kind": "class",
+          "name": ".about-reference-shape-bottom",
           "line": 122
         },
         {
           "kind": "class",
-          "name": ".about-mission-card",
+          "name": ".about-reference-inner",
           "line": 123
         },
         {
-          "kind": "heading",
-          "name": "Our Vision",
-          "line": 123
-        },
-        {
-          "kind": "heading",
-          "name": "Our Mission",
+          "kind": "class",
+          "name": ".about-collage-wrap",
           "line": 124
         },
         {
           "kind": "class",
-          "name": ".about-reference-cta",
+          "name": ".about-collage-ring",
+          "line": 125
+        },
+        {
+          "kind": "class",
+          "name": ".about-collage",
           "line": 126
         },
         {
           "kind": "class",
-          "name": ".button",
-          "line": 126
+          "name": ".about-copy",
+          "line": 128
         },
         {
-          "kind": "id",
-          "name": "#why-choose",
+          "kind": "class",
+          "name": ".about-kicker",
+          "line": 129
+        },
+        {
+          "kind": "class",
+          "name": ".about-lead",
           "line": 131
         },
         {
           "kind": "class",
-          "name": ".why-choose-section",
-          "line": 131
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-wave",
+          "name": ".about-mission-grid",
           "line": 132
         },
         {
           "kind": "class",
-          "name": ".why-choose-wave-top",
-          "line": 132
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-wave-bottom",
+          "name": ".about-mission-card",
           "line": 133
         },
         {
-          "kind": "class",
-          "name": ".why-choose-inner",
+          "kind": "heading",
+          "name": "Our Vision",
+          "line": 133
+        },
+        {
+          "kind": "heading",
+          "name": "Our Mission",
           "line": 134
         },
         {
           "kind": "class",
-          "name": ".why-choose-copy",
-          "line": 135
+          "name": ".about-reference-cta",
+          "line": 136
         },
         {
           "kind": "class",
-          "name": ".why-choose-kicker",
+          "name": ".button",
           "line": 136
         },
         {
           "kind": "id",
-          "name": "#why-choose-title",
-          "line": 137
-        },
-        {
-          "kind": "heading",
-          "name": "More Than Gifts.",
-          "line": 137
-        },
-        {
-          "kind": "class",
-          "name": ".why-choose-lead",
-          "line": 138
+          "name": "#why-choose",
+          "line": 141
         }
       ]
     },
     {
+      "path": "pages/contact.html",
+      "size": 2,
+      "mtimeMs": 1795415639410.4197,
+      "hash": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "locators": []
+    },
+    {
       "path": "script.js",
-      "size": 8098,
-      "mtimeMs": 1795407530777.7544,
-      "hash": "009c2fdc5a81a9f3b47223003e2fc5fccd1e49bdd8914877da1e02c9904cab7e",
+      "size": 8456,
+      "mtimeMs": 1795414418545.307,
+      "hash": "fd565c8f493a8c6c81bfc9a501784f4b08ba0011619922c80c6c1f4b9fed4d12",
       "locators": []
     },
     {
       "path": "styles.css",
-      "size": 57322,
-      "mtimeMs": 1795407746178.7993,
-      "hash": "6184982b968b9f1ad6b1824168c7825922bc9ed5835c556a6cd682c882b40008",
+      "size": 74571,
+      "mtimeMs": 1795415473166.9812,
+      "hash": "b1395060f229cc38e29f7a8d89bde8eb9092e7ee22ea689bd4083987ff753e3f",
       "locators": [
         {
           "kind": "custom-property",

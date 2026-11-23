@@ -26,6 +26,13 @@ if (aboutSection && verticalsSection) {
   aboutSection.insertAdjacentElement('afterend', verticalsSection);
 }
 
+// Keep the Brands Associated With section directly above Testimonials.
+const brandsPlacementSection = document.querySelector('.brands-section');
+const testimonialsPlacementSection = document.querySelector('.testimonials-section');
+if (brandsPlacementSection && testimonialsPlacementSection) {
+  testimonialsPlacementSection.insertAdjacentElement('beforebegin', brandsPlacementSection);
+}
+
 const heroVideo = document.querySelector('.hero-video');
 if (heroVideo) {
   heroVideo.defaultPlaybackRate = 0.8;
@@ -230,4 +237,149 @@ if (brandsSection) {
   } else {
     showBrands();
   }
+}
+
+// ==========================================================================
+// Enquiry Popup Modal Controller
+// ==========================================================================
+const enquiryModal = document.getElementById('enquiryModal');
+const closeEnquiryBtn = document.getElementById('closeEnquiryModal');
+const enquiryForm = document.getElementById('enquiryPopupForm');
+const popupFeedback = document.getElementById('popupFeedback');
+const popupSelect = document.getElementById('popupRequirement');
+const popupSubmitBtn = document.getElementById('popupSubmitBtn');
+
+function openEnquiryModal() {
+  if (!enquiryModal) return;
+  enquiryModal.classList.add('is-open');
+  enquiryModal.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+
+  const firstInput = document.getElementById('popupName');
+  if (firstInput) {
+    setTimeout(() => firstInput.focus(), 150);
+  }
+}
+
+function closeEnquiryModal() {
+  if (!enquiryModal) return;
+  enquiryModal.classList.remove('is-open');
+  enquiryModal.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+}
+
+// Open modal triggers
+document.querySelectorAll('[data-open-enquiry], .nav-cta, .enquire-now-trigger').forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    if (enquiryModal) {
+      e.preventDefault();
+      openEnquiryModal();
+    }
+  });
+});
+
+// Close triggers
+if (closeEnquiryBtn) {
+  closeEnquiryBtn.addEventListener('click', closeEnquiryModal);
+}
+
+if (enquiryModal) {
+  // Click outside to close
+  enquiryModal.addEventListener('click', (e) => {
+    if (e.target === enquiryModal) {
+      closeEnquiryModal();
+    }
+  });
+
+  // ESC key to close
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && enquiryModal.classList.contains('is-open')) {
+      closeEnquiryModal();
+    }
+  });
+}
+
+// Custom select styling
+if (popupSelect) {
+  popupSelect.addEventListener('change', function () {
+    if (this.value) {
+      this.classList.add('selected-active');
+    } else {
+      this.classList.remove('selected-active');
+    }
+  });
+}
+
+// Form submission & validation
+if (enquiryForm && popupFeedback) {
+  enquiryForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById('popupName');
+    const email = document.getElementById('popupEmail');
+    const phone = document.getElementById('popupPhone');
+    const requirement = document.getElementById('popupRequirement');
+
+    let isValid = true;
+    [name, email, phone, requirement].forEach((field) => {
+      if (field) {
+        const box = field.closest('.popup-input-box');
+        if (!field.value.trim()) {
+          isValid = false;
+          if (box) box.classList.add('has-error');
+        } else {
+          if (box) box.classList.remove('has-error');
+        }
+      }
+    });
+
+    if (email && email.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) {
+      isValid = false;
+      const box = email.closest('.popup-input-box');
+      if (box) box.classList.add('has-error');
+    }
+
+    if (!isValid) {
+      popupFeedback.className = 'popup-feedback error';
+      popupFeedback.textContent = 'Please fill in all required fields marked with * correctly.';
+      return;
+    }
+
+    if (popupSubmitBtn) {
+      popupSubmitBtn.disabled = true;
+      popupSubmitBtn.style.opacity = '0.7';
+      popupSubmitBtn.innerHTML = 'Submitting...';
+    }
+
+    setTimeout(() => {
+      enquiryForm.reset();
+      if (popupSelect) popupSelect.classList.remove('selected-active');
+      if (popupSubmitBtn) {
+        popupSubmitBtn.disabled = false;
+        popupSubmitBtn.style.opacity = '1';
+        popupSubmitBtn.innerHTML = '<span>Submit Enquiry</span><svg class="button-icon" aria-hidden="true"><use href="#icon-arrow" /></svg>';
+      }
+
+      popupFeedback.className = 'popup-feedback success';
+      popupFeedback.textContent = 'Thank you! Your enquiry has been received. Our team will get back to you shortly.';
+
+      setTimeout(() => {
+        closeEnquiryModal();
+        popupFeedback.className = 'popup-feedback';
+        popupFeedback.textContent = '';
+      }, 3000);
+    }, 700);
+  });
+
+  // Clear errors on input
+  enquiryForm.querySelectorAll('input, select, textarea').forEach((input) => {
+    input.addEventListener('input', function () {
+      const box = this.closest('.popup-input-box');
+      if (box) box.classList.remove('has-error');
+      if (popupFeedback.classList.contains('error')) {
+        popupFeedback.className = 'popup-feedback';
+        popupFeedback.textContent = '';
+      }
+    });
+  });
 }

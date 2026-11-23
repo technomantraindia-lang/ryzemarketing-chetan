@@ -1,509 +1,1329 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ryze Marketing turns business ideas into meaningful brand experiences across pharma, gifting, events and integrated marketing." />
-    <title>Ryze Marketing — Brand experiences that move business forward</title>
-    <link rel="stylesheet" href="./styles.css?v=20261120-about-fix" />
-  </head>
-  <body>
-    <svg class="svg-sprite" aria-hidden="true" focusable="false">
-      <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
-      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
-      <symbol id="icon-diamond" viewBox="0 0 24 24"><path d="m12 3 8 5-8 13L4 8l8-5Z"/><path d="m4 8h16M8 6l4 15 4-15"/></symbol>
-      <symbol id="icon-sliders" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="11" cy="18" r="2"/></symbol>
-      <symbol id="icon-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M8.5 14.5a7 7 0 1 1 7 0c-.8.6-1.2 1.4-1.3 2.5H9.8c-.1-1.1-.5-1.9-1.3-2.5Z"/></symbol>
-      <symbol id="icon-chat" viewBox="0 0 24 24"><path d="M4 12.5a5.5 5.5 0 0 1 5.5-5.5h2A5.5 5.5 0 0 1 17 12.5v.5a5.5 5.5 0 0 1-5.5 5.5H8l-3.5 2 .7-3.4A5.5 5.5 0 0 1 4 13v-.5Z"/><path d="M12.5 7.5A5.5 5.5 0 0 1 18 4h1a5.5 5.5 0 0 1 1.5 10.8L21 18l-3.2-2H17"/><circle cx="8" cy="13" r=".7" fill="currentColor" stroke="none"/><circle cx="10.5" cy="13" r=".7" fill="currentColor" stroke="none"/><circle cx="13" cy="13" r=".7" fill="currentColor" stroke="none"/></symbol>
-      <symbol id="icon-box" viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9M8 5.2l8 4.6"/></symbol>
-      <symbol id="icon-calendar-check" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 15l2 2 5-5"/></symbol>
-      <symbol id="icon-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h17M8 16v-4M12 16V9M16 16V6M20 16V3"/><path d="m7 9 4-3 3 1 5-5"/></symbol>
-      <symbol id="icon-target" viewBox="0 0 24 24"><circle cx="11" cy="12" r="7"/><circle cx="11" cy="12" r="3"/><path d="m16 7 5-5M17 2h4v4M11 12l4-4"/></symbol>
-      <symbol id="icon-mountain" viewBox="0 0 24 24"><path d="m3 19 6-9 3 4 3-5 6 10H3Z"/><path d="M15 4h6v5h-6zM18 4v-2M15 7h6"/></symbol>
-      <symbol id="icon-building" viewBox="0 0 24 24"><path d="M4 21V5l8-2v18M12 21h8V9l-8-2M7 8h2M7 12h2M7 16h2M15 12h2M15 16h2M15 20h2"/></symbol>
-      <symbol id="icon-laptop" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="12" rx="1.5"/><path d="M2 20h20M8 20l1-4h6l1 4"/></symbol>
-      <symbol id="icon-handshake" viewBox="0 0 24 24"><path d="m3 9 4-4 4 2 3-2 7 4-3 4-3-2-3 3-3-3-3 2-3-4Z"/><path d="m8 14 2 2M12 13l2 2M16 12l2 2"/></symbol>
-      <symbol id="icon-medical" viewBox="0 0 24 24"><path d="M12 4v6M9 7h6M7 20c-2 0-3-1.5-3-3.5S5.5 13 8 13h8c2.5 0 4 1.5 4 3.5S18 20 16 20H7Z"/></symbol>
-      <symbol id="icon-gift" viewBox="0 0 24 24"><path d="M3 10h18v11H3zM2 7h20v3H2zM12 7v14M12 7H8.5a2.5 2.5 0 1 1 2.5-2.5V7ZM12 7h3.5A2.5 2.5 0 1 0 13 4.5V7Z"/></symbol>
-      <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 14h2M14 14h2M8 17h2"/></symbol>
-      <symbol id="icon-megaphone" viewBox="0 0 24 24"><path d="m4 11 12-5v12L4 14v-3Z"/><path d="M16 9h3v6h-3M7 15l2 5h3l-2-5"/></symbol>
-      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
-      <symbol id="icon-pencil" viewBox="0 0 24 24"><path d="m4 20 1-5L16 4l4 4L9 19l-5 1Z"/><path d="m14 6 4 4"/></symbol>
-      <symbol id="icon-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.2-1.6l2-1.5-2-3.4-2.3 1a7 7 0 0 0-2.7-1.6L13.5 2h-3l-.3 2.9a7 7 0 0 0-2.7 1.6l-2.3-1-2 3.4 2 1.5A7 7 0 0 0 5 12c0 .6.1 1.1.2 1.6l-2 1.5 2 3.4 2.3-1a7 7 0 0 0 2.7 1.6l.3 2.9h3l.3-2.9a7 7 0 0 0 2.7-1.6l2.3 1 2-3.4-2-1.5c.1-.5.2-1 .2-1.6Z"/></symbol>
-      <symbol id="icon-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m8 12 2.5 2.5L16 9"/></symbol>
-      <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M12 21s6-5.1 6-10a6 6 0 1 0-12 0c0 4.9 6 10 6 10Z"/><circle cx="12" cy="11" r="2"/></symbol>
-      <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M6 3h3l1.5 4-2 1.5a15 15 0 0 0 7 7l1.5-2 4 1.5v3c0 1-1 2-2 2C10.5 20 4 13.5 4 5c0-1 1-2 2-2Z"/></symbol>
-      <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
-      <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M7 9v8M7 6v.1M11 17v-5a3 3 0 0 1 6 0v5M11 12V9"/></symbol>
-      <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="7" r=".7" fill="currentColor" stroke="none"/></symbol>
-      <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M14 20v-8h2.5l.5-3H14V7.5c0-.9.3-1.5 1.6-1.5H17V3.3c-.5-.1-1.2-.2-2.1-.2-2.4 0-4 1.5-4 4.1V9H8v3h2.9v8"/></symbol>
-      <symbol id="icon-youtube" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="m10 9 5 3-5 3V9Z"/></symbol>
-    </svg>
-    <header class="site-header" data-header>
-      <div class="container nav-wrap">
-        <a class="brand" href="#top" aria-label="Ryze Marketing home">
-          <img class="logo-image" src="./assets/logo.png" alt="Ryze Marketing" />
-        </a>
 
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Ryze Marketing turns business ideas into meaningful brand experiences across pharma, gifting, events and integrated marketing." />
+  <title>Ryze Marketing — Brand experiences that move business forward</title>
+  <link rel="stylesheet" href="./styles.css?v=20261123-compact-cards-v1" />
+</head>
 
-        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
-          <div class="nav-links">
-            <a class="active" href="#top">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#solutions">Our Verticals <svg class="nav-chevron"><use href="#icon-chevron" /></svg></a>
-            <a href="#industries">Industries</a>
-            <a href="#why-choose">Why Ryze</a>
-            <a href="#contact">Contact Us</a>
-          </div>
-          <a class="nav-cta" href="#contact">Enquire Now <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
-        </nav>
-      </div>
-    </header>
+<body>
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-chevron" viewBox="0 0 24 24">
+      <path d="m6 9 6 6 6-6" />
+    </symbol>
+    <symbol id="icon-layers" viewBox="0 0 24 24">
+      <polygon points="12 2 2 7 12 12 22 7 12 2" />
+      <polyline points="2 17 12 22 22 17" />
+      <polyline points="2 12 12 17 22 12" />
+    </symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24">
+      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+      <circle cx="9" cy="7" r="4" />
+      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    </symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24">
+      <path d="M4 12h15M13 6l6 6-6 6" />
+    </symbol>
+    <symbol id="icon-diamond" viewBox="0 0 24 24">
+      <path d="m12 3 8 5-8 13L4 8l8-5Z" />
+      <path d="m4 8h16M8 6l4 15 4-15" />
+    </symbol>
+    <symbol id="icon-sliders" viewBox="0 0 24 24">
+      <path d="M4 6h16M4 12h16M4 18h16" />
+      <circle cx="9" cy="6" r="2" />
+      <circle cx="15" cy="12" r="2" />
+      <circle cx="11" cy="18" r="2" />
+    </symbol>
+    <symbol id="icon-bulb" viewBox="0 0 24 24">
+      <path d="M9 18h6M10 21h4M8.5 14.5a7 7 0 1 1 7 0c-.8.6-1.2 1.4-1.3 2.5H9.8c-.1-1.1-.5-1.9-1.3-2.5Z" />
+    </symbol>
+    <symbol id="icon-chat" viewBox="0 0 24 24">
+      <path
+        d="M4 12.5a5.5 5.5 0 0 1 5.5-5.5h2A5.5 5.5 0 0 1 17 12.5v.5a5.5 5.5 0 0 1-5.5 5.5H8l-3.5 2 .7-3.4A5.5 5.5 0 0 1 4 13v-.5Z" />
+      <path d="M12.5 7.5A5.5 5.5 0 0 1 18 4h1a5.5 5.5 0 0 1 1.5 10.8L21 18l-3.2-2H17" />
+      <circle cx="8" cy="13" r=".7" fill="currentColor" stroke="none" />
+      <circle cx="10.5" cy="13" r=".7" fill="currentColor" stroke="none" />
+      <circle cx="13" cy="13" r=".7" fill="currentColor" stroke="none" />
+    </symbol>
+    <symbol id="icon-box" viewBox="0 0 24 24">
+      <path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z" />
+      <path d="m4 7.5 8 4.5 8-4.5M12 12v9M8 5.2l8 4.6" />
+    </symbol>
+    <symbol id="icon-calendar-check" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M7 3v4M17 3v4M3 10h18M8 15l2 2 5-5" />
+    </symbol>
+    <symbol id="icon-chart" viewBox="0 0 24 24">
+      <path d="M4 20V4M4 20h17M8 16v-4M12 16V9M16 16V6M20 16V3" />
+      <path d="m7 9 4-3 3 1 5-5" />
+    </symbol>
+    <symbol id="icon-target" viewBox="0 0 24 24">
+      <circle cx="11" cy="12" r="7" />
+      <circle cx="11" cy="12" r="3" />
+      <path d="m16 7 5-5M17 2h4v4M11 12l4-4" />
+    </symbol>
+    <symbol id="icon-mountain" viewBox="0 0 24 24">
+      <path d="m3 19 6-9 3 4 3-5 6 10H3Z" />
+      <path d="M15 4h6v5h-6zM18 4v-2M15 7h6" />
+    </symbol>
+    <symbol id="icon-building" viewBox="0 0 24 24">
+      <path d="M4 21V5l8-2v18M12 21h8V9l-8-2M7 8h2M7 12h2M7 16h2M15 12h2M15 16h2M15 20h2" />
+    </symbol>
+    <symbol id="icon-laptop" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="12" rx="1.5" />
+      <path d="M2 20h20M8 20l1-4h6l1 4" />
+    </symbol>
+    <symbol id="icon-handshake" viewBox="0 0 24 24">
+      <path d="m3 9 4-4 4 2 3-2 7 4-3 4-3-2-3 3-3-3-3 2-3-4Z" />
+      <path d="m8 14 2 2M12 13l2 2M16 12l2 2" />
+    </symbol>
+    <symbol id="icon-medical" viewBox="0 0 24 24">
+      <path d="M12 4v6M9 7h6M7 20c-2 0-3-1.5-3-3.5S5.5 13 8 13h8c2.5 0 4 1.5 4 3.5S18 20 16 20H7Z" />
+    </symbol>
+    <symbol id="icon-gift" viewBox="0 0 24 24">
+      <path d="M3 10h18v11H3zM2 7h20v3H2zM12 7v14M12 7H8.5a2.5 2.5 0 1 1 2.5-2.5V7ZM12 7h3.5A2.5 2.5 0 1 0 13 4.5V7Z" />
+    </symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M7 3v4M17 3v4M3 10h18M8 14h2M14 14h2M8 17h2" />
+    </symbol>
+    <symbol id="icon-megaphone" viewBox="0 0 24 24">
+      <path d="m4 11 12-5v12L4 14v-3Z" />
+      <path d="M16 9h3v6h-3M7 15l2 5h3l-2-5" />
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24">
+      <circle cx="10.5" cy="10.5" r="6.5" />
+      <path d="m16 16 5 5" />
+    </symbol>
+    <symbol id="icon-pencil" viewBox="0 0 24 24">
+      <path d="m4 20 1-5L16 4l4 4L9 19l-5 1Z" />
+      <path d="m14 6 4 4" />
+    </symbol>
+    <symbol id="icon-gear" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="3" />
+      <path
+        d="M19 12a7 7 0 0 0-.2-1.6l2-1.5-2-3.4-2.3 1a7 7 0 0 0-2.7-1.6L13.5 2h-3l-.3 2.9a7 7 0 0 0-2.7 1.6l-2.3-1-2 3.4 2 1.5A7 7 0 0 0 5 12c0 .6.1 1.1.2 1.6l-2 1.5 2 3.4 2.3-1a7 7 0 0 0 2.7 1.6l.3 2.9h3l.3-2.9a7 7 0 0 0 2.7-1.6l2.3 1 2-3.4-2-1.5c.1-.5.2-1 .2-1.6Z" />
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="m8 12 2.5 2.5L16 9" />
+    </symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24">
+      <path d="M12 21s6-5.1 6-10a6 6 0 1 0-12 0c0 4.9 6 10 6 10Z" />
+      <circle cx="12" cy="11" r="2" />
+    </symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24">
+      <path d="M6 3h3l1.5 4-2 1.5a15 15 0 0 0 7 7l1.5-2 4 1.5v3c0 1-1 2-2 2C10.5 20 4 13.5 4 5c0-1 1-2 2-2Z" />
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="m4 7 8 6 8-6" />
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24">
+      <path d="M7 9v8M7 6v.1M11 17v-5a3 3 0 0 1 6 0v5M11 12V9" />
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="4" />
+      <circle cx="12" cy="12" r="3.5" />
+      <circle cx="17" cy="7" r=".7" fill="currentColor" stroke="none" />
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24">
+      <path
+        d="M14 20v-8h2.5l.5-3H14V7.5c0-.9.3-1.5 1.6-1.5H17V3.3c-.5-.1-1.2-.2-2.1-.2-2.4 0-4 1.5-4 4.1V9H8v3h2.9v8" />
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 24 24">
+      <rect x="3" y="6" width="18" height="12" rx="3" />
+      <path d="m10 9 5 3-5 3V9Z" />
+    </symbol>
+    <symbol id="icon-stethoscope" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3" />
+      <circle cx="4.5" cy="3" r="1.5" fill="currentColor" />
+      <circle cx="13.5" cy="3" r="1.5" fill="currentColor" />
+      <path d="M9 12.5v3.5a3.5 3.5 0 0 0 3.5 3.5h.5a3.5 3.5 0 0 0 3.5-3.5v-2" />
+      <circle cx="16.5" cy="14" r="2.2" stroke="currentColor" fill="none" />
+    </symbol>
+    <symbol id="icon-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <circle cx="9" cy="20" r="1.6" />
+      <circle cx="18" cy="20" r="1.6" />
+      <path d="M2.5 3.5h3.5l2.4 11a1.5 1.5 0 0 0 1.5 1.2h8.5a1.5 1.5 0 0 0 1.5-1.2l1.6-8H6.5" />
+      <path d="M9.5 9.5h10M10 12.5h8.5" />
+    </symbol>
+    <symbol id="icon-bank" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M3 9.5 12 4l9 5.5" />
+      <path d="M5 9.5v8M9.5 9.5v8M14.5 9.5v8M19 9.5v8" />
+      <path d="M3 17.5h18M2 20.5h20" />
+      <circle cx="12" cy="7" r="1" fill="currentColor" />
+    </symbol>
+    <symbol id="icon-shield-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3s6.5 2.5 6.5 7.5c0 5-4.5 8.5-6.5 10-2-1.5-6.5-5-6.5-10C5.5 5.5 12 3 12 3Z" />
+      <path d="m9 11.5 2 2 4-4" />
+    </symbol>
+    <symbol id="icon-paint-roller" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="3" width="16" height="6.5" rx="2.5" />
+      <path d="M20 6.25h1.5a1.5 1.5 0 0 1 1.5 1.5v3.5a1.5 1.5 0 0 1-1.5 1.5H12v3" />
+      <rect x="10" y="15.75" width="4" height="6.25" rx="1.25" />
+    </symbol>
+    <symbol id="icon-cement-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="m12 2.5 8.5 4.5-8.5 4.5-8.5-4.5L12 2.5Z" />
+      <path d="m3.5 11.5 8.5 4.5 8.5-4.5" />
+      <path d="m3.5 16.5 8.5 4.5 8.5-4.5" />
+    </symbol>
+    <symbol id="icon-tiles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="m12 2 8 4.5-8 4.5-8-4.5L12 2Z" />
+      <path d="m4 11 8 4.5 8-4.5" />
+      <path d="m4 16 8 4.5 8-4.5" />
+    </symbol>
+    <symbol id="icon-monitor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="4" width="18" height="12" rx="2" />
+      <path d="M12 16v4M8 20h8" />
+    </symbol>
+    <symbol id="icon-factory" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 21h20M4 21V10l5 3V10l5 3V5h6v16" />
+      <path d="M7 17h1M11 17h1M16 10h2M16 14h2M16 18h2" />
+    </symbol>
+    <symbol id="icon-growth-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+      stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3.5" y="14" width="4" height="7" rx="0.75" fill="currentColor" />
+      <rect x="10" y="9" width="4" height="12" rx="0.75" fill="currentColor" />
+      <rect x="16.5" y="4" width="4" height="17" rx="0.75" fill="currentColor" />
+    </symbol>
+  </svg>
+  <header class="site-header" data-header>
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Ryze Marketing home">
+        <img class="logo-image" src="./assets/logo.png" alt="Ryze Marketing" />
+      </a>
 
-    <main id="top">
-      <section class="marquee-strip body-marquee-top" aria-label="Corporate gifting solutions">
-        <div class="marquee-track">
-          <div class="marquee-group">
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-gift" /></svg><span>Gifts for Employees</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Clients</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Partners</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Gifts for Events</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Premium Corporate Gifts</span></div><i></i>
-          </div>
-          <div class="marquee-group" aria-hidden="true">
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-gift" /></svg><span>Gifts for Employees</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Clients</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Partners</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Gifts for Events</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Premium Corporate Gifts</span></div><i></i>
-          </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"
+        aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <div class="nav-links">
+          <a class="active" href="#top">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#solutions">Our Verticals <svg class="nav-chevron"><use href="#icon-chevron" /></svg></a>
+          <a href="#industries">Industries</a>
+          <a href="#why-choose">Why Ryze</a>
+          <a href="./pages/contact.html">Contact Us</a>
         </div>
-      </section>
-      <section class="hero" aria-label="Ryze Marketing introduction">
-        <video class="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
-          <source src="./assets/hero-video.mp4" type="video/mp4" />
-        </video>
-      </section>
+        <a class="nav-cta" href="./pages/contact.html">Enquire Now <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
+      </nav>
+    </div>
+  </header>
 
-      <section class="marquee-strip body-marquee-after" aria-label="Corporate gifting solutions">
-        <div class="marquee-track">
-          <div class="marquee-group">
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-gift" /></svg><span>Gifts for Employees</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Clients</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Partners</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Gifts for Events</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Premium Corporate Gifts</span></div><i></i>
-          </div>
-          <div class="marquee-group" aria-hidden="true">
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-gift" /></svg><span>Gifts for Employees</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Clients</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Partners</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Gifts for Events</span></div><i></i>
-            <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Premium Corporate Gifts</span></div><i></i>
-          </div>
-        </div>
-      </section>
-
-      <section class="about-reference" id="about">
-        <div class="about-reference-shape about-reference-shape-top" aria-hidden="true"></div>
-        <div class="about-reference-shape about-reference-shape-bottom" aria-hidden="true"></div>
-        <div class="about-reference-inner">
-          <div class="about-collage-wrap">
-            <div class="about-collage-ring" aria-hidden="true"></div>
-            <img class="about-collage" src="./assets/about-collage-branded.png" alt="Branded Ryze corporate gifting set and exhibition displays" />
-          </div>
-          <div class="about-copy">
-            <p class="about-kicker"><span></span>ABOUT RYZE MARKETING</p>
-            <h2><span>Your Partner in Corporate Gifting &amp;</span><span><em>Marketing Solutions</em></span></h2>
-            <p class="about-lead">Ryze Marketing is a B2B corporate gifting and marketing solutions company committed to helping businesses build stronger relationships, create memorable brand experiences and execute impactful marketing initiatives.</p>
-            <div class="about-mission-grid">
-              <article class="about-mission-card"><div class="about-mission-icon"><svg class="ui-icon"><use href="#icon-target" /></svg></div><div><h3>Our Vision</h3><p>To become a trusted and preferred corporate gifting and marketing solutions partner for businesses across India.</p></div></article>
-              <article class="about-mission-card"><div class="about-mission-icon"><svg class="ui-icon"><use href="#icon-mountain" /></svg></div><div><h3>Our Mission</h3><p>To simplify marketing execution by delivering innovative ideas, customised solutions, quality products and reliable project execution.</p></div></article>
-            </div>
-            <a class="about-reference-cta button" href="#contact">Explore More <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="why-choose-section" id="why-choose" aria-labelledby="why-choose-title">
-        <div class="why-choose-wave why-choose-wave-top" aria-hidden="true"></div>
-        <div class="why-choose-wave why-choose-wave-bottom" aria-hidden="true"></div>
-        <div class="why-choose-inner">
-          <div class="why-choose-copy">
-            <p class="why-choose-kicker"><span></span>WHY CHOOSE RYZE MARKETING</p>
-            <h2 id="why-choose-title">More Than Gifts.<br />We Create <em>Brand Experiences.</em></h2>
-            <p class="why-choose-lead">A trusted partner for businesses looking for creative ideas, quality products and seamless execution.</p>
-            <div class="why-choose-grid">
-              <article class="why-choose-card"><div class="why-choose-icon"><svg class="ui-icon"><use href="#icon-bulb" /></svg></div><div><h3>Creative &amp;<br />Customised Solutions</h3><span></span><p>Tailored ideas that align with your brand.</p></div></article>
-              <article class="why-choose-card"><div class="why-choose-icon"><svg class="ui-icon"><use href="#icon-check" /></svg></div><div><h3>Assured Quality</h3><span></span><p>Curated, reliable and premium product selection.</p></div></article>
-              <article class="why-choose-card"><div class="why-choose-icon"><svg class="ui-icon"><use href="#icon-gear" /></svg></div><div><h3>End-to-End<br />Execution</h3><span></span><p>From conceptualisation to on-ground delivery.</p></div></article>
-              <article class="why-choose-card"><div class="why-choose-icon"><svg class="ui-icon"><use href="#icon-handshake" /></svg></div><div><h3>Industry<br />Expertise</h3><span></span><p>Strong understanding of corporate marketing needs.</p></div></article>
-              <article class="why-choose-card"><div class="why-choose-icon"><svg class="ui-icon"><use href="#icon-target" /></svg></div><div><h3>Trusted<br />Partnership</h3><span></span><p>A long-term, transparent and reliable collaboration.</p></div></article>
-              <article class="why-choose-card"><div class="why-choose-icon"><svg class="ui-icon"><use href="#icon-chart" /></svg></div><div><h3>Impact-Driven</h3><span></span><p>Solutions that build relationships and create lasting brand impact.</p></div></article>
-            </div>
-            <a class="why-choose-cta button" href="#contact">Get in Touch <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
-          </div>
-          <div class="why-choose-visual" aria-hidden="true">
-            <div class="why-choose-visual-ring"></div>
-            <img src="./assets/why-choose-products.png" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <section class="verticals-showcase" id="solutions" aria-label="Our Four Business Verticals">
-        <!-- Abstract background swooshes matching the design -->
-        <div class="verticals-bg-decor decor-bottom-left" aria-hidden="true">
-          <svg viewBox="0 0 460 340" fill="none" preserveAspectRatio="none">
-            <path d="M0 60 C180 70 290 180 360 340 L0 340 Z" fill="#ffc400" />
-            <path d="M0 140 C130 150 220 220 270 340 L0 340 Z" fill="#1b1e23" />
-            <path d="M0 220 C80 220 150 270 180 340 L0 340 Z" fill="#0f1216" />
-          </svg>
-        </div>
-        <div class="verticals-bg-decor decor-top-right" aria-hidden="true">
-          <svg viewBox="0 0 320 220" fill="none" preserveAspectRatio="none">
-            <path d="M320 0 C210 0 130 70 95 180 L320 180 Z" fill="#ffc400" />
-          </svg>
-        </div>
-
-        <div class="verticals-container">
-          <!-- Left Intro Column -->
-          <div class="verticals-intro">
-            <div class="verticals-kicker">
-              <span class="kicker-line"></span>
-              <span class="kicker-text">Our Four Business Verticals</span>
-              <span class="kicker-line"></span>
-            </div>
-            <h2 class="verticals-heading">
-              <span class="heading-line">Comprehensive</span>
-              <span class="heading-line">Marketing Solutions</span>
-              <span class="highlight-pill">Under One Roof</span>
-            </h2>
-            <p class="verticals-desc">
-              From personalised inputs to corporate gifting, events &amp; exhibitions and integrated brand marketing.
-            </p>
-
-            <div class="verticals-controls">
-              <div class="verticals-arrows">
-                <button class="verticals-arrow prev" type="button" aria-label="Previous card">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M19 12H5M12 19l-7-7 7-7"/>
-                  </svg>
-                </button>
-                <button class="verticals-arrow next" type="button" aria-label="Next card">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
-                  </svg>
-                </button>
-              </div>
-              <div class="verticals-dots" role="tablist" aria-label="Slide indicators">
-                <button class="dot active" type="button" aria-label="Slide 1"></button>
-                <button class="dot" type="button" aria-label="Slide 2"></button>
-                <button class="dot" type="button" aria-label="Slide 3"></button>
-                <button class="dot" type="button" aria-label="Slide 4"></button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right Cards Slider -->
-          <div class="verticals-slider">
-            <div class="verticals-track">
-              <!-- Card 1: Personalised Inputs -->
-              <article class="vertical-card" tabindex="0" aria-label="Personalised Inputs">
-                <img src="./assets/vertical-card-1.png" alt="Personalised Inputs — Doctor table calendar, Ryze mug, and notebook" loading="lazy" />
-              </article>
-
-              <!-- Card 2: Corporate Gifting -->
-              <article class="vertical-card" tabindex="0" aria-label="Corporate Gifting">
-                <img src="./assets/vertical-card-2.png" alt="Corporate Gifting — Ryze water bottle, mug, gift box with yellow ribbon, and notebook" loading="lazy" />
-              </article>
-
-              <!-- Card 3: Events & Exhibitions -->
-              <article class="vertical-card" tabindex="0" aria-label="Events & Exhibitions">
-                <img src="./assets/vertical-card-3.png" alt="Events and Exhibitions — Ryze Marketing exhibition stall booth" loading="lazy" />
-              </article>
-
-              <!-- Card 4: Branding & Marketing -->
-              <article class="vertical-card" tabindex="0" aria-label="Branding & Marketing">
-                <img src="./assets/vertical-card-4.png" alt="Branding & Marketing — Laptop with Ryze logo, camera and color swatches" loading="lazy" />
-              </article>
-            </div>
-          </div>
-        </div>
-
-        <div class="verticals-reference">
-          <div class="verticals-reference-intro">
-            <div class="verticals-kicker"><span class="kicker-line"></span><span class="kicker-text">OUR FOUR BUSINESS VERTICALS</span><span class="kicker-line"></span></div>
-            <h2 class="verticals-heading"><span class="heading-line">Comprehensive Marketing Solutions</span><span class="highlight-pill">Under One Roof</span></h2>
-            <p class="verticals-desc">From personalised promotional inputs to corporate gifting, events &amp; exhibitions and integrated branding, we offer end-to-end solutions to power your brand's growth.</p>
-          </div>
-          <div class="verticals-reference-grid">
-            <article class="vertical-reference-card">
-              <div class="vertical-reference-media"><img src="./assets/personalised-inputs.png" alt="Personalised medical promotional inputs" loading="lazy" /></div>
-              <div class="vertical-reference-body"><div class="vertical-reference-icon"><svg class="ui-icon"><use href="#icon-medical" /></svg></div><h3>Personalised Inputs</h3><p>Customised marketing and engagement materials that help brands communicate effectively.</p><ul><li>Personalized Doctor Inputs</li><li>Doctor Desk Accessories</li><li>Calendars &amp; Planners</li><li>Patient Engagement Kits</li><li>Promotional Merchandise</li></ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon"><use href="#icon-arrow" /></svg></a></div>
-            </article>
-            <article class="vertical-reference-card">
-              <div class="vertical-reference-media"><img src="./assets/corporate-gifting.png" alt="Corporate gifting products and gift set" loading="lazy" /></div>
-              <div class="vertical-reference-body"><div class="vertical-reference-icon"><svg class="ui-icon"><use href="#icon-gift" /></svg></div><h3>Corporate Gifting</h3><p>Thoughtfully curated gifting solutions that strengthen relationships with your key stakeholders.</p><ul><li>Corporate Gift Sets</li><li>Employee Welcome Kits</li><li>Festive &amp; Diwali Hampers</li><li>Dealer &amp; Distributor Gifting</li><li>Conference &amp; Event Gifts</li></ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon"><use href="#icon-arrow" /></svg></a></div>
-            </article>
-            <article class="vertical-reference-card">
-              <div class="vertical-reference-media"><img src="./assets/events-exhibitions.png" alt="Ryze exhibition stall and event experience" loading="lazy" /></div>
-              <div class="vertical-reference-body"><div class="vertical-reference-icon"><svg class="ui-icon"><use href="#icon-calendar" /></svg></div><h3>Events &amp; Exhibitions</h3><p>End-to-end event and exhibition solutions that bring brands and people together.</p><ul><li>Pharmaceutical Conferences &amp; Meets</li><li>Product Launch Events</li><li>Exhibition Stall Design &amp; Fabrication</li><li>Conference Management</li><li>MICE Management</li></ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon"><use href="#icon-arrow" /></svg></a></div>
-            </article>
-            <article class="vertical-reference-card">
-              <div class="vertical-reference-media"><img src="./assets/branding-marketing.png" alt="Branding and marketing design workspace" loading="lazy" /></div>
-              <div class="vertical-reference-body"><div class="vertical-reference-icon"><svg class="ui-icon"><use href="#icon-megaphone" /></svg></div><h3>Branding &amp; Marketing</h3><p>Strategic, creative and integrated marketing solutions that build strong brand identity and market presence.</p><ul><li>Brand Strategy &amp; Positioning</li><li>Brand Communication</li><li>Digital Marketing &amp; Social Media</li><li>Video Editing &amp; Production</li><li>Brochure &amp; Catalogue Designing</li></ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon"><use href="#icon-arrow" /></svg></a></div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="industries-section" id="industries" aria-labelledby="industries-reference-title">
-        <div class="industries-wave industries-wave-top" aria-hidden="true"></div>
-        <div class="industries-wave industries-wave-bottom" aria-hidden="true"></div>
-        <div class="industries-inner">
-          <p class="industries-kicker"><span></span>INDUSTRIES WE SERVE<span></span></p>
-            <h2 id="industries-title">Trusted by Leading Businesses<br class="industries-title-break" /><em>Across Industries</em></h2>
-          <p class="industries-lead">Delivering customised corporate gifting and marketing solutions for diverse business sectors.</p>
-          <div class="industries-grid">
-            <article class="industry-card">
-              <div class="industry-image-wrap"><img src="./assets/industry-pharmaceuticals.png" alt="Pharmaceuticals and healthcare laboratory" loading="lazy" /></div>
-              <div class="industry-icon"><svg class="ui-icon"><use href="#icon-medical" /></svg></div>
-              <div class="industry-card-body"><h3>Pharmaceuticals<br />&amp; Healthcare</h3><a class="industry-learn-more" href="#contact">Learn more <span aria-hidden="true">+</span></a></div>
-            </article>
-            <article class="industry-card">
-              <div class="industry-image-wrap"><img src="./assets/industry-corporate.png" alt="Corporate enterprise building" loading="lazy" /></div>
-              <div class="industry-icon"><svg class="ui-icon"><use href="#icon-building" /></svg></div>
-              <div class="industry-card-body"><h3>Corporate<br />Enterprises</h3><a class="industry-learn-more" href="#contact">Learn more <span aria-hidden="true">+</span></a></div>
-            </article>
-            <article class="industry-card">
-              <div class="industry-image-wrap"><img src="./assets/industry-manufacturing.png" alt="Manufacturing and industrial robotics" loading="lazy" /></div>
-              <div class="industry-icon"><svg class="ui-icon"><use href="#icon-gear" /></svg></div>
-              <div class="industry-card-body"><h3>Manufacturing<br />&amp; Industrial</h3><a class="industry-learn-more" href="#contact">Learn more <span aria-hidden="true">+</span></a></div>
-            </article>
-            <article class="industry-card">
-              <div class="industry-image-wrap"><img src="./assets/industry-education.png" alt="Education and institutions" loading="lazy" /></div>
-              <div class="industry-icon"><svg class="ui-icon"><use href="#icon-bulb" /></svg></div>
-              <div class="industry-card-body"><h3>Education<br />&amp; Institutions</h3><a class="industry-learn-more" href="#contact">Learn more <span aria-hidden="true">+</span></a></div>
-            </article>
-            <article class="industry-card">
-              <div class="industry-image-wrap"><img src="./assets/industry-retail.png" alt="Retail and FMCG shopping bags" loading="lazy" /></div>
-              <div class="industry-icon"><svg class="ui-icon"><use href="#icon-gift" /></svg></div>
-              <div class="industry-card-body"><h3>Retail &amp;<br />FMCG</h3><a class="industry-learn-more" href="#contact">Learn more <span aria-hidden="true">+</span></a></div>
-            </article>
-            <article class="industry-card">
-              <div class="industry-image-wrap"><img src="./assets/industry-technology.png" alt="Information technology workspace" loading="lazy" /></div>
-              <div class="industry-icon"><svg class="ui-icon"><use href="#icon-laptop" /></svg></div>
-              <div class="industry-card-body"><h3>IT &amp;<br />Technology</h3><a class="industry-learn-more" href="#contact">Learn more <span aria-hidden="true">+</span></a></div>
-            </article>
-          </div>
-          <a class="industries-cta button" href="#contact">View All Industries <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
-        </div>
-
-        <div class="industries-reference">
-          <div class="industries-reference-heading">
-            <p class="industries-kicker"><span></span>INDUSTRIES WE SERVE<span></span></p>
-            <h2 id="industries-reference-title">Trusted by Leading Businesses<br /><em>Across Industries</em></h2>
-            <p class="industries-lead">With deep expertise in pharmaceutical marketing and a strong understanding of corporate requirements,<br class="industries-reference-break" /> we deliver gifting and marketing solutions for a wide range of industries.</p>
-          </div>
-          <div class="industries-stage">
-            <div class="industries-orbit-line" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            <div class="industries-center-visual">
-              <div class="industries-center-image"><img src="./assets/industry-corporate.png" alt="Modern corporate building representing diverse industries" loading="lazy" /></div>
-              <div class="industries-center-badge"><svg class="ui-icon"><use href="#icon-chart" /></svg><strong>Diverse Industries<br />One Trusted Partner</strong></div>
-            </div>
-            <article class="industry-bubble industry-bubble-pharma"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-medical" /></svg></div><strong>Pharmaceuticals<br />&amp; Healthcare</strong></article>
-            <article class="industry-bubble industry-bubble-fmcg"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-gift" /></svg></div><strong>FMCG</strong></article>
-            <article class="industry-bubble industry-bubble-banking"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-building" /></svg></div><strong>Banking &amp;<br />Financial<br />Services</strong></article>
-            <article class="industry-bubble industry-bubble-insurance"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-check" /></svg></div><strong>Insurance</strong></article>
-            <article class="industry-bubble industry-bubble-paints"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-sliders" /></svg></div><strong>Paints &amp;<br />Coatings</strong></article>
-            <article class="industry-bubble industry-bubble-cement"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-box" /></svg></div><strong>Cement</strong></article>
-            <article class="industry-bubble industry-bubble-tiles"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-box" /></svg></div><strong>Tiles &amp;<br />Building<br />Materials</strong></article>
-            <article class="industry-bubble industry-bubble-consumer"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-laptop" /></svg></div><strong>Consumer<br />Durables</strong></article>
-            <article class="industry-bubble industry-bubble-manufacturing"><div class="industry-bubble-icon"><svg class="ui-icon"><use href="#icon-gear" /></svg></div><strong>Manufacturing &amp;<br />Industrial Businesses</strong></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonials-section" id="testimonials" aria-labelledby="testimonials-title">
-        <div class="testimonial-decor testimonial-decor-top" aria-hidden="true"></div>
-        <div class="testimonial-decor testimonial-decor-bottom" aria-hidden="true"></div>
-        <div class="testimonials-inner">
-          <div class="testimonials-visual">
-            <img src="./assets/testimonial-ryze-professional.png" alt="Ryze Marketing professional surrounded by curated corporate gifting products" loading="lazy" />
-            <div class="testimonials-visual-note"><span></span>Ideas that make brands memorable</div>
-          </div>
-          <div class="testimonials-content">
-            <p class="testimonials-kicker"><span></span>TESTIMONIALS</p>
-            <h2 id="testimonials-title">What Our <em>Clients Say</em></h2>
-            <p class="testimonials-lead">Trusted by teams who value thoughtful ideas, reliable execution and marketing that leaves a lasting impression.</p>
-            <div class="testimonials-window">
-              <div class="testimonials-track">
-                <article class="testimonial-card">
-                  <div class="testimonial-card-top"><div class="testimonial-avatar">AK</div><div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div></div>
-                  <span class="testimonial-quote-mark" aria-hidden="true">“</span>
-                  <p>Ryze understood our brand from the first conversation and delivered gifting kits that felt truly thoughtful and premium.</p>
-                  <div class="testimonial-person"><strong>Ananya Kapoor</strong><span>Marketing Lead</span></div>
-                </article>
-                <article class="testimonial-card">
-                  <div class="testimonial-card-top"><div class="testimonial-avatar testimonial-avatar-gold">RS</div><div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div></div>
-                  <span class="testimonial-quote-mark" aria-hidden="true">“</span>
-                  <p>From concept to delivery, the team was organised, creative and dependable. Our event presence looked outstanding.</p>
-                  <div class="testimonial-person"><strong>Rohan Shah</strong><span>Business Head</span></div>
-                </article>
-                <article class="testimonial-card">
-                  <div class="testimonial-card-top"><div class="testimonial-avatar testimonial-avatar-blue">NM</div><div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div></div>
-                  <span class="testimonial-quote-mark" aria-hidden="true">“</span>
-                  <p>The customised merchandise helped us create a consistent brand experience across our teams and clients.</p>
-                  <div class="testimonial-person"><strong>Neha Mehta</strong><span>People &amp; Culture</span></div>
-                </article>
-                <article class="testimonial-card">
-                  <div class="testimonial-card-top"><div class="testimonial-avatar testimonial-avatar-ink">VM</div><div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div></div>
-                  <span class="testimonial-quote-mark" aria-hidden="true">“</span>
-                  <p>They brought fresh ideas to every brief and made the entire marketing execution feel simple and stress-free.</p>
-                  <div class="testimonial-person"><strong>Vikram Malhotra</strong><span>Founder</span></div>
-                </article>
-              </div>
-            </div>
-            <div class="testimonials-scroll-hint" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="brands-section" id="brands" aria-labelledby="brands-title">
-        <div class="brands-wave brands-wave-top" aria-hidden="true"></div>
-        <div class="brands-wave brands-wave-bottom" aria-hidden="true"></div>
-        <div class="brands-inner">
-          <p class="brands-kicker"><span></span>BRANDS ASSOCIATED WITH<span></span></p>
-          <h2 id="brands-title">Our <em>Trusted Brands</em></h2>
-          <div class="brands-panel">
-            <div class="brand-logo"><img src="./assets/branch/borosil.png" alt="Borosil" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/cello.png" alt="Cello" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/laopala.png" alt="La Opala" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/luxat.png" alt="Luxat" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/milton.png" alt="Milton" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/yera.png" alt="Yera Glassware" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/welspun.png" alt="Welspun" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/mafatlal.png" alt="Mafatlal" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/dibha.png" alt="Dibha" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/easycare.png" alt="Easycare" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/vip.png" alt="VIP Happy Journey" loading="lazy" /></div>
-            <div class="brand-logo"><img src="./assets/branch/treo.png" alt="Cello Treo" loading="lazy" /></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="process-section" id="approach">
-        <div class="process-corner process-corner-top" aria-hidden="true"></div>
-        <div class="process-corner process-corner-bottom" aria-hidden="true"></div>
-        <div class="process-container">
-          <p class="process-kicker"><span></span>Our Working Process<span></span></p>
-          <h2 class="process-title">From Idea to <em>Impact</em></h2>
-          <p class="process-subtitle">A simple, transparent and result-driven process to bring your gifting and marketing ideas to life.</p>
-          <div class="process-flow">
-            <article class="process-card-wrap"><div class="process-orb"><span class="process-number">01</span><svg class="ui-icon"><use href="#icon-chat" /></svg></div><div class="process-card"><h3>Understand<br />Your Requirements</h3><p>We identify your goals,<br />audience and gifting /<br />marketing needs.</p></div></article>
-            <div class="process-arrow" aria-hidden="true"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="process-card-wrap"><div class="process-orb"><span class="process-number">02</span><svg class="ui-icon"><use href="#icon-bulb" /></svg></div><div class="process-card"><h3>Conceptualise<br />&amp; Proposal</h3><p>We develop creative ideas,<br />product options and a<br />customised proposal.</p></div></article>
-            <div class="process-arrow" aria-hidden="true"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="process-card-wrap"><div class="process-orb"><span class="process-number">03</span><svg class="ui-icon"><use href="#icon-box" /></svg></div><div class="process-card"><h3>Create<br />&amp; Customise</h3><p>We design, source and<br />customise the best-fit<br />products for your brand.</p></div></article>
-            <div class="process-arrow" aria-hidden="true"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="process-card-wrap"><div class="process-orb"><span class="process-number">04</span><svg class="ui-icon"><use href="#icon-calendar-check" /></svg></div><div class="process-card"><h3>Execute<br />Your Project</h3><p>End-to-end coordination<br />and timely delivery<br />with quality assurance.</p></div></article>
-            <div class="process-arrow" aria-hidden="true"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="process-card-wrap"><div class="process-orb"><span class="process-number">05</span><svg class="ui-icon"><use href="#icon-chart" /></svg></div><div class="process-card"><h3>Deliver<br />With Impact</h3><p>We ensure greater<br />engagement, brand visibility<br />and long-term value.</p></div></article>
-          </div>
-          <a class="process-cta button" href="#contact">Start Your Project <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
-        </div>
-      </section>
-      <section class="legacy-approach" aria-hidden="true">
-        <div class="approach-glow" aria-hidden="true"></div>
-        <div class="container">
-          <div class="section-heading"><span></span><h2>From the first idea to the <em>final delivery</em></h2><span></span></div>
-          <div class="steps">
-            <article class="step"><div class="step-icon"><svg class="ui-icon"><use href="#icon-search" /></svg></div><strong>1. Understand</strong><p>Identify the client’s requirement and objectives.</p></article>
-            <div class="step-arrow"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="step"><div class="step-icon"><svg class="ui-icon"><use href="#icon-bulb" /></svg></div><strong>2. Conceptualise</strong><p>Develop ideas and customised solutions.</p></article>
-            <div class="step-arrow"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="step"><div class="step-icon"><svg class="ui-icon"><use href="#icon-pencil" /></svg></div><strong>3. Create</strong><p>Design, source and develop the required materials.</p></article>
-            <div class="step-arrow"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="step"><div class="step-icon"><svg class="ui-icon"><use href="#icon-gear" /></svg></div><strong>4. Execute</strong><p>Manage production and implementation.</p></article>
-            <div class="step-arrow"><svg class="button-icon"><use href="#icon-arrow" /></svg></div>
-            <article class="step"><div class="step-icon"><svg class="ui-icon"><use href="#icon-check" /></svg></div><strong>5. Deliver</strong><p>Ensure timely delivery and project completion.</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="cta-reference" id="contact">
-        <div class="cta-reference-corner cta-reference-corner-left" aria-hidden="true"></div>
-        <div class="cta-reference-corner cta-reference-corner-right" aria-hidden="true"></div>
-        <div class="cta-reference-inner">
-          <div class="cta-reference-copy">
-            <p class="cta-reference-kicker"><span></span>READY TO ELEVATE YOUR BRAND?<span></span></p>
-            <h2>Let’s Bring Your Gifting &amp;<br />Marketing <em>Ideas to Life</em></h2>
-            <p class="cta-reference-lead">Partner with Ryze Marketing for customised corporate gifting,<br class="cta-desktop-only" /> brand promotions, events and exhibitions.</p>
-          </div>
-          <div class="cta-reference-products"><img src="./assets/cta-products.png" alt="Corporate gifting products" /><img class="cta-reference-logo" src="./assets/logo.png" alt="Ryze Marketing logo" /></div>
-          <div class="cta-reference-action"><a class="button" href="mailto:hello@ryzemarketing.in">Get in Touch <svg class="button-icon"><use href="#icon-arrow" /></svg></a></div>
-        </div>
-      </section>
-      <section class="cta-legacy" aria-hidden="true">
-        <div class="container cta-card">
-          <div class="cta-accent" aria-hidden="true"></div>
-          <div class="cta-copy"><p class="eyebrow"><span></span>Ready when you are</p><h2>Let’s create something<br />that leaves a <em>lasting impression.</em></h2></div>
-          <a class="button button-primary" href="mailto:hello@ryzemarketing.in">Get in Touch <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
-        </div>
-      </section>
-
-      <section class="about-reference about-reference-later" id="about-later" aria-hidden="true">
-        <div class="about-reference-shape about-reference-shape-top" aria-hidden="true"></div>
-        <div class="about-reference-shape about-reference-shape-bottom" aria-hidden="true"></div>
-        <div class="about-reference-inner">
-          <div class="about-collage-wrap">
-            <div class="about-collage-ring" aria-hidden="true"></div>
-            <img class="about-collage" src="./assets/about-collage-branded.png" alt="Branded Ryze corporate gifting set and exhibition displays" />
-          </div>
-          <div class="about-copy">
-            <p class="about-kicker"><span></span>ABOUT RYZE MARKETING</p>
-            <h2><span>Your Partner in Corporate Gifting &amp;</span><span><em>Marketing Solutions</em></span></h2>
-            <p class="about-lead">Ryze Marketing is a B2B corporate gifting and marketing solutions company committed to helping businesses build stronger relationships, create memorable brand experiences and execute impactful marketing initiatives.</p>
-            <div class="about-mission-grid">
-              <article class="about-mission-card"><div class="about-mission-icon"><svg class="ui-icon"><use href="#icon-target" /></svg></div><div><h3>Our Vision</h3><p>To become a trusted and preferred corporate gifting and marketing solutions partner for businesses across India.</p></div></article>
-              <article class="about-mission-card"><div class="about-mission-icon"><svg class="ui-icon"><use href="#icon-mountain" /></svg></div><div><h3>Our Mission</h3><p>To simplify marketing execution by delivering innovative ideas, customised solutions, quality products and reliable project execution.</p></div></article>
-            </div>
-            <a class="about-reference-cta button" href="#contact">Explore More <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
-          </div>
-        </div>
-      </section>
-      <section class="about-legacy" aria-hidden="true">
-        <div class="container about-inner"><div><p class="eyebrow"><span></span>Built around your ambition</p><h2>One team for every<br /><em>brand moment.</em></h2></div><p>Ryze Marketing brings strategic thinking, thoughtful design and dependable execution together—so your brand shows up with clarity wherever it matters.</p></div>
-      </section>
-    </main>
-
-    <section class="marquee-strip footer-marquee" aria-label="Corporate gifting solutions">
+  <main id="top">
+    <section class="marquee-strip body-marquee-top" aria-label="Corporate gifting solutions">
       <div class="marquee-track">
         <div class="marquee-group">
-          <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-gift" /></svg><span>Gifts for Employees</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Clients</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Partners</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Gifts for Events</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Premium Corporate Gifts</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-gift" />
+            </svg><span>Gifts for Employees</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Clients</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Partners</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Gifts for Events</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Premium Corporate Gifts</span></div><i></i>
         </div>
         <div class="marquee-group" aria-hidden="true">
-          <div class="marquee-item"><svg class="marquee-icon"><use href="#icon-gift" /></svg><span>Gifts for Employees</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Clients</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-handshake" /></svg><span>Gifts for Partners</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Gifts for Events</span></div><i></i><div class="marquee-item"><svg class="marquee-icon"><use href="#icon-diamond" /></svg><span>Premium Corporate Gifts</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-gift" />
+            </svg><span>Gifts for Employees</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Clients</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Partners</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Gifts for Events</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Premium Corporate Gifts</span></div><i></i>
+        </div>
+      </div>
+    </section>
+    <section class="hero" aria-label="Ryze Marketing introduction">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+        <source src="./assets/hero-video.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section class="marquee-strip body-marquee-after" aria-label="Corporate gifting solutions">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-gift" />
+            </svg><span>Gifts for Employees</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Clients</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Partners</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Gifts for Events</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Premium Corporate Gifts</span></div><i></i>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-gift" />
+            </svg><span>Gifts for Employees</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Clients</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-handshake" />
+            </svg><span>Gifts for Partners</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Gifts for Events</span></div><i></i>
+          <div class="marquee-item"><svg class="marquee-icon">
+              <use href="#icon-diamond" />
+            </svg><span>Premium Corporate Gifts</span></div><i></i>
         </div>
       </div>
     </section>
 
-    <footer class="site-footer reference-footer" id="footer">
-      <div class="container footer-grid">
-        <div class="footer-about">
-          <a class="footer-logo" href="#top"><img src="./assets/logo.png" alt="Ryze Marketing" /></a>
-          <h3>Ideas. Experiences. Impact.</h3>
-          <p>A B2B corporate gifting and marketing solutions company, helping businesses build stronger relationships and create meaningful brand experiences.</p>
+    <section class="about-reference" id="about">
+      <div class="about-reference-shape about-reference-shape-top" aria-hidden="true"></div>
+      <div class="about-reference-shape about-reference-shape-bottom" aria-hidden="true"></div>
+      <div class="about-reference-inner">
+        <div class="about-collage-wrap">
+          <div class="about-collage-ring" aria-hidden="true"></div>
+          <img class="about-collage" src="./assets/about-collage-branded.png"
+            alt="Branded Ryze corporate gifting set and exhibition displays" />
         </div>
-        <div class="footer-column"><h3>Our Verticals</h3><a href="#solutions"><svg class="footer-icon"><use href="#icon-medical" /></svg><span>Personalised Inputs</span></a><a href="#solutions"><svg class="footer-icon"><use href="#icon-gift" /></svg><span>Corporate Gifting</span></a><a href="#solutions"><svg class="footer-icon"><use href="#icon-calendar" /></svg><span>Events &amp; Exhibitions</span></a><a href="#solutions"><svg class="footer-icon"><use href="#icon-megaphone" /></svg><span>Branding &amp; Marketing</span></a></div>
-        <div class="footer-column"><h3>Quick Links</h3><a href="#about"><span class="footer-arrow">›</span><span>About Us</span></a><a href="#approach"><span class="footer-arrow">›</span><span>Our Approach</span></a><a href="#industries"><span class="footer-arrow">›</span><span>Industries We Serve</span></a><a href="#why-choose"><span class="footer-arrow">›</span><span>Why Ryze</span></a><a href="#contact"><span class="footer-arrow">›</span><span>Contact Us</span></a></div>
-        <div class="footer-column footer-contact"><h3>Get in Touch</h3><a href="#contact"><svg class="footer-icon"><use href="#icon-pin" /></svg><span>I-202, Vishranti Tulips, Behind Maa Party Plot, Harni, Vadodara-390022</span></a><a href="tel:+919930735797"><svg class="footer-icon"><use href="#icon-phone" /></svg><span>+91-9930735797</span></a><a href="mailto:hello@ryzemarketing.in"><svg class="footer-icon"><use href="#icon-mail" /></svg><span>hello@ryzemarketing.in</span></a></div>
+        <div class="about-copy">
+          <p class="about-kicker"><span></span>ABOUT RYZE MARKETING</p>
+          <h2><span>Your Partner in Corporate Gifting &amp;</span><span><em>Marketing Solutions</em></span></h2>
+          <p class="about-lead">Ryze Marketing is a B2B corporate gifting and marketing solutions company committed to
+            helping businesses build stronger relationships, create memorable brand experiences and execute impactful
+            marketing initiatives.</p>
+          <div class="about-mission-grid">
+            <article class="about-mission-card">
+              <div class="about-mission-icon"><svg class="ui-icon">
+                  <use href="#icon-target" />
+                </svg></div>
+              <div>
+                <h3>Our Vision</h3>
+                <p>To become a trusted and preferred corporate gifting and marketing solutions partner for businesses
+                  across India.</p>
+              </div>
+            </article>
+            <article class="about-mission-card">
+              <div class="about-mission-icon"><svg class="ui-icon">
+                  <use href="#icon-mountain" />
+                </svg></div>
+              <div>
+                <h3>Our Mission</h3>
+                <p>To simplify marketing execution by delivering innovative ideas, customised solutions, quality
+                  products and reliable project execution.</p>
+              </div>
+            </article>
+          </div>
+          <a class="about-reference-cta button" href="#contact">Explore More <svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></a>
+        </div>
       </div>
-      <div class="footer-bottom"><div class="container"><span class="copyright-link">© 2026 Ryze Marketing. All rights reserved.</span></div></div>
-    </footer>
-    <script src="./script.js"></script>
-  </body>
+    </section>
+
+    <section class="why-choose-section" id="why-choose" aria-labelledby="why-choose-title">
+      <div class="why-choose-layout">
+
+        <!-- Left Column: Product Showcase Visual -->
+        <div class="why-choose-visual-col">
+          <div class="why-choose-visual-wrap">
+            <img src="./assets/why-choose-gifts.png" alt="Ryze Marketing Premium Corporate Gifting Set" class="why-choose-gift-img" />
+          </div>
+        </div>
+
+        <!-- Right Column: Content Header & 6 Cards -->
+        <div class="why-choose-content-col">
+          <div class="why-choose-header-center">
+            <div class="why-choose-kicker-bar">
+              <span class="kicker-line" aria-hidden="true"></span>
+              <span class="kicker-text">WHY CHOOSE</span>
+              <span class="kicker-line" aria-hidden="true"></span>
+            </div>
+            <h2 class="why-choose-title-main" id="why-choose-title">
+              RYZE <span class="title-highlight">MARKETING
+                <svg class="title-brush-accent" viewBox="0 0 220 18" fill="none" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M3 13C50 4 170 4 217 11" stroke="#ffc400" stroke-width="5" stroke-linecap="round"/>
+                </svg>
+              </span>
+            </h2>
+            <p class="why-choose-subtitle">
+              A strategic, creative and execution-focused partner for all your corporate gifting and marketing needs.
+            </p>
+          </div>
+
+          <div class="why-feature-grid">
+            <!-- Card 1 -->
+            <article class="why-feature-card">
+              <div class="feature-icon-badge" aria-hidden="true">
+                <svg class="feature-icon"><use href="#icon-layers" /></svg>
+              </div>
+              <h3 class="feature-card-title">Four Integrated<br />Verticals</h3>
+              <p class="feature-card-desc">Complete marketing, gifting, events and branding solutions under one roof.</p>
+              <div class="feature-card-corner-accent" aria-hidden="true">
+                <svg viewBox="0 0 60 60" fill="none" preserveAspectRatio="none">
+                  <path d="M0,60 C20,60 46,46 60,14 L60,60 Z" fill="#ffc400" />
+                </svg>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="why-feature-card">
+              <div class="feature-icon-badge" aria-hidden="true">
+                <svg class="feature-icon"><use href="#icon-sliders" /></svg>
+              </div>
+              <h3 class="feature-card-title">Customised<br />Solutions</h3>
+              <p class="feature-card-desc">Tailored to your objectives, audience and business requirements.</p>
+              <div class="feature-card-corner-accent" aria-hidden="true">
+                <svg viewBox="0 0 60 60" fill="none" preserveAspectRatio="none">
+                  <path d="M0,60 C20,60 46,46 60,14 L60,60 Z" fill="#ffc400" />
+                </svg>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="why-feature-card">
+              <div class="feature-icon-badge" aria-hidden="true">
+                <svg class="feature-icon"><use href="#icon-bulb" /></svg>
+              </div>
+              <h3 class="feature-card-title">Creative<br />Thinking</h3>
+              <p class="feature-card-desc">Innovative ideas with practical, result-driven marketing applications.</p>
+              <div class="feature-card-corner-accent" aria-hidden="true">
+                <svg viewBox="0 0 60 60" fill="none" preserveAspectRatio="none">
+                  <path d="M0,60 C20,60 46,46 60,14 L60,60 Z" fill="#ffc400" />
+                </svg>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="why-feature-card">
+              <div class="feature-icon-badge" aria-hidden="true">
+                <svg class="feature-icon"><use href="#icon-shield-check" /></svg>
+              </div>
+              <h3 class="feature-card-title">End-to-End<br />Execution</h3>
+              <p class="feature-card-desc">From concept and planning to production, coordination and delivery.</p>
+              <div class="feature-card-corner-accent" aria-hidden="true">
+                <svg viewBox="0 0 60 60" fill="none" preserveAspectRatio="none">
+                  <path d="M0,60 C20,60 46,46 60,14 L60,60 Z" fill="#ffc400" />
+                </svg>
+              </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="why-feature-card">
+              <div class="feature-icon-badge" aria-hidden="true">
+                <svg class="feature-icon"><use href="#icon-users" /></svg>
+              </div>
+              <h3 class="feature-card-title">Industry<br />Understanding</h3>
+              <p class="feature-card-desc">Strong expertise in pharmaceutical marketing and diverse corporate sectors.</p>
+              <div class="feature-card-corner-accent" aria-hidden="true">
+                <svg viewBox="0 0 60 60" fill="none" preserveAspectRatio="none">
+                  <path d="M0,60 C20,60 46,46 60,14 L60,60 Z" fill="#ffc400" />
+                </svg>
+              </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="why-feature-card">
+              <div class="feature-icon-badge" aria-hidden="true">
+                <svg class="feature-icon"><use href="#icon-handshake" /></svg>
+              </div>
+              <h3 class="feature-card-title">Reliable<br />Coordination</h3>
+              <p class="feature-card-desc">A single point of contact for diverse marketing and gifting requirements.</p>
+              <div class="feature-card-corner-accent" aria-hidden="true">
+                <svg viewBox="0 0 60 60" fill="none" preserveAspectRatio="none">
+                  <path d="M0,60 C20,60 46,46 60,14 L60,60 Z" fill="#ffc400" />
+                </svg>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="verticals-showcase" id="solutions" aria-label="Our Four Business Verticals">
+      <!-- Abstract background swooshes matching the design -->
+      <div class="verticals-bg-decor decor-bottom-left" aria-hidden="true">
+        <svg viewBox="0 0 460 340" fill="none" preserveAspectRatio="none">
+          <path d="M0 60 C180 70 290 180 360 340 L0 340 Z" fill="#ffc400" />
+          <path d="M0 140 C130 150 220 220 270 340 L0 340 Z" fill="#1b1e23" />
+          <path d="M0 220 C80 220 150 270 180 340 L0 340 Z" fill="#0f1216" />
+        </svg>
+      </div>
+      <div class="verticals-bg-decor decor-top-right" aria-hidden="true">
+        <svg viewBox="0 0 320 220" fill="none" preserveAspectRatio="none">
+          <path d="M320 0 C210 0 130 70 95 180 L320 180 Z" fill="#ffc400" />
+        </svg>
+      </div>
+
+      <div class="verticals-container">
+        <!-- Left Intro Column -->
+        <div class="verticals-intro">
+          <div class="verticals-kicker">
+            <span class="kicker-line"></span>
+            <span class="kicker-text">Our Four Business Verticals</span>
+            <span class="kicker-line"></span>
+          </div>
+          <h2 class="verticals-heading">
+            <span class="heading-line">Comprehensive</span>
+            <span class="heading-line">Marketing Solutions</span>
+            <span class="highlight-pill">Under One Roof</span>
+          </h2>
+          <p class="verticals-desc">
+            From personalised inputs to corporate gifting, events &amp; exhibitions and integrated brand marketing.
+          </p>
+
+          <div class="verticals-controls">
+            <div class="verticals-arrows">
+              <button class="verticals-arrow prev" type="button" aria-label="Previous card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <button class="verticals-arrow next" type="button" aria-label="Next card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+            <div class="verticals-dots" role="tablist" aria-label="Slide indicators">
+              <button class="dot active" type="button" aria-label="Slide 1"></button>
+              <button class="dot" type="button" aria-label="Slide 2"></button>
+              <button class="dot" type="button" aria-label="Slide 3"></button>
+              <button class="dot" type="button" aria-label="Slide 4"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Cards Slider -->
+        <div class="verticals-slider">
+          <div class="verticals-track">
+            <!-- Card 1: Personalised Inputs -->
+            <article class="vertical-card" tabindex="0" aria-label="Personalised Inputs">
+              <img src="./assets/vertical-card-1.png"
+                alt="Personalised Inputs — Doctor table calendar, Ryze mug, and notebook" loading="lazy" />
+            </article>
+
+            <!-- Card 2: Corporate Gifting -->
+            <article class="vertical-card" tabindex="0" aria-label="Corporate Gifting">
+              <img src="./assets/vertical-card-2.png"
+                alt="Corporate Gifting — Ryze water bottle, mug, gift box with yellow ribbon, and notebook"
+                loading="lazy" />
+            </article>
+
+            <!-- Card 3: Events & Exhibitions -->
+            <article class="vertical-card" tabindex="0" aria-label="Events & Exhibitions">
+              <img src="./assets/vertical-card-3.png"
+                alt="Events and Exhibitions — Ryze Marketing exhibition stall booth" loading="lazy" />
+            </article>
+
+            <!-- Card 4: Branding & Marketing -->
+            <article class="vertical-card" tabindex="0" aria-label="Branding & Marketing">
+              <img src="./assets/vertical-card-4.png"
+                alt="Branding & Marketing — Laptop with Ryze logo, camera and color swatches" loading="lazy" />
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="verticals-reference">
+        <div class="verticals-reference-intro">
+          <div class="verticals-kicker"><span class="kicker-line"></span><span class="kicker-text">OUR FOUR BUSINESS
+              VERTICALS</span><span class="kicker-line"></span></div>
+          <h2 class="verticals-heading"><span class="heading-line">Comprehensive Marketing Solutions</span><span
+              class="highlight-pill">Under One Roof</span></h2>
+          <p class="verticals-desc">From personalised promotional inputs to corporate gifting, events &amp; exhibitions
+            and integrated branding, we offer end-to-end solutions to power your brand's growth.</p>
+        </div>
+        <div class="verticals-reference-grid">
+          <article class="vertical-reference-card">
+            <div class="vertical-reference-media"><img src="./assets/personalised-inputs.png"
+                alt="Personalised medical promotional inputs" loading="lazy" /></div>
+            <div class="vertical-reference-body">
+              <div class="vertical-reference-icon"><svg class="ui-icon">
+                  <use href="#icon-medical" />
+                </svg></div>
+              <h3>Personalised Inputs</h3>
+              <p>Customised marketing and engagement materials that help brands communicate effectively.</p>
+              <ul>
+                <li>Personalized Doctor Inputs</li>
+                <li>Doctor Desk Accessories</li>
+                <li>Calendars &amp; Planners</li>
+                <li>Patient Engagement Kits</li>
+                <li>Promotional Merchandise</li>
+              </ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon">
+                  <use href="#icon-arrow" />
+                </svg></a>
+            </div>
+          </article>
+          <article class="vertical-reference-card">
+            <div class="vertical-reference-media"><img src="./assets/corporate-gifting.png"
+                alt="Corporate gifting products and gift set" loading="lazy" /></div>
+            <div class="vertical-reference-body">
+              <div class="vertical-reference-icon"><svg class="ui-icon">
+                  <use href="#icon-gift" />
+                </svg></div>
+              <h3>Corporate Gifting</h3>
+              <p>Thoughtfully curated gifting solutions that strengthen relationships with your key stakeholders.</p>
+              <ul>
+                <li>Corporate Gift Sets</li>
+                <li>Employee Welcome Kits</li>
+                <li>Festive &amp; Diwali Hampers</li>
+                <li>Dealer &amp; Distributor Gifting</li>
+                <li>Conference &amp; Event Gifts</li>
+              </ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon">
+                  <use href="#icon-arrow" />
+                </svg></a>
+            </div>
+          </article>
+          <article class="vertical-reference-card">
+            <div class="vertical-reference-media"><img src="./assets/events-exhibitions.png"
+                alt="Ryze exhibition stall and event experience" loading="lazy" /></div>
+            <div class="vertical-reference-body">
+              <div class="vertical-reference-icon"><svg class="ui-icon">
+                  <use href="#icon-calendar" />
+                </svg></div>
+              <h3>Events &amp; Exhibitions</h3>
+              <p>End-to-end event and exhibition solutions that bring brands and people together.</p>
+              <ul>
+                <li>Pharmaceutical Conferences &amp; Meets</li>
+                <li>Product Launch Events</li>
+                <li>Exhibition Stall Design &amp; Fabrication</li>
+                <li>Conference Management</li>
+                <li>MICE Management</li>
+              </ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon">
+                  <use href="#icon-arrow" />
+                </svg></a>
+            </div>
+          </article>
+          <article class="vertical-reference-card">
+            <div class="vertical-reference-media"><img src="./assets/branding-marketing.png"
+                alt="Branding and marketing design workspace" loading="lazy" /></div>
+            <div class="vertical-reference-body">
+              <div class="vertical-reference-icon"><svg class="ui-icon">
+                  <use href="#icon-megaphone" />
+                </svg></div>
+              <h3>Branding &amp; Marketing</h3>
+              <p>Strategic, creative and integrated marketing solutions that build strong brand identity and market
+                presence.</p>
+              <ul>
+                <li>Brand Strategy &amp; Positioning</li>
+                <li>Brand Communication</li>
+                <li>Digital Marketing &amp; Social Media</li>
+                <li>Video Editing &amp; Production</li>
+                <li>Brochure &amp; Catalogue Designing</li>
+              </ul><a class="vertical-reference-cta" href="#contact">Explore Solutions <svg class="button-icon">
+                  <use href="#icon-arrow" />
+                </svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="industries-section" id="industries" aria-labelledby="industries-title">
+      <!-- Background organic wave flourishes matching design -->
+      <div class="industries-decor decor-top-left" aria-hidden="true">
+        <svg viewBox="0 0 380 260" fill="none" preserveAspectRatio="none">
+          <path d="M 0,0 L 320,0 C 230,50 130,140 0,260 Z" fill="#FDE68A" opacity="0.45" />
+          <path d="M 0,0 L 250,0 C 180,40 100,110 0,210 Z" fill="#F59E0B" />
+        </svg>
+      </div>
+      <div class="industries-decor decor-top-right" aria-hidden="true">
+        <svg viewBox="0 0 320 220" fill="none" preserveAspectRatio="none">
+          <path d="M 120,0 C 180,40 240,85 320,115 L 320,0 Z" fill="#F8FAFC" opacity="0.85" />
+        </svg>
+      </div>
+      <div class="industries-decor decor-bottom-left" aria-hidden="true">
+        <svg viewBox="0 0 480 180" fill="none" preserveAspectRatio="none">
+          <!-- Solid dark charcoal base wave -->
+          <path d="M 0,65 C 160,65 320,115 480,180 L 0,180 Z" fill="#0F172A" />
+          <!-- Vibrant golden yellow upper accent ribbon -->
+          <path d="M 0,52 C 160,52 320,102 480,168 L 480,180 C 320,115 160,65 0,65 Z" fill="#F59E0B" />
+        </svg>
+      </div>
+      <div class="industries-decor decor-bottom-right" aria-hidden="true">
+        <svg viewBox="0 0 480 180" fill="none" preserveAspectRatio="none">
+          <!-- Solid dark charcoal base wave -->
+          <path d="M 480,65 C 320,65 160,115 0,180 L 480,180 Z" fill="#0F172A" />
+          <!-- Vibrant golden yellow upper accent ribbon -->
+          <path d="M 480,52 C 320,52 160,102 0,168 L 0,180 C 160,115 320,65 480,65 Z" fill="#F59E0B" />
+        </svg>
+      </div>
+
+      <div class="industries-header">
+        <p class="industries-kicker"><span class="kicker-line"></span>INDUSTRIES WE SERVE<span
+            class="kicker-line"></span></p>
+        <h2 id="industries-title">Trusted by Leading Businesses<br /><span class="across-text">Across Industries<svg
+              class="across-underline" viewBox="0 0 280 18" fill="none" preserveAspectRatio="none">
+              <path d="M 4,13 C 70,5 200,5 276,11" stroke="#F59E0B" stroke-width="4.5" stroke-linecap="round" />
+            </svg></span></h2>
+        <p class="industries-lead">With deep expertise in pharmaceutical marketing and a strong understanding of
+          corporate requirements,<br class="industries-lead-break" />we deliver gifting and marketing solutions for a
+          wide range of industries.</p>
+      </div>
+
+      <div class="industries-stage">
+        <!-- Continuous smooth golden elliptical arc with glowing node markers -->
+        <svg class="industries-arc-svg" viewBox="0 0 1380 560" fill="none" preserveAspectRatio="none"
+          aria-hidden="true">
+          <path class="arc-curve" d="M 85,410 C 220,195 440,70 690,70 C 940,70 1160,195 1295,410" stroke="#F59E0B"
+            stroke-width="2.5" stroke-linecap="round" />
+          <!-- 8 Orbital nodes along the curve matching reference mockup -->
+          <circle cx="153" cy="325" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+          <circle cx="297" cy="222" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+          <circle cx="455" cy="140" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+          <circle cx="614" cy="88" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+          <circle cx="766" cy="88" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+          <circle cx="925" cy="140" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+          <circle cx="1083" cy="222" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+          <circle cx="1227" cy="325" r="7.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3.5" />
+        </svg>
+
+        <!-- Central Corporate Visual Arch -->
+        <div class="industries-center-visual">
+          <div class="industries-center-image">
+            <img src="./assets/industry-corporate.png" alt="Modern corporate building representing diverse industries"
+              loading="lazy" />
+          </div>
+          <div class="industries-center-badge">
+            <span class="badge-line" aria-hidden="true"></span>
+            <div class="badge-body">
+              <svg class="badge-icon">
+                <use href="#icon-growth-bars" />
+              </svg>
+              <div class="badge-text">
+                <span class="badge-line-1">Diverse Industries</span>
+                <span class="badge-line-2">One Trusted Partner</span>
+              </div>
+            </div>
+            <span class="badge-line" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <!-- 9 Orbital Industry Cards -->
+        <article class="industry-card industry-card-1">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-stethoscope" />
+            </svg></div>
+          <h3>Pharmaceuticals<br />&amp; Healthcare</h3>
+        </article>
+
+        <article class="industry-card industry-card-2">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-cart" />
+            </svg></div>
+          <h3>FMCG</h3>
+        </article>
+
+        <article class="industry-card industry-card-3">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-bank" />
+            </svg></div>
+          <h3>Banking &amp;<br />Financial<br />Services</h3>
+        </article>
+
+        <article class="industry-card industry-card-4">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-shield-check" />
+            </svg></div>
+          <h3>Insurance</h3>
+        </article>
+
+        <article class="industry-card industry-card-5">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-paint-roller" />
+            </svg></div>
+          <h3>Paints &amp;<br />Coatings</h3>
+        </article>
+
+        <article class="industry-card industry-card-6">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-cement-layers" />
+            </svg></div>
+          <h3>Cement</h3>
+        </article>
+
+        <article class="industry-card industry-card-7">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-tiles" />
+            </svg></div>
+          <h3>Tiles &amp;<br />Building<br />Materials</h3>
+        </article>
+
+        <article class="industry-card industry-card-8">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-monitor" />
+            </svg></div>
+          <h3>Consumer<br />Durables</h3>
+        </article>
+
+        <article class="industry-card industry-card-9">
+          <div class="industry-card-icon"><svg class="ui-icon">
+              <use href="#icon-factory" />
+            </svg></div>
+          <h3>Manufacturing &amp;<br />Industrial<br />Businesses</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="testimonial-decor testimonial-decor-top" aria-hidden="true"></div>
+      <div class="testimonial-decor testimonial-decor-bottom" aria-hidden="true"></div>
+      <div class="testimonials-inner">
+        <div class="testimonials-visual">
+          <img src="./assets/testimonial-ryze-professional.png"
+            alt="Ryze Marketing professional surrounded by curated corporate gifting products" loading="lazy" />
+          <div class="testimonials-visual-note"><span></span>Ideas that make brands memorable</div>
+        </div>
+        <div class="testimonials-content">
+          <p class="testimonials-kicker"><span></span>TESTIMONIALS</p>
+          <h2 id="testimonials-title">What Our <em>Clients Say</em></h2>
+          <p class="testimonials-lead">Trusted by teams who value thoughtful ideas, reliable execution and marketing
+            that leaves a lasting impression.</p>
+          <div class="testimonials-window">
+            <div class="testimonials-track">
+              <article class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-avatar">AK</div>
+                  <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                </div>
+                <span class="testimonial-quote-mark" aria-hidden="true">“</span>
+                <p>Ryze understood our brand from the first conversation and delivered gifting kits that felt truly
+                  thoughtful and premium.</p>
+                <div class="testimonial-person"><strong>Ananya Kapoor</strong><span>Marketing Lead</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-avatar testimonial-avatar-gold">RS</div>
+                  <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                </div>
+                <span class="testimonial-quote-mark" aria-hidden="true">“</span>
+                <p>From concept to delivery, the team was organised, creative and dependable. Our event presence looked
+                  outstanding.</p>
+                <div class="testimonial-person"><strong>Rohan Shah</strong><span>Business Head</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-avatar testimonial-avatar-blue">NM</div>
+                  <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                </div>
+                <span class="testimonial-quote-mark" aria-hidden="true">“</span>
+                <p>The customised merchandise helped us create a consistent brand experience across our teams and
+                  clients.</p>
+                <div class="testimonial-person"><strong>Neha Mehta</strong><span>People &amp; Culture</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-card-top">
+                  <div class="testimonial-avatar testimonial-avatar-ink">VM</div>
+                  <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                </div>
+                <span class="testimonial-quote-mark" aria-hidden="true">“</span>
+                <p>They brought fresh ideas to every brief and made the entire marketing execution feel simple and
+                  stress-free.</p>
+                <div class="testimonial-person"><strong>Vikram Malhotra</strong><span>Founder</span></div>
+              </article>
+            </div>
+          </div>
+          <div class="testimonials-scroll-hint" aria-hidden="true"><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands-section" id="brands" aria-labelledby="brands-title">
+      <div class="brands-wave brands-wave-top" aria-hidden="true"></div>
+      <div class="brands-wave brands-wave-bottom" aria-hidden="true"></div>
+      <div class="brands-inner">
+        <p class="brands-kicker"><span></span>BRANDS ASSOCIATED WITH<span></span></p>
+        <h2 id="brands-title">Our <em>Trusted Brands</em></h2>
+        <div class="brands-panel">
+          <div class="brand-logo"><img src="./assets/branch/borosil.png" alt="Borosil" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/cello.png" alt="Cello" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/laopala.png" alt="La Opala" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/luxat.png" alt="Luxat" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/milton.png" alt="Milton" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/yera.png" alt="Yera Glassware" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/welspun.png" alt="Welspun" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/mafatlal.png" alt="Mafatlal" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/dibha.png" alt="Dibha" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/easycare.png" alt="Easycare" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/vip.png" alt="VIP Happy Journey" loading="lazy" /></div>
+          <div class="brand-logo"><img src="./assets/branch/treo.png" alt="Cello Treo" loading="lazy" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section" id="approach">
+      <div class="process-corner process-corner-top" aria-hidden="true"></div>
+      <div class="process-corner process-corner-bottom" aria-hidden="true"></div>
+      <div class="process-container">
+        <p class="process-kicker"><span></span>Our Working Process<span></span></p>
+        <h2 class="process-title">From Idea to <em>Impact</em></h2>
+        <p class="process-subtitle">A simple, transparent and result-driven process to bring your gifting and marketing
+          ideas to life.</p>
+        <div class="process-flow">
+          <article class="process-card-wrap">
+            <div class="process-orb"><span class="process-number">01</span><svg class="ui-icon">
+                <use href="#icon-chat" />
+              </svg></div>
+            <div class="process-card">
+              <h3>Understand<br />Your Requirements</h3>
+              <p>We identify your goals,<br />audience and gifting /<br />marketing needs.</p>
+            </div>
+          </article>
+          <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="process-card-wrap">
+            <div class="process-orb"><span class="process-number">02</span><svg class="ui-icon">
+                <use href="#icon-bulb" />
+              </svg></div>
+            <div class="process-card">
+              <h3>Conceptualise<br />&amp; Proposal</h3>
+              <p>We develop creative ideas,<br />product options and a<br />customised proposal.</p>
+            </div>
+          </article>
+          <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="process-card-wrap">
+            <div class="process-orb"><span class="process-number">03</span><svg class="ui-icon">
+                <use href="#icon-box" />
+              </svg></div>
+            <div class="process-card">
+              <h3>Create<br />&amp; Customise</h3>
+              <p>We design, source and<br />customise the best-fit<br />products for your brand.</p>
+            </div>
+          </article>
+          <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="process-card-wrap">
+            <div class="process-orb"><span class="process-number">04</span><svg class="ui-icon">
+                <use href="#icon-calendar-check" />
+              </svg></div>
+            <div class="process-card">
+              <h3>Execute<br />Your Project</h3>
+              <p>End-to-end coordination<br />and timely delivery<br />with quality assurance.</p>
+            </div>
+          </article>
+          <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="process-card-wrap">
+            <div class="process-orb"><span class="process-number">05</span><svg class="ui-icon">
+                <use href="#icon-chart" />
+              </svg></div>
+            <div class="process-card">
+              <h3>Deliver<br />With Impact</h3>
+              <p>We ensure greater<br />engagement, brand visibility<br />and long-term value.</p>
+            </div>
+          </article>
+        </div>
+        <a class="process-cta button" href="#contact">Start Your Project <svg class="button-icon">
+            <use href="#icon-arrow" />
+          </svg></a>
+      </div>
+    </section>
+    <section class="legacy-approach" aria-hidden="true">
+      <div class="approach-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-heading"><span></span>
+          <h2>From the first idea to the <em>final delivery</em></h2><span></span>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <div class="step-icon"><svg class="ui-icon">
+                <use href="#icon-search" />
+              </svg></div><strong>1. Understand</strong>
+            <p>Identify the client’s requirement and objectives.</p>
+          </article>
+          <div class="step-arrow"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="step">
+            <div class="step-icon"><svg class="ui-icon">
+                <use href="#icon-bulb" />
+              </svg></div><strong>2. Conceptualise</strong>
+            <p>Develop ideas and customised solutions.</p>
+          </article>
+          <div class="step-arrow"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="step">
+            <div class="step-icon"><svg class="ui-icon">
+                <use href="#icon-pencil" />
+              </svg></div><strong>3. Create</strong>
+            <p>Design, source and develop the required materials.</p>
+          </article>
+          <div class="step-arrow"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="step">
+            <div class="step-icon"><svg class="ui-icon">
+                <use href="#icon-gear" />
+              </svg></div><strong>4. Execute</strong>
+            <p>Manage production and implementation.</p>
+          </article>
+          <div class="step-arrow"><svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></div>
+          <article class="step">
+            <div class="step-icon"><svg class="ui-icon">
+                <use href="#icon-check" />
+              </svg></div><strong>5. Deliver</strong>
+            <p>Ensure timely delivery and project completion.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-reference" id="contact">
+      <div class="cta-reference-corner cta-reference-corner-left" aria-hidden="true"></div>
+      <div class="cta-reference-corner cta-reference-corner-right" aria-hidden="true"></div>
+      <div class="cta-reference-inner">
+        <div class="cta-reference-copy">
+          <p class="cta-reference-kicker"><span></span>READY TO ELEVATE YOUR BRAND?<span></span></p>
+          <h2>Let’s Bring Your Gifting &amp;<br />Marketing <em>Ideas to Life</em></h2>
+          <p class="cta-reference-lead">Partner with Ryze Marketing for customised corporate gifting,<br
+              class="cta-desktop-only" /> brand promotions, events and exhibitions.</p>
+        </div>
+        <div class="cta-reference-products"><img src="./assets/cta-products.png" alt="Corporate gifting products" /><img
+            class="cta-reference-logo" src="./assets/logo.png" alt="Ryze Marketing logo" /></div>
+        <div class="cta-reference-action"><a class="button" href="mailto:hello@ryzemarketing.in">Get in Touch <svg
+              class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></a></div>
+      </div>
+    </section>
+    <section class="cta-legacy" aria-hidden="true">
+      <div class="container cta-card">
+        <div class="cta-accent" aria-hidden="true"></div>
+        <div class="cta-copy">
+          <p class="eyebrow"><span></span>Ready when you are</p>
+          <h2>Let’s create something<br />that leaves a <em>lasting impression.</em></h2>
+        </div>
+        <a class="button button-primary" href="mailto:hello@ryzemarketing.in">Get in Touch <svg class="button-icon">
+            <use href="#icon-arrow" />
+          </svg></a>
+      </div>
+    </section>
+
+    <section class="about-reference about-reference-later" id="about-later" aria-hidden="true">
+      <div class="about-reference-shape about-reference-shape-top" aria-hidden="true"></div>
+      <div class="about-reference-shape about-reference-shape-bottom" aria-hidden="true"></div>
+      <div class="about-reference-inner">
+        <div class="about-collage-wrap">
+          <div class="about-collage-ring" aria-hidden="true"></div>
+          <img class="about-collage" src="./assets/about-collage-branded.png"
+            alt="Branded Ryze corporate gifting set and exhibition displays" />
+        </div>
+        <div class="about-copy">
+          <p class="about-kicker"><span></span>ABOUT RYZE MARKETING</p>
+          <h2><span>Your Partner in Corporate Gifting &amp;</span><span><em>Marketing Solutions</em></span></h2>
+          <p class="about-lead">Ryze Marketing is a B2B corporate gifting and marketing solutions company committed to
+            helping businesses build stronger relationships, create memorable brand experiences and execute impactful
+            marketing initiatives.</p>
+          <div class="about-mission-grid">
+            <article class="about-mission-card">
+              <div class="about-mission-icon"><svg class="ui-icon">
+                  <use href="#icon-target" />
+                </svg></div>
+              <div>
+                <h3>Our Vision</h3>
+                <p>To become a trusted and preferred corporate gifting and marketing solutions partner for businesses
+                  across India.</p>
+              </div>
+            </article>
+            <article class="about-mission-card">
+              <div class="about-mission-icon"><svg class="ui-icon">
+                  <use href="#icon-mountain" />
+                </svg></div>
+              <div>
+                <h3>Our Mission</h3>
+                <p>To simplify marketing execution by delivering innovative ideas, customised solutions, quality
+                  products and reliable project execution.</p>
+              </div>
+            </article>
+          </div>
+          <a class="about-reference-cta button" href="#contact">Explore More <svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></a>
+        </div>
+      </div>
+    </section>
+    <section class="about-legacy" aria-hidden="true">
+      <div class="container about-inner">
+        <div>
+          <p class="eyebrow"><span></span>Built around your ambition</p>
+          <h2>One team for every<br /><em>brand moment.</em></h2>
+        </div>
+        <p>Ryze Marketing brings strategic thinking, thoughtful design and dependable execution together—so your brand
+          shows up with clarity wherever it matters.</p>
+      </div>
+    </section>
+  </main>
+
+  <section class="marquee-strip footer-marquee" aria-label="Corporate gifting solutions">
+    <div class="marquee-track">
+      <div class="marquee-group">
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-gift" />
+          </svg><span>Gifts for Employees</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-handshake" />
+          </svg><span>Gifts for Clients</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-handshake" />
+          </svg><span>Gifts for Partners</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-diamond" />
+          </svg><span>Gifts for Events</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-diamond" />
+          </svg><span>Premium Corporate Gifts</span></div><i></i>
+      </div>
+      <div class="marquee-group" aria-hidden="true">
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-gift" />
+          </svg><span>Gifts for Employees</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-handshake" />
+          </svg><span>Gifts for Clients</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-handshake" />
+          </svg><span>Gifts for Partners</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-diamond" />
+          </svg><span>Gifts for Events</span></div><i></i>
+        <div class="marquee-item"><svg class="marquee-icon">
+            <use href="#icon-diamond" />
+          </svg><span>Premium Corporate Gifts</span></div><i></i>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer reference-footer" id="footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a class="footer-logo" href="#top"><img src="./assets/logo.png" alt="Ryze Marketing" /></a>
+        <h3>Ideas. Experiences. Impact.</h3>
+        <p>A B2B corporate gifting and marketing solutions company, helping businesses build stronger relationships and
+          create meaningful brand experiences.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Our Verticals</h3><a href="#solutions"><svg class="footer-icon">
+            <use href="#icon-medical" />
+          </svg><span>Personalised Inputs</span></a><a href="#solutions"><svg class="footer-icon">
+            <use href="#icon-gift" />
+          </svg><span>Corporate Gifting</span></a><a href="#solutions"><svg class="footer-icon">
+            <use href="#icon-calendar" />
+          </svg><span>Events &amp; Exhibitions</span></a><a href="#solutions"><svg class="footer-icon">
+            <use href="#icon-megaphone" />
+          </svg><span>Branding &amp; Marketing</span></a>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="#about"><span class="footer-arrow">›</span><span>About Us</span></a>
+        <a href="#approach"><span class="footer-arrow">›</span><span>Our Approach</span></a>
+        <a href="#industries"><span class="footer-arrow">›</span><span>Industries We Serve</span></a>
+        <a href="#why-choose"><span class="footer-arrow">›</span><span>Why Ryze</span></a>
+        <a href="./pages/contact.html"><span class="footer-arrow">›</span><span>Contact Us</span></a>
+      </div>
+      <div class="footer-column footer-contact">
+        <h3>Get in Touch</h3><a href="#contact"><svg class="footer-icon">
+            <use href="#icon-pin" />
+          </svg><span>I-202, Vishranti Tulips, Behind Maa Party Plot, Harni, Vadodara-390022</span></a><a
+          href="tel:+919930735797"><svg class="footer-icon">
+            <use href="#icon-phone" />
+          </svg><span>+91-9930735797</span></a><a href="mailto:hello@ryzemarketing.in"><svg class="footer-icon">
+            <use href="#icon-mail" />
+          </svg><span>hello@ryzemarketing.in</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container"><span class="copyright-link">© 2026 Ryze Marketing. All rights reserved.</span></div>
+    </div>
+  </footer>
+  <!-- Enquiry Popup Modal (Exact Design Match) -->
+  <div class="enquiry-modal-backdrop" id="enquiryModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="enquiryModalTitle">
+    <div class="enquiry-modal-card">
+      <button type="button" class="enquiry-modal-close" id="closeEnquiryModal" aria-label="Close enquiry popup">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Left Column: Branding, Copy & Gifts Visual -->
+      <div class="enquiry-modal-left">
+        <div class="modal-curve-accent" aria-hidden="true">
+          <svg viewBox="0 0 160 180" fill="none" preserveAspectRatio="none">
+            <path d="M160 0H50C105 25 155 85 160 180V0Z" fill="#ffc400" />
+          </svg>
+        </div>
+
+        <div class="enquiry-modal-intro">
+          <div class="enquiry-modal-brand">
+            <img src="./assets/logo.png" alt="Ryze Marketing" class="modal-logo" />
+          </div>
+          <div class="modal-kicker-bar" aria-hidden="true"></div>
+          <h2 class="enquiry-modal-heading" id="enquiryModalTitle">Enquire <span>Now</span></h2>
+          <p class="enquiry-modal-subtext">Tell us your requirement and our team will get in touch with the best solution.</p>
+        </div>
+
+        <div class="enquiry-modal-visual" aria-hidden="true">
+          <img src="./assets/enquiry-modal-gifts.jpg" alt="Ryze Corporate Gifting Products" />
+        </div>
+      </div>
+
+      <!-- Right Column: Enquiry Form -->
+      <div class="enquiry-modal-right">
+        <h3 class="enquiry-form-title">Enquiry Form</h3>
+        <div class="enquiry-form-bar" aria-hidden="true"></div>
+
+        <form class="enquiry-form" id="enquiryPopupForm" novalidate>
+          <div class="popup-field-row">
+            <div class="popup-field-group">
+              <div class="popup-input-box">
+                <span class="popup-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                </span>
+                <input type="text" id="popupName" name="name" placeholder="Your Name *" required />
+              </div>
+            </div>
+
+            <div class="popup-field-group">
+              <div class="popup-input-box">
+                <span class="popup-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16M9 9h1M9 13h1M9 17h1M14 9h1M14 13h1M14 17h1" />
+                  </svg>
+                </span>
+                <input type="text" id="popupCompany" name="company" placeholder="Your Company (Optional)" />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-field-row">
+            <div class="popup-field-group">
+              <div class="popup-input-box">
+                <span class="popup-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="m3 7 9 6 9-6" />
+                  </svg>
+                </span>
+                <input type="email" id="popupEmail" name="email" placeholder="Email Address *" required />
+              </div>
+            </div>
+
+            <div class="popup-field-group">
+              <div class="popup-input-box">
+                <span class="popup-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </span>
+                <input type="tel" id="popupPhone" name="phone" placeholder="Phone Number *" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-field-row full">
+            <div class="popup-field-group">
+              <div class="popup-input-box popup-select-wrap">
+                <span class="popup-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                    <polyline points="2 17 12 22 22 17" />
+                    <polyline points="2 12 12 17 22 12" />
+                  </svg>
+                </span>
+                <select id="popupRequirement" name="requirement" required>
+                  <option value="" disabled selected>Requirement / Interested In *</option>
+                  <option value="corporate-gifting">Corporate Gifting</option>
+                  <option value="personalised-inputs">Personalised Inputs</option>
+                  <option value="events-exhibitions">Events &amp; Exhibitions</option>
+                  <option value="branding-marketing">Branding &amp; Marketing</option>
+                  <option value="other">Other Solution</option>
+                </select>
+                <span class="popup-select-chevron" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-field-row full">
+            <div class="popup-field-group">
+              <div class="popup-input-box popup-textarea-wrap">
+                <span class="popup-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                  </svg>
+                </span>
+                <textarea id="popupMessage" name="message" rows="3" placeholder="Your Message"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-actions">
+            <button type="submit" class="popup-submit-btn" id="popupSubmitBtn">
+              <span>Submit Enquiry</span>
+              <svg class="button-icon" aria-hidden="true"><use href="#icon-arrow" /></svg>
+            </button>
+          </div>
+
+          <div class="popup-feedback" id="popupFeedback" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>

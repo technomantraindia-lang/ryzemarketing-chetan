@@ -4,15 +4,18 @@
 
 - Workspace: ryze marketing
 - Technology: HTML/CSS/JavaScript
-- Active file at refresh: None
+- Active file at refresh: pages/contact.html
 - Local code graph: 3 files · 2 edges · 0 matched flows
-- Refreshed: 2026-11-23T04:26:44.224Z
+- Refreshed: 2026-11-23T06:31:08.428Z
 
 ## Framework Intelligence (V4.7.8)
 - Profiles: html-static
 
 ### Entry / bootstrap candidates
 - index.html
+
+### Pages / views
+- pages/contact.html
 
 ### Styles
 - styles.css
@@ -21,6 +24,7 @@
 - None recorded yet
 
 ## High-value project files
+- pages/contact.html
 - index.html
 - styles.css
 - .clinerules/05-technomantra-execution-mode.md

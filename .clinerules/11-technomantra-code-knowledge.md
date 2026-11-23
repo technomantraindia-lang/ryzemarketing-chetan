@@ -2,10 +2,10 @@
 
 > Structural local index. Read current source before editing. Secrets are intentionally excluded.
 
-- Indexed source files: 3
+- Indexed source files: 4
 - Structural edges: 2
 - Matched end-to-end flows: 0
-- Updated: 2026-11-23T04:26:44.223Z
+- Updated: 2026-11-23T06:33:59.434Z
 
 ## Dependency edges
 - IMPORT index.html -> styles.css, script.js
