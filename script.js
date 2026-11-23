@@ -252,15 +252,20 @@ const homeEntranceSections = [
   { selector: '.cta-reference', targets: ['.cta-reference-inner'], name: 'cta' }
 ];
 
-const entranceObserver = 'IntersectionObserver' in window
-  ? new IntersectionObserver((entries, observer) => {
+const createEntranceObserver = (section, threshold) => {
+  if (!('IntersectionObserver' in window)) return null;
+
+  const observer = new IntersectionObserver((entries, currentObserver) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
       entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
+      currentObserver.unobserve(entry.target);
     });
-  }, { threshold: 0.18, rootMargin: '0px' })
-  : null;
+  }, { threshold, rootMargin: '0px' });
+
+  observer.observe(section);
+  return observer;
+};
 
 homeEntranceSections.forEach(({ selector, targets, name }) => {
   document.querySelectorAll(selector).forEach((section) => {
@@ -271,9 +276,8 @@ homeEntranceSections.forEach(({ selector, targets, name }) => {
       });
     });
 
-    if (entranceObserver) {
-      entranceObserver.observe(section);
-    } else {
+    const sectionObserver = createEntranceObserver(section, name === 'about' ? 0.45 : 0.25);
+    if (!sectionObserver) {
       section.classList.add('is-visible');
     }
   });
