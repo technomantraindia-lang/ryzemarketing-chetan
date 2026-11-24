@@ -25,9 +25,14 @@
       <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 14h2M14 14h2M8 17h2"/></symbol>
       <symbol id="icon-megaphone" viewBox="0 0 24 24"><path d="m4 11 12-5v12L4 14v-3Z"/><path d="M16 9h3v6h-3M7 15l2 5h3l-2-5"/></symbol>
       <symbol id="icon-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+      <symbol id="icon-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.2-1.6l2-1.5-2-3.4-2.3 1a7 7 0 0 0-2.7-1.6L13.5 2h-3l-.3 2.9a7 7 0 0 0-2.7 1.6l-2.3-1-2 3.4 2 1.5A7 7 0 0 0 5 12c0 .6.1 1.1.2 1.6l-2 1.5 2 3.4 2.3-1a7 7 0 0 0 2.7 1.6l.3 2.9h3l.3-2.9a7 7 0 0 0 2.7-1.6l2.3 1 2-3.4-2-1.5c.1-.5.2-1 .2-1.6Z"/></symbol>
       <symbol id="icon-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
       <symbol id="icon-rocket" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
       <symbol id="icon-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M8.5 14.5a7 7 0 1 1 7 0c-.8.6-1.2 1.4-1.3 2.5H9.8c-.1-1.1-.5-1.9-1.3-2.5Z"/></symbol>
+      <symbol id="icon-chat" viewBox="0 0 24 24"><path d="M4 12.5a5.5 5.5 0 0 1 5.5-5.5h2A5.5 5.5 0 0 1 17 12.5v.5a5.5 5.5 0 0 1-5.5 5.5H8l-3.5 2 .7-3.4A5.5 5.5 0 0 1 4 13v-.5Z"/><path d="M12.5 7.5A5.5 5.5 0 0 1 18 4h1a5.5 5.5 0 0 1 1.5 10.8L21 18l-3.2-2H17"/><circle cx="8" cy="13" r=".7" fill="currentColor" stroke="none"/><circle cx="10.5" cy="13" r=".7" fill="currentColor" stroke="none"/><circle cx="13" cy="13" r=".7" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="icon-box" viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9M8 5.2l8 4.6"/></symbol>
+      <symbol id="icon-calendar-check" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 15l2 2 5-5"/></symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h17M8 16v-4M12 16V9M16 16V6M20 16V3"/><path d="m7 9 4-3 3 1 5-5"/></symbol>
       <symbol id="icon-quality" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="m15.4 12.8 2.6 7.2-6-3-6 3 2.6-7.2"/></symbol>
       <symbol id="icon-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
     </svg>
@@ -47,7 +52,17 @@
           <div class="nav-links">
             <a href="../index.html">Home</a>
             <a class="active" href="./about.html">About Us</a>
-            <a href="../index.html#solutions">Our Verticals <svg class="nav-chevron"><use href="#icon-chevron" /></svg></a>
+            <div class="nav-dropdown-wrap">
+              <button class="nav-dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">
+                Our Verticals <svg class="nav-chevron"><use href="#icon-chevron" /></svg>
+              </button>
+              <div class="nav-dropdown" role="menu">
+                <a href="../index.html#solutions" role="menuitem">Personalised Inputs</a>
+                <a href="../index.html#solutions" role="menuitem">Corporate Gifting</a>
+                <a href="../index.html#solutions" role="menuitem">Events &amp; Exhibitions</a>
+                <a href="../index.html#solutions" role="menuitem">Branding &amp; Marketing</a>
+              </div>
+            </div>
             <a href="./industries.html">Industries</a>
             <a href="./contact.html">Contact Us</a>
           </div>
@@ -79,7 +94,7 @@
           <!-- Left Visual: Signature Corporate Gift Set with Smooth Yellow Corner Accent -->
           <div class="about-who-visual-col">
             <div class="about-who-card">
-              <img class="about-who-img" src="../assets/why-choose-gifts.png" alt="Curated luxury corporate gift set by Ryze Marketing including matte water bottle, branded mug, journal and gold-ribbon gift box" loading="lazy" />
+            <img class="about-who-img" src="../assets/about-who-we-are-hd.png" alt="Ryze Marketing corporate gift set with branded bottle, mug, notebook and gift box" loading="eager" fetchpriority="high" />
               <div class="about-who-corner-accent" aria-hidden="true">
                 <svg viewBox="0 0 80 80" fill="none" preserveAspectRatio="none">
                   <path d="M 0,80 C 30,80 60,60 80,20 L 80,80 Z" fill="#ffc400" />
@@ -103,52 +118,14 @@
         </div>
       </section>
 
-      <!-- 3. "Our Vision" & "Our Mission" Cards Section (Exact Mockup Match) -->
-      <section class="about-vm-section" aria-label="Our Vision and Mission">
-        <div class="container about-vm-grid">
-          <!-- Card 1: Our Vision (Golden Sunrise Mountain Summit) -->
-          <article class="vm-card vm-card-vision">
-            <div class="vm-card-backdrop" aria-hidden="true">
-              <img src="../assets/about-vision.png" alt="" loading="lazy" />
-            </div>
-            <div class="vm-card-body">
-              <div class="vm-badge-row">
-                <div class="vm-badge vm-badge-vision">
-                  <svg class="vm-badge-icon" aria-hidden="true"><use href="#icon-target" /></svg>
-                </div>
-                <h3 class="vm-card-title">Our Vision</h3>
-              </div>
-              <p class="vm-card-desc">To become a trusted and preferred corporate gifting and marketing solutions partner for businesses across India.</p>
-            </div>
-          </article>
-
-          <!-- Card 2: Our Mission (Cosmic Space Launch Rocket) -->
-          <article class="vm-card vm-card-mission">
-            <div class="vm-card-backdrop" aria-hidden="true">
-              <img src="../assets/about-mission.png" alt="" loading="lazy" />
-            </div>
-            <div class="vm-card-body">
-              <div class="vm-badge-row">
-                <div class="vm-badge vm-badge-mission">
-                  <svg class="vm-badge-icon" aria-hidden="true"><use href="#icon-rocket" /></svg>
-                </div>
-                <h3 class="vm-card-title">Our Mission</h3>
-              </div>
-              <p class="vm-card-desc">To simplify marketing execution by delivering innovative ideas, customised solutions, quality products and reliable project execution.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
       <!-- 4. "Our Expertise" Section (4 Signature Ryze Cards) -->
       <section class="about-expertise-section" aria-labelledby="expertise-heading">
         <div class="container">
           <div class="expertise-header-center">
-            <h2 id="expertise-heading" class="expertise-title-main">
-              <span class="expertise-bar" aria-hidden="true"></span>
-              Our Expertise
-              <span class="expertise-bar" aria-hidden="true"></span>
-            </h2>
+            <div class="editorial-about-heading">
+              <p class="editorial-about-kicker"><span aria-hidden="true"></span>OUR EXPERTISE<span aria-hidden="true"></span></p>
+              <h2 id="expertise-heading">Our <span>Expertise<svg viewBox="0 0 280 18" preserveAspectRatio="none" aria-hidden="true"><path d="M4 13C70 5 200 5 276 11" /></svg></span></h2>
+            </div>
           </div>
 
           <div class="about-expertise-grid">
@@ -211,12 +188,88 @@
         </div>
       </section>
 
+      <section class="process-section" id="approach">
+        <div class="process-corner process-corner-top" aria-hidden="true"></div>
+        <div class="process-corner process-corner-bottom" aria-hidden="true"></div>
+        <div class="process-container">
+          <p class="process-kicker"><span></span>Our Working Process<span></span></p>
+          <h2 class="process-title">From Idea to <em>Impact</em></h2>
+          <p class="process-subtitle">A simple, transparent and result-driven process to bring your gifting and marketing
+            ideas to life.</p>
+          <div class="process-flow">
+            <article class="process-card-wrap">
+              <div class="process-orb"><span class="process-number">01</span><svg class="ui-icon">
+                  <use href="#icon-chat" />
+                </svg></div>
+              <div class="process-card">
+                <h3>Understand<br />Your Requirements</h3>
+                <p>We identify your goals,<br />audience and gifting /<br />marketing needs.</p>
+              </div>
+            </article>
+            <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+                <use href="#icon-arrow" />
+              </svg></div>
+            <article class="process-card-wrap">
+              <div class="process-orb"><span class="process-number">02</span><svg class="ui-icon">
+                  <use href="#icon-bulb" />
+                </svg></div>
+              <div class="process-card">
+                <h3>Conceptualise<br />&amp; Proposal</h3>
+                <p>We develop creative ideas,<br />product options and a<br />customised proposal.</p>
+              </div>
+            </article>
+            <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+                <use href="#icon-arrow" />
+              </svg></div>
+            <article class="process-card-wrap">
+              <div class="process-orb"><span class="process-number">03</span><svg class="ui-icon">
+                  <use href="#icon-box" />
+                </svg></div>
+              <div class="process-card">
+                <h3>Create<br />&amp; Customise</h3>
+                <p>We design, source and<br />customise the best-fit<br />products for your brand.</p>
+              </div>
+            </article>
+            <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+                <use href="#icon-arrow" />
+              </svg></div>
+            <article class="process-card-wrap">
+              <div class="process-orb"><span class="process-number">04</span><svg class="ui-icon">
+                  <use href="#icon-calendar-check" />
+                </svg></div>
+              <div class="process-card">
+                <h3>Execute<br />Your Project</h3>
+                <p>End-to-end coordination<br />and timely delivery<br />with quality assurance.</p>
+              </div>
+            </article>
+            <div class="process-arrow" aria-hidden="true"><svg class="button-icon">
+                <use href="#icon-arrow" />
+              </svg></div>
+            <article class="process-card-wrap">
+              <div class="process-orb"><span class="process-number">05</span><svg class="ui-icon">
+                  <use href="#icon-chart" />
+                </svg></div>
+              <div class="process-card">
+                <h3>Deliver<br />With Impact</h3>
+                <p>We ensure greater<br />engagement, brand visibility<br />and long-term value.</p>
+              </div>
+            </article>
+          </div>
+          <a class="process-cta button" href="#contact">Start Your Project <svg class="button-icon">
+              <use href="#icon-arrow" />
+            </svg></a>
+        </div>
+      </section>
+
       <!-- 5. "Our Core Values" Section (4 Strategic Pillars) -->
       <section class="about-values-section" aria-labelledby="values-heading">
         <div class="container about-values-layout">
           <!-- Left Intro Column -->
           <div class="about-values-intro">
-            <h2 id="values-heading" class="values-title-main">Our Core Values</h2>
+            <div class="editorial-about-heading">
+              <p class="editorial-about-kicker"><span aria-hidden="true"></span>OUR CORE VALUES<span aria-hidden="true"></span></p>
+              <h2 id="values-heading" class="values-title-main">Our <span>Core Values<svg viewBox="0 0 280 18" preserveAspectRatio="none" aria-hidden="true"><path d="M4 13C70 5 200 5 276 11" /></svg></span></h2>
+            </div>
             <p class="values-subtitle">The principles that guide everything we do.</p>
           </div>
 
@@ -261,50 +314,7 @@
         </div>
       </section>
 
-      <!-- 6. "Our Brand Promise" Banner (Exact Mockup Match) -->
-      <section class="about-promise-section" aria-label="Brand Promise">
-        <div class="container">
-          <div class="about-promise-banner">
-            <div class="promise-left">
-              <span class="promise-label">Our Brand Promise</span>
-            </div>
-            <span class="promise-divider" aria-hidden="true"></span>
-            <div class="promise-right">
-              <span class="promise-quote-mark" aria-hidden="true">&ldquo;</span>
-              <p class="promise-quote-text">Every Brand Interaction <span class="highlight-yellow">Matters</span></p>
-              <span class="promise-quote-mark" aria-hidden="true">&rdquo;</span>
-            </div>
-            <!-- Decorative Accent Wave -->
-            <div class="promise-decor-accent" aria-hidden="true"></div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 7. Compact Action Strip (Exact Mockup Match) -->
-      <section class="about-strip-section" aria-label="Quick Connect Strip">
-        <div class="container">
-          <div class="about-action-strip">
-            <div class="strip-heading-wrap">
-              <p class="strip-headline">Let's Create<br /><strong>Meaningful Experiences <span class="highlight-yellow">Together</span></strong></p>
-            </div>
-            <div class="strip-contacts">
-              <a class="strip-contact-item" href="tel:+919930735797">
-                <span class="strip-icon-circle"><svg><use href="#icon-phone" /></svg></span>
-                <span class="strip-contact-val">+91-9930735797</span>
-              </a>
-              <a class="strip-contact-item" href="mailto:hello@ryzemarketing.in">
-                <span class="strip-icon-circle"><svg><use href="#icon-mail" /></svg></span>
-                <span class="strip-contact-val">hello@ryzemarketing.in</span>
-              </a>
-            </div>
-            <div class="strip-action">
-              <a class="strip-btn" href="./contact.html">Get in Touch &rarr;</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 8. Home Page CTA Section (as requested by user) -->
+      <!-- 6. Home Page CTA Section (as requested by user) -->
       <section class="cta-reference" id="cta-section">
         <div class="cta-reference-corner cta-reference-corner-left" aria-hidden="true"></div>
         <div class="cta-reference-corner cta-reference-corner-right" aria-hidden="true"></div>
