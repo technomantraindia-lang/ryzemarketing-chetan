@@ -119,8 +119,8 @@ button {
 }
 
 .logo-image {
-  width: 150px;
-  height: 82px;
+  width: 175px;
+  height: 88px;
   object-fit: contain
 }
 
@@ -1311,7 +1311,7 @@ button {
   }
 
   .logo-image {
-    width: 135px
+    width: 155px
   }
 
   .nav-links {
@@ -1417,8 +1417,8 @@ button {
   }
 
   .logo-image {
-    width: 120px;
-    height: 70px
+    width: 135px;
+    height: 74px
   }
 
   .menu-toggle {
