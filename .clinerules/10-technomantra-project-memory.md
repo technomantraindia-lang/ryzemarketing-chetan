@@ -4,9 +4,9 @@
 
 - Workspace: ryze marketing
 - Technology: HTML/CSS/JavaScript
-- Active file at refresh: pages/contact.html
-- Local code graph: 3 files · 2 edges · 0 matched flows
-- Refreshed: 2026-11-23T06:31:08.428Z
+- Active file at refresh: index.html
+- Local code graph: 6 files · 5 edges · 0 matched flows
+- Refreshed: 2026-11-24T04:10:47.236Z
 
 ## Framework Intelligence (V4.7.8)
 - Profiles: html-static
@@ -16,16 +16,20 @@
 
 ### Pages / views
 - pages/contact.html
+- pages/about.html
+- pages/industries.html
 
 ### Styles
 - styles.css
 
 ## Recently edited files
-- None recorded yet
+- pages/contact.html
 
 ## High-value project files
-- pages/contact.html
 - index.html
+- pages/contact.html
+- pages/about.html
+- pages/industries.html
 - styles.css
 - .clinerules/05-technomantra-execution-mode.md
 - .clinerules/06-technomantra-developer-mode.md
@@ -40,6 +44,8 @@
 - .clinerules/14-technomantra-adaptive-cost-optimizer.md
 - .clinerules/15-technomantra-fast-coding-engine.md
 - .clinerules/90-technomantra-selected-agent.md
+- .clinerules/technomantra-developer-learning.md
+- .clinerules/technomantra-team-learning.md
 - .openai/hosting.json
 - .technomantra/workspace-index.json
 - .vscode/settings.json
