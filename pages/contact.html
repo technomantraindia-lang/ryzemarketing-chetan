@@ -613,6 +613,23 @@
         const form = document.getElementById('contactForm');
         const feedback = document.getElementById('contactFeedback');
         const select = document.getElementById('contactService');
+        const serviceDetail = document.getElementById('contactServiceDetail');
+        const serviceOptions = window.ryzeEnquiryServiceOptions || {};
+
+        function populateServiceDetails(category) {
+          if (!serviceDetail) return;
+
+          serviceDetail.innerHTML = '<option value="" selected>What would you like us to create? *</option>';
+          const options = serviceOptions[category] || [];
+          options.forEach(function(label) {
+            const option = document.createElement('option');
+            option.value = label.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            option.textContent = label;
+            serviceDetail.appendChild(option);
+          });
+          serviceDetail.disabled = options.length === 0;
+          serviceDetail.classList.remove('selected-active');
+        }
 
         if (select) {
           select.addEventListener('change', function() {
@@ -621,8 +638,16 @@
             } else {
               this.classList.remove('selected-active');
             }
+            populateServiceDetails(this.value);
           });
+
+          const categoryFromUrl = new URLSearchParams(window.location.search).get('category');
+          if (categoryFromUrl && serviceOptions[categoryFromUrl]) {
+            select.value = categoryFromUrl;
+            select.classList.add('selected-active');
+          }
         }
+        populateServiceDetails(select ? select.value : '');
 
         if (form && feedback) {
           form.addEventListener('submit', function(e) {
@@ -632,11 +657,12 @@
             const email = document.getElementById('contactEmail');
             const phone = document.getElementById('contactPhone');
             const service = document.getElementById('contactService');
+            const serviceDetailField = document.getElementById('contactServiceDetail');
             const message = document.getElementById('contactMessage');
             const submitBtn = document.getElementById('contactSubmitBtn');
 
             let isValid = true;
-            [name, email, phone, service, message].forEach(field => {
+            [name, email, phone, service, serviceDetailField, message].forEach(field => {
               if (field) {
                 const box = field.closest('.contact-input-box');
                 if (!field.value.trim()) {
@@ -669,6 +695,7 @@
             setTimeout(function() {
               form.reset();
               if (select) select.classList.remove('selected-active');
+              populateServiceDetails('');
               submitBtn.disabled = false;
               submitBtn.style.opacity = '1';
               submitBtn.innerHTML = '<span>Send Message</span><svg class="button-icon" aria-hidden="true"><use href="#icon-arrow" /></svg>';

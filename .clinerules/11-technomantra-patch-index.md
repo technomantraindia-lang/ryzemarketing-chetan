@@ -6,7 +6,7 @@
 - Indexed: 28 source files
 - Reused unchanged: 25
 - Rescanned: 3
-- Built: 2026-11-24T11:26:34.601Z
+- Built: 2026-11-24T11:48:07.508Z
 
 ## Retrieval policy
 - The native resolver reads the local index and injects at most five task-ranked candidate paths/locators.

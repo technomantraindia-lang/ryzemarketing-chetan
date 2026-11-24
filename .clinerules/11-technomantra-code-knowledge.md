@@ -5,7 +5,7 @@
 - Indexed source files: 10
 - Structural edges: 10
 - Matched end-to-end flows: 0
-- Updated: 2026-11-24T11:40:14.574Z
+- Updated: 2026-11-24T11:48:07.816Z
 
 ## Dependency edges
 - IMPORT pages/contact.html -> styles.css, script.js
@@ -23,7 +23,7 @@
 
 ## Symbols
 - SYMBOL category-detail-loader.js: highlight, setText, updateVerticalLinks, applyCategory
-- SYMBOL script.js: openEnquiryModal, closeEnquiryModal, closeVerticalsDropdown, getScrollStep, updateActiveDot, getTestimonialStep, moveToNextTestimonial, startTestimonialsCarousel, resetTestimonialPosition, showIndustries
+- SYMBOL script.js: populateServiceOptions, openEnquiryModal, closeEnquiryModal, closeVerticalsDropdown, getScrollStep, updateActiveDot, getTestimonialStep, moveToNextTestimonial, startTestimonialsCarousel, resetTestimonialPosition
 
 ## UI/style selectors
 - UI pages/contact.html: #icon-chevron, #icon-arrow, #icon-pin, #icon-phone, #icon-mail, #icon-linkedin, #icon-instagram, #icon-youtube, #icon-gift, #icon-handshake, #icon-diamond, #icon-medical, #icon-calendar, #icon-megaphone

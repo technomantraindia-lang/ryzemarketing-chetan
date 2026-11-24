@@ -1,7 +1,7 @@
 {
   "version": 2,
   "workspace": "ryze marketing",
-  "builtAt": "2026-11-24T11:26:34.601Z",
+  "builtAt": "2026-11-24T11:48:07.508Z",
   "reason": "files renamed",
   "policy": {
     "localOnly": true,
@@ -53,29 +53,29 @@
     {
       "path": ".clinerules/10-technomantra-project-memory.md",
       "size": 1987,
-      "mtimeMs": 1795519591197.7268,
-      "hash": "1a3cb7b74c757b6b1f9963fb6c642cf24180f992bb8d7f9a1be2076ab746619d",
+      "mtimeMs": 1795520884199.4512,
+      "hash": "9b79caa45b67280c07330b7a46c1d31ca318776683bbdfe5fb98613b74714abd",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-code-knowledge.md",
-      "size": 2807,
-      "mtimeMs": 1795519591196.722,
-      "hash": "14c8bba45a2cb4316b5f089b7908f9ea4f3accc302541a71d6d3cae516bf7491",
+      "size": 2815,
+      "mtimeMs": 1795520884198.9116,
+      "hash": "9a0357f85b6a9768912d2bbafaf9ef9b0dc6f62e413f3c971ad0c30b052acdb2",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-patch-index.md",
       "size": 708,
-      "mtimeMs": 1795519590895.4055,
-      "hash": "f5be8e0e63e7f10a1e93e8c5c15326eda659704d1b369fe1ad54d75e5830a5b2",
+      "mtimeMs": 1795520883938.1565,
+      "hash": "a2bc145685c788557ea5039a480f6a096f79a4114e608229209ede35703c740e",
       "locators": []
     },
     {
       "path": ".clinerules/12-technomantra-task-capsules.md",
-      "size": 2475,
-      "mtimeMs": 1795510506952.0005,
-      "hash": "5180b1f5d0b5db6d55d1bf2c0fa9bee7c30af0e4647bd86bf20ae747be594974",
+      "size": 2443,
+      "mtimeMs": 1795520417202.284,
+      "hash": "cd1855e5329edb10df1474dae7cb7df09b6efd80c9373f8d388e0e1a7c3eec9e",
       "locators": []
     },
     {
@@ -136,16 +136,16 @@
     },
     {
       "path": "category-detail-loader.js",
-      "size": 10645,
-      "mtimeMs": 1795519116391.3054,
-      "hash": "5a42cf6d898bf043e613997e947ff3ce23d21524eed37a177a0702cdcdf7a8e6",
+      "size": 11448,
+      "mtimeMs": 1795520781014.9922,
+      "hash": "e13fe6194be4652fc7de5a8405f9a9bc0d73a10a0eb1dd82234d493d1cc544e9",
       "locators": []
     },
     {
       "path": "index.html",
-      "size": 69875,
-      "mtimeMs": 1795519142782.3818,
-      "hash": "ce0e30d3a77f01a5592f68cb07404f084c169a00d6001b82fe62cb7814ee9d17",
+      "size": 71136,
+      "mtimeMs": 1795520368670.6868,
+      "hash": "cf7ab127399717b69ceb1b17803749dd616b416277b8050432442697232f4024",
       "locators": [
         {
           "kind": "class",
@@ -551,9 +551,9 @@
     },
     {
       "path": "pages/about.html",
-      "size": 34273,
-      "mtimeMs": 1795516117296.1763,
-      "hash": "01fae552961e7fca0fdeaf516bd79bbb9ec13754859477eb3a15da3de1ba651d",
+      "size": 35465,
+      "mtimeMs": 1795520405830.1472,
+      "hash": "6a1ef73a83b347efddabde5195799b0ebc739fa2d37e1674a47b60a308a0fd66",
       "locators": [
         {
           "kind": "class",
@@ -959,9 +959,9 @@
     },
     {
       "path": "pages/contact.html",
-      "size": 36577,
-      "mtimeMs": 1795516119252.1445,
-      "hash": "ff13aa68859a281575bd53a09ab90e9b3ea6b1b57c8d110c025d90a523e95008",
+      "size": 40343,
+      "mtimeMs": 1795520766760.5237,
+      "hash": "45662c36e49c56bfd5fa7b6a50431ad12a976da923645b406fb945b372853d0c",
       "locators": [
         {
           "kind": "class",
@@ -1436,9 +1436,9 @@
     },
     {
       "path": "pages/deatilspage/Personalised Inputs.html",
-      "size": 32037,
-      "mtimeMs": 1795519129246.689,
-      "hash": "453150f5e3ca1b9936df11b231eab7e0a890f7bf0935cb6075b831bb98869ed0",
+      "size": 33288,
+      "mtimeMs": 1795520781989.4417,
+      "hash": "178cbf45d8c484e06f0f620b043a24867407939e6c962af17ef74f7e77070d43",
       "locators": [
         {
           "kind": "class",
@@ -1844,9 +1844,9 @@
     },
     {
       "path": "pages/industries.html",
-      "size": 34292,
-      "mtimeMs": 1795516118269.7769,
-      "hash": "148d0f915e1b72fb5ab49a26f50ea91a57223690206cc18f224d8e3d9ccf8d21",
+      "size": 35484,
+      "mtimeMs": 1795520408193.719,
+      "hash": "e51c8052896cff7f4cf1844b3dd63b72580dffdf627cc6658d74bdf292460e0c",
       "locators": [
         {
           "kind": "class",
@@ -2252,27 +2252,32 @@
     },
     {
       "path": "script.js",
-      "size": 16417,
-      "mtimeMs": 1795502063839.4192,
-      "hash": "dea0331fc588c99e815ab762eb6d0f6b340aa6f589d3ba9087bf8279cc6354e5",
+      "size": 18588,
+      "mtimeMs": 1795520765482.069,
+      "hash": "bab9a2e368e056413cbfe4371581d92ccd15938ac4635bc50e76ba00cd13df8b",
       "locators": [
         {
           "kind": "function",
+          "name": "populateServiceOptions",
+          "line": 362
+        },
+        {
+          "kind": "function",
           "name": "openEnquiryModal",
-          "line": 325
+          "line": 379
         },
         {
           "kind": "function",
           "name": "closeEnquiryModal",
-          "line": 337
+          "line": 399
         }
       ]
     },
     {
       "path": "styles.css",
-      "size": 264152,
-      "mtimeMs": 1795515787568.7595,
-      "hash": "96759563211e4908052acca87c7d3aac0eff4d304dd52e229529e86092d9519c",
+      "size": 264125,
+      "mtimeMs": 1795520796830.322,
+      "hash": "7e04f00482f5f7d6ef0c79cda4e65da8f6fe183510fb927b50e8b0f2ed630336",
       "locators": [
         {
           "kind": "custom-property",

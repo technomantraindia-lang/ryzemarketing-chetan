@@ -6,7 +6,7 @@
 - Technology: HTML/CSS/JavaScript
 - Active file at refresh: None
 - Local code graph: 10 files · 10 edges · 0 matched flows
-- Refreshed: 2026-11-24T11:40:14.575Z
+- Refreshed: 2026-11-24T11:48:07.817Z
 
 ## Framework Intelligence (V4.7.8)
 - Profiles: html-static

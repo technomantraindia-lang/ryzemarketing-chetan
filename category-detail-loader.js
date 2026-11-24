@@ -156,6 +156,10 @@
     const ctaLead = document.querySelector('.cta-reference-lead');
     if (ctaLead) ctaLead.innerHTML = `Partner with Ryze Marketing for customised ${config.name.toLowerCase()} solutions, <br class="cta-desktop-only" />brand experiences and memorable campaigns.`;
 
+    document.querySelectorAll('.cta-reference-action a').forEach((link) => {
+      link.href = `../contact.html?category=${enquiryCategory}#contact-form-section`;
+    });
+
     updateVerticalLinks();
   };
 

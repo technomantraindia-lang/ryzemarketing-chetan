@@ -357,6 +357,7 @@ const enquiryServiceOptions = {
     'Custom Brand Experiences'
   ]
 };
+window.ryzeEnquiryServiceOptions = enquiryServiceOptions;
 
 function populateServiceOptions(category = '') {
   if (!popupService) return;
