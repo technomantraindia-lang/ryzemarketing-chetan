@@ -10520,6 +10520,861 @@ pointer-events: auto;
   }
 }
 
+/* Personalised Inputs process: match the horizontal dark Our Approach reference. */
+.personalised-inputs-page .detail-process-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 54px 0 58px;
+  background:
+    linear-gradient(90deg, rgba(8, 20, 25, .96) 0%, rgba(8, 20, 25, .88) 52%, rgba(8, 20, 25, .9) 100%),
+    url('./assets/banner.png') center / cover no-repeat;
+}
+
+.personalised-inputs-page .detail-process-section::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: -100px;
+  bottom: -150px;
+  width: 410px;
+  height: 310px;
+  border-radius: 50%;
+  background: rgba(255, 196, 0, .08);
+  transform: rotate(-14deg);
+}
+
+.personalised-inputs-page .detail-process-layout {
+  display: grid;
+  grid-template-columns: minmax(245px, .92fr) minmax(0, 2.08fr);
+  align-items: center;
+  gap: 34px;
+}
+
+.personalised-inputs-page .detail-process-heading {
+  min-height: 151px;
+  margin: 0;
+  padding: 0 33px 0 0;
+  border-right: 1px solid rgba(255, 255, 255, .18);
+}
+
+.personalised-inputs-page .detail-process-heading .detail-kicker {
+  gap: 8px;
+  color: #f7fafc;
+  font-size: 10px;
+  letter-spacing: .1em;
+}
+
+.personalised-inputs-page .detail-process-heading .detail-kicker > span {
+  width: 25px;
+  height: 2px;
+}
+
+.personalised-inputs-page .detail-process-heading h2 {
+  margin-top: 12px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(31px, 3vw, 43px);
+  font-weight: 700;
+  line-height: .98;
+  letter-spacing: -.045em;
+}
+
+.personalised-inputs-page .detail-process-heading h2 em {
+  display: block;
+  color: var(--yellow);
+}
+
+.personalised-inputs-page .detail-process-heading h2 em::after {
+  display: none;
+}
+
+.personalised-inputs-page .detail-process-heading p {
+  max-width: 285px;
+  margin: 15px 0 0;
+  color: #e1e7ec;
+  font-size: 13px;
+  line-height: 1.42;
+}
+
+.personalised-inputs-page .detail-process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+}
+
+.personalised-inputs-page .detail-process-step,
+.personalised-inputs-page .detail-process-step:nth-child(3) {
+  position: relative;
+  min-height: 151px;
+  padding: 0 19px;
+  border-left: 1px solid rgba(255, 255, 255, .2);
+  text-align: left;
+}
+
+.personalised-inputs-page .detail-process-step:first-child {
+  border-left: 0;
+}
+
+.personalised-inputs-page .detail-process-icon {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: var(--yellow);
+  color: var(--ink);
+  box-shadow: 0 7px 14px rgba(255, 196, 0, .25);
+}
+
+.personalised-inputs-page .detail-process-icon svg {
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.personalised-inputs-page .detail-process-step h3 {
+  margin: 0 0 7px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: -.02em;
+}
+
+.personalised-inputs-page .detail-process-step p {
+  max-width: 145px;
+  margin: 0;
+  color: #e0e6eb;
+  font-size: 12px;
+  line-height: 1.42;
+}
+
+@media (max-width: 950px) {
+  .personalised-inputs-page .detail-process-layout {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .personalised-inputs-page .detail-process-heading {
+    min-height: 0;
+    padding: 0;
+    border-right: 0;
+  }
+
+  .personalised-inputs-page .detail-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 0;
+  }
+
+  .personalised-inputs-page .detail-process-step:nth-child(3) {
+    border-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .detail-process-section {
+    padding: 52px 0 58px;
+  }
+
+  .personalised-inputs-page .detail-process-heading {
+    text-align: center;
+  }
+
+  .personalised-inputs-page .detail-process-heading .detail-kicker {
+    justify-content: center;
+  }
+
+  .personalised-inputs-page .detail-process-heading h2 {
+    font-size: clamp(31px, 9.5vw, 43px);
+  }
+
+  .personalised-inputs-page .detail-process-heading p {
+    max-width: 310px;
+    margin-inline: auto;
+    font-size: 14px;
+  }
+
+  .personalised-inputs-page .detail-process-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .personalised-inputs-page .detail-process-step,
+  .personalised-inputs-page .detail-process-step:nth-child(3) {
+    min-height: 0;
+    padding: 18px 0 18px 64px;
+    border-top: 1px solid rgba(255, 255, 255, .18);
+    border-left: 0;
+  }
+
+  .personalised-inputs-page .detail-process-icon {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+  }
+
+  .personalised-inputs-page .detail-process-step h3 {
+    padding-top: 3px;
+    font-size: 18px;
+  }
+
+  .personalised-inputs-page .detail-process-step p {
+    max-width: 270px;
+    font-size: 13px;
+  }
+}
+
+/* Final touchpoint card layout: eliminate the empty lower area and balance the image. */
+.personalised-inputs-page .pi-solution-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(135px, .85fr);
+  grid-template-rows: 1fr;
+  min-height: 232px;
+  align-items: stretch;
+  border: 1.5px solid rgba(255, 196, 0, .68);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, .06), 0 0 0 3px rgba(255, 196, 0, .06);
+}
+
+.personalised-inputs-page .pi-card-content {
+  width: auto;
+  min-height: 0;
+  padding: 25px 12px 25px 20px;
+  justify-content: center;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap {
+  display: block;
+  width: calc(100% - 14px);
+  height: calc(100% - 28px);
+  margin: 14px 14px 14px 0;
+  align-self: center;
+  border-radius: 16px;
+  clip-path: none;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap::before {
+  display: none;
+}
+
+.personalised-inputs-page .pi-card-photo {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-solution-card {
+    grid-template-columns: minmax(0, 1.12fr) minmax(124px, .88fr);
+    grid-template-rows: 1fr;
+    min-height: 216px;
+  }
+
+  .personalised-inputs-page .pi-card-content {
+    padding: 22px 9px 22px 16px;
+  }
+
+  .personalised-inputs-page .pi-card-photo-wrap {
+    width: calc(100% - 10px);
+    height: calc(100% - 20px);
+    margin: 10px 10px 10px 0;
+  }
+
+  .personalised-inputs-page .pi-card-title {
+    font-size: 17px;
+  }
+
+  .personalised-inputs-page .pi-card-desc {
+    font-size: 12.5px;
+  }
+}
+
+/* Personalised Inputs section background system. */
+.personalised-inputs-page .cta-reference {
+  background:
+    radial-gradient(circle at 8% 20%, rgba(255, 196, 0, .12), transparent 24%),
+    linear-gradient(180deg, #fffdf8 0%, #f4f8fb 100%);
+}
+
+/* Final visual polish for the Personalised Inputs overview. */
+.personalised-inputs-page .pi-hero-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 78px 0 76px;
+  background:
+    radial-gradient(circle at 5% 42%, rgba(255, 196, 0, .15), transparent 25%),
+    radial-gradient(circle at 95% 12%, rgba(201, 220, 237, .3), transparent 25%),
+    linear-gradient(145deg, #f9fcff 0%, #ffffff 56%, #fffaf0 100%);
+}
+
+.personalised-inputs-page .pi-hero-section::before,
+.personalised-inputs-page .pi-hero-section::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.personalised-inputs-page .pi-hero-section::before {
+  top: -180px;
+  left: -180px;
+  width: 430px;
+  height: 430px;
+  border: 1px solid rgba(255, 196, 0, .2);
+  box-shadow: 0 0 0 22px rgba(255, 196, 0, .04), 0 0 0 45px rgba(255, 196, 0, .025);
+}
+
+.personalised-inputs-page .pi-hero-section::after {
+  right: -130px;
+  bottom: -220px;
+  width: 430px;
+  height: 430px;
+  background: rgba(210, 226, 239, .28);
+  filter: blur(2px);
+}
+
+.personalised-inputs-page .pi-hero-container {
+  width: min(1320px, calc(100% - 48px));
+  max-width: none;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.personalised-inputs-page .pi-hero-grid {
+  grid-template-columns: minmax(0, .96fr) minmax(0, 1.04fr);
+  gap: clamp(50px, 6vw, 88px);
+  margin-bottom: 62px;
+}
+
+.personalised-inputs-page .pi-hero-visual-col {
+  min-width: 0;
+}
+
+.personalised-inputs-page .pi-hero-visual-col::before {
+  content: "";
+  position: absolute;
+  width: 76%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 196, 0, .2), rgba(255, 196, 0, 0) 70%);
+  filter: blur(4px);
+  transform: translate(-5%, 7%);
+  pointer-events: none;
+}
+
+.personalised-inputs-page .pi-collage-wrap {
+  max-width: 530px;
+  padding: 20px 22px 15px;
+  border: 1.5px solid rgba(255, 196, 0, .46);
+  border-radius: 34px;
+  background: #ffffff;
+  box-shadow: 0 28px 58px rgba(15, 23, 42, .14), 0 0 0 8px rgba(255, 255, 255, .72);
+  z-index: 1;
+}
+
+.personalised-inputs-page .pi-collage-wrap::after {
+  content: "";
+  position: absolute;
+  left: 12%;
+  right: 12%;
+  bottom: -18px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, .13);
+  filter: blur(15px);
+  z-index: -1;
+}
+
+.personalised-inputs-page .pi-collage-img {
+  filter: drop-shadow(0 16px 15px rgba(15, 23, 42, .12));
+  transition: transform .45s cubic-bezier(.2, .8, .2, 1), filter .35s ease;
+}
+
+.personalised-inputs-page .pi-collage-wrap:hover .pi-collage-img {
+  transform: translateY(-5px) scale(1.018);
+  filter: drop-shadow(0 22px 20px rgba(15, 23, 42, .16));
+}
+
+.personalised-inputs-page .pi-hero-content-col {
+  max-width: 640px;
+  padding: 8px 12px 8px 0;
+}
+
+.personalised-inputs-page .pi-dot-pattern {
+  top: -18px;
+  right: 8px;
+  gap: 10px;
+  opacity: .3;
+}
+
+.personalised-inputs-page .pi-dot-pattern span {
+  width: 4px;
+  height: 4px;
+  background: #94a3b8;
+}
+
+.personalised-inputs-page .pi-overview-pill {
+  margin-bottom: 19px;
+  padding: 6px 18px;
+  border: 1px solid rgba(255, 196, 0, .9);
+  background: rgba(255, 255, 255, .82);
+  box-shadow: 0 5px 16px rgba(255, 196, 0, .12);
+}
+
+.personalised-inputs-page .pi-hero-title {
+  max-width: 620px;
+  margin-bottom: 21px;
+  font-size: clamp(30px, 3.2vw, 48px);
+  line-height: 1.08;
+  letter-spacing: -.048em;
+}
+
+.personalised-inputs-page .pi-hero-title .highlight-yellow {
+  position: relative;
+  display: inline-block;
+  color: var(--yellow);
+}
+
+.personalised-inputs-page .pi-hero-title .highlight-yellow::after {
+  content: "";
+  position: absolute;
+  left: 2%;
+  right: 0;
+  bottom: -8px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--yellow);
+  transform: rotate(-1.5deg);
+}
+
+.personalised-inputs-page .pi-hero-lead {
+  max-width: 590px;
+  margin-bottom: 31px;
+  font-size: clamp(16px, 1.25vw, 18px);
+  line-height: 1.62;
+  color: #526176;
+}
+
+.personalised-inputs-page .pi-btn-primary,
+.personalised-inputs-page .pi-btn-secondary {
+  min-height: 51px;
+  padding: 13px 27px;
+}
+
+.personalised-inputs-page .pi-btn-primary {
+  box-shadow: 0 11px 25px rgba(255, 196, 0, .28);
+}
+
+.personalised-inputs-page .pi-btn-secondary {
+  border-color: #cbd5e1;
+  background: rgba(255, 255, 255, .75);
+}
+
+.personalised-inputs-page .pi-features-bar {
+  width: min(1120px, 100%);
+  min-height: 116px;
+  margin: 0 auto;
+  padding: 23px 28px 23px 34px;
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(0, 1.75fr);
+  gap: 28px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-top: 3px solid var(--yellow);
+  border-radius: 25px;
+  background: linear-gradient(110deg, #0b1622 0%, #111f2d 100%);
+  box-shadow: 0 19px 38px rgba(15, 23, 42, .2);
+}
+
+.personalised-inputs-page .pi-features-left {
+  display: flex;
+  align-items: center;
+}
+
+.personalised-inputs-page .pi-features-title {
+  max-width: none;
+  margin: 0;
+  font-size: clamp(20px, 1.65vw, 23px);
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.personalised-inputs-page .pi-features-items {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0;
+}
+
+.personalised-inputs-page .pi-feature-item {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0 22px;
+  gap: 11px;
+}
+
+.personalised-inputs-page .pi-feature-item:first-child {
+  padding-left: 4px;
+}
+
+.personalised-inputs-page .pi-feature-icon-wrap {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ffe98b 0%, #ffc400 74%);
+  box-shadow: 0 7px 14px rgba(255, 196, 0, .2), inset 0 1px 2px rgba(255, 255, 255, .75);
+  transition: transform .3s ease, background .3s ease;
+}
+
+.personalised-inputs-page .pi-feature-icon {
+  width: 25px;
+  height: 25px;
+  stroke: #0b1622;
+  stroke-width: 2;
+}
+
+.personalised-inputs-page .pi-feature-text {
+  white-space: normal;
+  font-size: 13.5px;
+  line-height: 1.3;
+}
+
+.personalised-inputs-page .pi-feature-divider {
+  height: 42px;
+  background: rgba(255, 255, 255, .17);
+}
+
+.personalised-inputs-page .pi-feature-item:hover .pi-feature-icon-wrap {
+  transform: translateY(-3px) rotate(-5deg);
+  background: rgba(255, 196, 0, .2);
+}
+
+.personalised-inputs-page .pi-features-swoop {
+  width: 62px;
+  height: 62px;
+}
+
+@media (max-width: 1100px) {
+  .personalised-inputs-page .pi-hero-grid {
+    gap: 42px;
+  }
+
+  .personalised-inputs-page .pi-feature-item {
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .personalised-inputs-page .pi-hero-section {
+    padding: 58px 0 54px;
+  }
+
+  .personalised-inputs-page .pi-hero-container {
+    width: min(680px, calc(100% - 40px));
+  }
+
+  .personalised-inputs-page .pi-hero-grid {
+    gap: 38px;
+    margin-bottom: 42px;
+  }
+
+  .personalised-inputs-page .pi-hero-content-col {
+    max-width: 620px;
+    padding-right: 0;
+  }
+
+  .personalised-inputs-page .pi-features-bar {
+    grid-template-columns: 1fr;
+    gap: 19px;
+    padding: 25px 26px;
+  }
+
+  .personalised-inputs-page .pi-features-title {
+    max-width: none;
+    white-space: normal;
+  }
+
+  .personalised-inputs-page .pi-features-items {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-hero-section {
+    padding: 40px 0 44px;
+  }
+
+  .personalised-inputs-page .pi-hero-container {
+    width: calc(100% - 32px);
+  }
+
+  .personalised-inputs-page .pi-hero-grid {
+    gap: 30px;
+    margin-bottom: 34px;
+  }
+
+  .personalised-inputs-page .pi-collage-wrap {
+    padding: 12px 13px 9px;
+    border-radius: 22px;
+    box-shadow: 0 16px 34px rgba(15, 23, 42, .12), 0 0 0 6px rgba(255, 255, 255, .66);
+  }
+
+  .personalised-inputs-page .pi-hero-content-col {
+    text-align: center;
+  }
+
+  .personalised-inputs-page .pi-overview-pill {
+    margin-bottom: 15px;
+  }
+
+  .personalised-inputs-page .pi-hero-title {
+    font-size: clamp(28px, 8vw, 36px);
+    line-height: 1.08;
+  }
+
+  .personalised-inputs-page .pi-hero-lead {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15.5px;
+  }
+
+  .personalised-inputs-page .pi-hero-actions {
+    align-items: stretch;
+    gap: 11px;
+  }
+
+  .personalised-inputs-page .pi-btn-primary,
+  .personalised-inputs-page .pi-btn-secondary {
+    width: 100%;
+  }
+
+  .personalised-inputs-page .pi-features-bar {
+    gap: 14px;
+    padding: 22px 20px 24px;
+    border-radius: 21px;
+  }
+
+  .personalised-inputs-page .pi-features-title {
+    font-size: 21px;
+  }
+
+  .personalised-inputs-page .pi-features-items {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .personalised-inputs-page .pi-feature-item,
+  .personalised-inputs-page .pi-feature-item:first-child {
+    padding: 12px 0;
+  }
+
+  .personalised-inputs-page .pi-feature-item:not(:first-child) {
+    border-top: 1px solid rgba(255, 255, 255, .14);
+  }
+
+  .personalised-inputs-page .pi-feature-divider {
+    display: none;
+  }
+
+  .personalised-inputs-page .pi-feature-text {
+    font-size: 14px;
+  }
+}
+
+/* Final touchpoint card text alignment and SVG icon treatment. */
+.personalised-inputs-page .pi-card-content {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.personalised-inputs-page .pi-card-badge {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.personalised-inputs-page .pi-card-badge-icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.personalised-inputs-page .pi-card-title,
+.personalised-inputs-page .pi-card-desc {
+  text-align: left;
+}
+
+/* Touchpoint card text: use the same left-aligned editorial rhythm as the reference. */
+.personalised-inputs-page .pi-card-content {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.personalised-inputs-page .pi-card-badge {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.personalised-inputs-page .pi-card-badge-icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.personalised-inputs-page .pi-card-title,
+.personalised-inputs-page .pi-card-desc {
+  text-align: left;
+}
+
+/* Process cards: polished hover interaction and stronger visual hierarchy. */
+.personalised-inputs-page .detail-process-grid {
+  gap: 12px;
+}
+
+.personalised-inputs-page .detail-process-step,
+.personalised-inputs-page .detail-process-step:nth-child(3),
+.personalised-inputs-page .detail-process-step:first-child {
+  position: relative;
+  min-height: 182px;
+  padding: 19px 18px 17px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-left: 1px solid rgba(255, 255, 255, .16);
+  border-radius: 17px;
+  background: linear-gradient(150deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .035));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);
+  transition: transform .28s cubic-bezier(.2, .8, .2, 1), border-color .28s ease, background .28s ease, box-shadow .28s ease;
+}
+
+.personalised-inputs-page .detail-process-step::before {
+  content: '';
+  position: absolute;
+  top: -58px;
+  right: -42px;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background: rgba(255, 196, 0, .12);
+  opacity: .35;
+  transition: transform .4s ease, opacity .3s ease;
+}
+
+.personalised-inputs-page .detail-process-step::after {
+  content: '';
+  position: absolute;
+  right: 19px;
+  bottom: 0;
+  left: 19px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, var(--yellow), transparent);
+  opacity: .25;
+  transform: scaleX(.4);
+  transition: transform .3s ease, opacity .3s ease;
+}
+
+.personalised-inputs-page .detail-process-step:hover {
+  z-index: 2;
+  border-color: rgba(255, 196, 0, .72);
+  background: linear-gradient(150deg, rgba(255, 196, 0, .18), rgba(255, 255, 255, .07));
+  box-shadow: 0 15px 28px rgba(0, 0, 0, .22), 0 0 0 1px rgba(255, 196, 0, .1);
+  transform: translateY(-8px);
+}
+
+.personalised-inputs-page .detail-process-step:hover::before {
+  opacity: .8;
+  transform: scale(1.35);
+}
+
+.personalised-inputs-page .detail-process-step:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.personalised-inputs-page .detail-process-icon {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 18px;
+  transition: transform .32s cubic-bezier(.2, .8, .2, 1), box-shadow .32s ease, background .32s ease;
+}
+
+.personalised-inputs-page .detail-process-step:hover .detail-process-icon {
+  background: #ffd43b;
+  box-shadow: 0 0 0 7px rgba(255, 196, 0, .12), 0 10px 22px rgba(255, 196, 0, .42);
+  transform: translateY(-3px) rotate(-6deg) scale(1.08);
+}
+
+.personalised-inputs-page .detail-process-step h3,
+.personalised-inputs-page .detail-process-step p {
+  position: relative;
+  z-index: 1;
+  transition: color .25s ease, transform .25s ease;
+}
+
+.personalised-inputs-page .detail-process-step:hover h3 {
+  color: var(--yellow);
+  transform: translateX(2px);
+}
+
+.personalised-inputs-page .detail-process-step:hover p {
+  color: #fff;
+}
+
+@media (max-width: 950px) {
+  .personalised-inputs-page .detail-process-step:nth-child(3),
+  .personalised-inputs-page .detail-process-step:first-child {
+    border-left: 1px solid rgba(255, 255, 255, .16);
+  }
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .detail-process-grid {
+    gap: 10px;
+  }
+
+  .personalised-inputs-page .detail-process-step,
+  .personalised-inputs-page .detail-process-step:nth-child(3),
+  .personalised-inputs-page .detail-process-step:first-child {
+    min-height: 0;
+    padding: 16px 16px 17px 64px;
+    border: 1px solid rgba(255, 255, 255, .16);
+    border-radius: 15px;
+  }
+
+  .personalised-inputs-page .detail-process-icon {
+    top: 16px;
+    left: 16px;
+    margin: 0;
+  }
+
+  .personalised-inputs-page .detail-process-step:hover {
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .personalised-inputs-page .detail-process-step,
+  .personalised-inputs-page .detail-process-step::before,
+  .personalised-inputs-page .detail-process-step::after,
+  .personalised-inputs-page .detail-process-icon,
+  .personalised-inputs-page .detail-process-step h3,
+  .personalised-inputs-page .detail-process-step p {
+    transition: none;
+  }
+}
+
 /* Personalised Inputs detail page. */
 .detail-page {
   --detail-ink: #111827;
@@ -11543,5 +12398,1261 @@ pointer-events: auto;
   .detail-cta-card p {
     margin-top: 17px;
     font-size: 14px;
+  }
+}
+
+/* ==========================================================================
+   Personalised Inputs Hero & Feature Bar (Exact Reference Mockup Match)
+   ========================================================================== */
+.pi-hero-section {
+  position: relative;
+  background:
+    radial-gradient(circle at 8% 35%, rgba(255, 196, 0, .12), transparent 24%),
+    linear-gradient(145deg, #ffffff 0%, #ffffff 58%, #fffaf0 100%);
+  padding: 72px 0 70px;
+  overflow: hidden;
+}
+
+.pi-hero-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.pi-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(340px, 520px) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(42px, 6vw, 78px);
+  margin-bottom: 56px;
+  position: relative;
+}
+
+.pi-hero-visual-col {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pi-collage-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  padding: 18px 20px 14px;
+  border: 1px solid rgba(255, 196, 0, .38);
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0 24px 55px rgba(15, 23, 42, .13), 0 0 0 9px rgba(255, 255, 255, .62);
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.pi-collage-wrap:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 28px 62px rgba(15, 23, 42, .16), 0 0 0 9px rgba(255, 255, 255, .72);
+}
+
+.pi-collage-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  filter: none;
+}
+
+.pi-hero-content-col {
+  position: relative;
+  max-width: 640px;
+  padding: 10px 12px 8px 0;
+}
+
+/* 4x4 Dot Grid Pattern on Top Right */
+.pi-dot-pattern {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 5px);
+  grid-template-rows: repeat(4, 5px);
+  gap: 12px;
+  pointer-events: none;
+  opacity: 0.38;
+}
+
+.pi-dot-pattern span {
+  width: 5px;
+  height: 5px;
+  background-color: #64748b;
+  border-radius: 50%;
+  display: block;
+}
+
+/* OVERVIEW Pill */
+.pi-overview-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--yellow);
+  border-radius: 999px;
+  padding: 4px 18px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #0f172a;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  background: #ffffff;
+}
+
+.pi-hero-title {
+  max-width: 620px;
+  margin: 0 0 21px;
+  font-size: clamp(30px, 3.1vw, 46px);
+  font-weight: 900;
+  line-height: 1.06;
+  letter-spacing: -0.048em;
+  color: #0f172a;
+}
+
+.pi-hero-title .highlight-yellow {
+  position: relative;
+  display: inline-block;
+  color: var(--yellow);
+}
+
+.pi-hero-title .highlight-yellow::after {
+  content: "";
+  position: absolute;
+  left: 2%;
+  right: 0;
+  bottom: -8px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--yellow);
+  transform: rotate(-1.5deg);
+}
+
+.pi-hero-lead {
+  max-width: 590px;
+  margin: 0 0 31px;
+  font-size: clamp(16px, 1.25vw, 18px);
+  line-height: 1.62;
+  color: #475569;
+  font-weight: 450;
+}
+
+.pi-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pi-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--yellow);
+  color: #0f172a;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 13px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(255, 196, 0, 0.38);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.pi-btn-primary:hover {
+  transform: translateY(-2px);
+  background: #f5b700;
+  box-shadow: 0 10px 24px rgba(255, 196, 0, 0.48);
+}
+
+.pi-btn-arrow {
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.pi-btn-primary:hover .pi-btn-arrow {
+  transform: translateX(3px);
+}
+
+.pi-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  border: 1.5px solid #cbd5e1;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.pi-btn-secondary:hover {
+  border-color: var(--yellow);
+  color: #d98e00;
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   "Why Personalisation Matters?" Capsule Bar
+   ========================================================================== */
+.pi-features-bar {
+  position: relative;
+  overflow: hidden;
+  background: #0b1622;
+  border-radius: 24px;
+  padding: 24px 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  box-shadow: 0 12px 34px rgba(11, 22, 34, 0.16);
+}
+
+.pi-features-left {
+  flex-shrink: 0;
+}
+
+.pi-features-title {
+  margin: 0;
+  font-size: clamp(20px, 1.85vw, 25px);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.pi-features-items {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.pi-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pi-feature-icon-wrap {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.pi-feature-icon {
+  width: 30px;
+  height: 30px;
+  stroke: var(--yellow);
+  fill: none;
+  stroke-width: 2.2;
+}
+
+.pi-feature-text {
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #f1f5f9;
+  white-space: nowrap;
+}
+
+.pi-feature-divider {
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.2);
+  flex-shrink: 0;
+}
+
+.pi-features-swoop {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 55px;
+  height: 55px;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.pi-features-swoop svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  .pi-features-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+    gap: 22px;
+  }
+  .pi-features-items {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .pi-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+  .pi-hero-visual-col {
+    order: 1;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .pi-hero-content-col {
+    order: 2;
+    max-width: 640px;
+    margin: 0 auto;
+    padding-right: 0;
+    text-align: center;
+  }
+  .pi-hero-title,
+  .pi-hero-lead {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .pi-hero-actions {
+    justify-content: center;
+  }
+  .pi-dot-pattern {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .pi-hero-section {
+    padding: 44px 0 48px;
+  }
+  .pi-hero-container {
+    width: calc(100% - 32px);
+    padding: 0;
+  }
+  .pi-hero-grid {
+    gap: 28px;
+    margin-bottom: 36px;
+  }
+  .pi-collage-wrap {
+    padding: 12px 13px 9px;
+    border-radius: 22px;
+  }
+  .pi-hero-title {
+    font-size: clamp(30px, 8.8vw, 40px);
+    line-height: 1.04;
+  }
+  .pi-hero-lead {
+    font-size: 15.5px;
+  }
+  .pi-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 11px;
+  }
+  .pi-btn-primary,
+  .pi-btn-secondary {
+    width: 100%;
+  }
+  .pi-features-bar {
+    border-radius: 20px;
+    padding: 22px 18px;
+  }
+  .pi-features-items {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .pi-feature-divider {
+    display: none;
+  }
+  .pi-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .pi-btn-primary,
+  .pi-btn-secondary {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Personalised Solutions for Every Touchpoint (Exact Mockup Match)
+   ========================================================================== */
+.pi-solutions-section {
+  padding: 85px 0 95px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.pi-solutions-header {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto 52px;
+}
+
+.pi-solutions-kicker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.pi-solutions-kicker-line {
+  width: 32px;
+  height: 3.5px;
+  background: var(--yellow);
+  border-radius: 999px;
+}
+
+.pi-solutions-kicker-text {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0f172a;
+}
+
+.pi-solutions-title {
+  margin: 0 0 16px;
+  font-size: clamp(30px, 3.2vw, 46px);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+}
+
+.pi-solutions-lead {
+  margin: 0;
+  font-size: clamp(15px, 1.15vw, 17px);
+  line-height: 1.6;
+  color: #475569;
+  font-weight: 450;
+}
+
+/* 3 Columns x 2 Rows Grid */
+.pi-solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.pi-solution-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1.5px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(130px, 150px);
+  min-height: 175px;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.pi-solution-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 196, 0, 0.55);
+  box-shadow: 0 16px 36px rgba(255, 196, 0, 0.2), 0 4px 14px rgba(15, 23, 42, 0.06);
+}
+
+.pi-card-content {
+  padding: 20px 14px 20px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 2;
+}
+
+.pi-card-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #ffffff 0%, #ffe978 28%, #ffc400 70%, #d89600 100%);
+  display: grid;
+  place-items: center;
+  color: #0f172a;
+  margin-bottom: 12px;
+  box-shadow: 0 6px 16px rgba(255, 196, 0, 0.35), inset 0 1.5px 2px rgba(255, 255, 255, 0.9);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.pi-solution-card:hover .pi-card-badge {
+  transform: scale(1.1);
+}
+
+.pi-card-badge-icon {
+  width: 22px;
+  height: 22px;
+  stroke: #0f172a;
+  stroke-width: 2.2;
+}
+
+.pi-card-title {
+  margin: 0 0 8px;
+  font-size: clamp(16px, 1.15vw, 18px);
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.pi-card-desc {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #475569;
+  font-weight: 500;
+}
+
+.pi-card-photo-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.pi-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.pi-solution-card:hover .pi-card-photo {
+  transform: scale(1.05);
+}
+
+.pi-card-corner-swoop {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.pi-card-corner-swoop svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1180px) {
+  .pi-solutions-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pi-solutions-grid {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .pi-solution-card {
+    grid-template-columns: minmax(0, 1.25fr) minmax(130px, 160px);
+  }
+}
+
+@media (max-width: 480px) {
+  .pi-solution-card {
+    grid-template-columns: 1fr;
+  }
+  .pi-card-photo-wrap {
+    height: 160px;
+  }
+}
+
+/* Touchpoint solutions: match the clear 3x2 reference card composition. */
+.personalised-inputs-page .pi-solutions-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 78px 0 88px;
+  background:
+    radial-gradient(circle at 0% 10%, rgba(255, 196, 0, .12), transparent 18%),
+    radial-gradient(circle at 100% 28%, rgba(183, 211, 232, .2), transparent 20%),
+    linear-gradient(180deg, #ffffff 0%, #f8fbfd 100%);
+}
+
+.personalised-inputs-page .pi-solutions-section::before,
+.personalised-inputs-page .pi-solutions-section::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  filter: blur(38px);
+  opacity: .38;
+  pointer-events: none;
+}
+
+.personalised-inputs-page .pi-solutions-section::before {
+  top: -95px;
+  left: -85px;
+  background: rgba(255, 196, 0, .18);
+}
+
+.personalised-inputs-page .pi-solutions-section::after {
+  top: 8px;
+  right: -90px;
+  background: rgba(112, 166, 205, .16);
+}
+
+.personalised-inputs-page .pi-solutions-header {
+  max-width: 920px;
+  margin-bottom: 38px;
+}
+
+.personalised-inputs-page .pi-solutions-kicker {
+  gap: 11px;
+  margin-bottom: 12px;
+}
+
+.personalised-inputs-page .pi-solutions-kicker-line {
+  width: 28px;
+  height: 3px;
+}
+
+.personalised-inputs-page .pi-solutions-kicker-text {
+  font-size: 12px;
+  letter-spacing: .1em;
+}
+
+.personalised-inputs-page .pi-solutions-title {
+  margin-bottom: 14px;
+  font-size: clamp(33px, 3.4vw, 51px);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+
+.personalised-inputs-page .pi-solutions-title .highlight-yellow {
+  position: relative;
+  display: inline-block;
+  color: var(--yellow);
+}
+
+.personalised-inputs-page .pi-solutions-title .highlight-yellow::after {
+  content: '';
+  position: absolute;
+  right: 2%;
+  bottom: -10px;
+  left: 3%;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--yellow);
+  transform: rotate(-1deg);
+}
+
+.personalised-inputs-page .pi-solutions-lead {
+  max-width: 720px;
+  margin: 0 auto 18px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.personalised-inputs-page .pi-solutions-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px 20px;
+}
+
+.personalised-inputs-page .pi-solution-card {
+  min-height: 168px;
+  grid-template-columns: minmax(0, 1.12fr) minmax(138px, .88fr);
+  border: 1px solid #e7ebef;
+  border-radius: 17px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, .08);
+}
+
+.personalised-inputs-page .pi-card-content {
+  padding: 18px 10px 18px 20px;
+}
+
+.personalised-inputs-page .pi-card-badge {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 9px;
+  box-shadow: 0 5px 12px rgba(255, 196, 0, .28), inset 0 1.5px 2px rgba(255, 255, 255, .9);
+}
+
+.personalised-inputs-page .pi-card-badge-icon {
+  width: 19px;
+  height: 19px;
+  stroke-width: 2;
+}
+
+.personalised-inputs-page .pi-card-title {
+  margin-bottom: 6px;
+  font-size: 16px;
+  line-height: 1.12;
+}
+
+.personalised-inputs-page .pi-card-desc {
+  max-width: 205px;
+  font-size: 12px;
+  line-height: 1.34;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap {
+  min-width: 0;
+  background: #f3eee6;
+  clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.personalised-inputs-page .pi-card-photo {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  image-rendering: auto;
+  filter: saturate(1.04) contrast(1.02);
+}
+
+.personalised-inputs-page .pi-card-corner-swoop {
+  width: 42px;
+  height: 42px;
+}
+
+@media (max-width: 1180px) {
+  .personalised-inputs-page .pi-solutions-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-solutions-section {
+    padding: 62px 0 70px;
+  }
+
+  .personalised-inputs-page .pi-solutions-header {
+    width: calc(100% - 8px);
+    margin-bottom: 29px;
+  }
+
+  .personalised-inputs-page .pi-solutions-title {
+    font-size: clamp(31px, 9.5vw, 43px);
+  }
+
+  .personalised-inputs-page .pi-solutions-lead {
+    font-size: 13px;
+  }
+
+  .personalised-inputs-page .pi-solutions-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .personalised-inputs-page .pi-solution-card {
+    min-height: 168px;
+    grid-template-columns: minmax(0, 1.1fr) minmax(130px, .9fr);
+  }
+
+  .personalised-inputs-page .pi-card-content {
+    padding-left: 17px;
+  }
+
+  .personalised-inputs-page .pi-card-photo-wrap {
+    height: 100%;
+    clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@media (max-width: 480px) {
+  .personalised-inputs-page .pi-solution-card {
+    grid-template-columns: minmax(0, 1.08fr) minmax(120px, .92fr);
+  }
+
+  .personalised-inputs-page .pi-card-photo-wrap {
+    height: 100%;
+  }
+}
+
+/* Touchpoint cards: softer split, warmer surfaces and richer hover feedback. */
+.personalised-inputs-page .pi-solution-card {
+  min-height: 178px;
+  border: 1px solid rgba(222, 199, 144, .5);
+  border-radius: 19px;
+  background: linear-gradient(145deg, #fff 0%, #fffdf7 100%);
+  box-shadow: 0 11px 24px rgba(15, 23, 42, .08), 0 2px 5px rgba(255, 196, 0, .08);
+  transition: transform .3s cubic-bezier(.2, .8, .2, 1), box-shadow .3s ease, border-color .3s ease;
+}
+
+.personalised-inputs-page .pi-solution-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 17px;
+  left: 20px;
+  height: 3px;
+  border-radius: 0 0 999px 999px;
+  background: linear-gradient(90deg, rgba(255, 196, 0, .2), var(--yellow), rgba(255, 196, 0, .2));
+  opacity: .65;
+  transition: opacity .25s ease, transform .25s ease;
+}
+
+.personalised-inputs-page .pi-solution-card:hover {
+  border-color: rgba(255, 196, 0, .85);
+  box-shadow: 0 18px 32px rgba(15, 23, 42, .12), 0 8px 18px rgba(255, 196, 0, .13);
+  transform: translateY(-7px);
+}
+
+.personalised-inputs-page .pi-solution-card:hover::before {
+  opacity: 1;
+  transform: scaleX(1.03);
+}
+
+.personalised-inputs-page .pi-card-content {
+  padding: 19px 14px 18px 20px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, .98), rgba(255, 253, 246, .94));
+}
+
+.personalised-inputs-page .pi-card-badge {
+  width: 39px;
+  height: 39px;
+  margin-bottom: 10px;
+  border: 3px solid rgba(255, 255, 255, .78);
+  box-shadow: 0 6px 15px rgba(255, 196, 0, .3), inset 0 1px 2px rgba(255, 255, 255, .95);
+}
+
+.personalised-inputs-page .pi-solution-card:hover .pi-card-badge {
+  transform: translateY(-3px) rotate(-6deg) scale(1.08);
+}
+
+.personalised-inputs-page .pi-card-title {
+  margin-bottom: 7px;
+  font-size: 17px;
+  line-height: 1.16;
+}
+
+.personalised-inputs-page .pi-card-desc {
+  max-width: 218px;
+  color: #536174;
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap {
+  border-radius: 0 19px 19px 0;
+  clip-path: none;
+  background: #f2ece1;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: 0 auto 0 0;
+  width: 33%;
+  background: linear-gradient(90deg, rgba(255, 253, 246, .95) 0%, rgba(255, 253, 246, .58) 38%, rgba(255, 253, 246, 0) 100%);
+  pointer-events: none;
+}
+
+.personalised-inputs-page .pi-card-photo {
+  object-position: center;
+  filter: saturate(1.06) contrast(1.04);
+  transition: transform .55s cubic-bezier(.2, .8, .2, 1), filter .3s ease;
+}
+
+.personalised-inputs-page .pi-solution-card:hover .pi-card-photo {
+  filter: saturate(1.1) contrast(1.06);
+  transform: scale(1.08);
+}
+
+.personalised-inputs-page .pi-card-corner-swoop {
+  width: 47px;
+  height: 47px;
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-solution-card {
+    min-height: 174px;
+  }
+
+  .personalised-inputs-page .pi-card-content {
+    padding-left: 17px;
+  }
+
+  .personalised-inputs-page .pi-card-title {
+    font-size: 16px;
+  }
+
+  .personalised-inputs-page .pi-card-desc {
+    font-size: 12px;
+  }
+}
+
+/* Final card balance: compact text column with a full-height product visual. */
+.personalised-inputs-page .pi-solution-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(135px, .85fr);
+  grid-template-rows: 1fr;
+  min-height: 232px;
+  align-items: stretch;
+  border: 1.5px solid rgba(255, 196, 0, .68);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, .06), 0 0 0 3px rgba(255, 196, 0, .06);
+}
+
+.personalised-inputs-page .pi-card-content {
+  width: auto;
+  min-height: 0;
+  padding: 25px 12px 25px 20px;
+  justify-content: center;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap {
+  width: calc(100% - 14px);
+  height: calc(100% - 28px);
+  margin: 14px 14px 14px 0;
+  align-self: center;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.personalised-inputs-page .pi-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-solution-card {
+    grid-template-columns: minmax(0, 1.12fr) minmax(124px, .88fr);
+    grid-template-rows: 1fr;
+    min-height: 216px;
+  }
+
+  .personalised-inputs-page .pi-card-content {
+    padding: 22px 9px 22px 16px;
+  }
+
+  .personalised-inputs-page .pi-card-photo-wrap {
+    width: calc(100% - 10px);
+    height: calc(100% - 20px);
+    margin: 10px 10px 10px 0;
+  }
+
+  .personalised-inputs-page .pi-card-title {
+    font-size: 17px;
+  }
+
+  .personalised-inputs-page .pi-card-desc {
+    font-size: 12.5px;
+  }
+}
+
+/* Touchpoint cards: centered editorial card style from the reference design. */
+.personalised-inputs-page .pi-solutions-grid {
+  gap: 20px;
+}
+
+.personalised-inputs-page .pi-solution-card {
+  display: flex;
+  min-height: 246px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #e5dcc9;
+  border-radius: 23px;
+  background: linear-gradient(145deg, #fff 0%, #fffdf8 100%);
+  box-shadow: 0 13px 28px rgba(31, 41, 55, .08);
+}
+
+.personalised-inputs-page .pi-solution-card::before {
+  top: 0;
+  right: 42px;
+  left: 42px;
+  height: 3px;
+  opacity: .55;
+}
+
+.personalised-inputs-page .pi-card-content {
+  display: flex;
+  width: 100%;
+  min-height: 246px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 27px 24px 31px;
+  text-align: center;
+}
+
+.personalised-inputs-page .pi-card-badge {
+  width: 58px;
+  height: 58px;
+  margin: 0 0 18px;
+  border: 4px solid rgba(255, 255, 255, .76);
+  box-shadow: 0 8px 18px rgba(255, 196, 0, .34), inset 0 1px 3px rgba(255, 255, 255, .95);
+}
+
+.personalised-inputs-page .pi-card-badge-icon {
+  width: 28px;
+  height: 28px;
+  stroke-width: 1.9;
+}
+
+.personalised-inputs-page .pi-card-title {
+  margin: 0 0 11px;
+  font-size: 20px;
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+
+.personalised-inputs-page .pi-card-desc {
+  max-width: 280px;
+  margin: 0;
+  color: #34465e;
+  font-size: 15px;
+  line-height: 1.46;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap {
+  display: none;
+}
+
+.personalised-inputs-page .pi-card-corner-swoop {
+  width: 69px;
+  height: 69px;
+}
+
+.personalised-inputs-page .pi-solution-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 20px 36px rgba(31, 41, 55, .13), 0 8px 18px rgba(255, 196, 0, .12);
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-solutions-grid {
+    gap: 15px;
+  }
+
+  .personalised-inputs-page .pi-solution-card,
+  .personalised-inputs-page .pi-card-content {
+    min-height: 224px;
+  }
+
+  .personalised-inputs-page .pi-card-content {
+    padding: 25px 20px 29px;
+  }
+
+  .personalised-inputs-page .pi-card-badge {
+    width: 53px;
+    height: 53px;
+    margin-bottom: 15px;
+  }
+
+  .personalised-inputs-page .pi-card-title {
+    font-size: 18px;
+  }
+
+  .personalised-inputs-page .pi-card-desc {
+    max-width: 280px;
+    font-size: 14px;
+  }
+}
+
+/* Keep the centered card style while restoring a compact product image strip. */
+.personalised-inputs-page .pi-solution-card {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 82px;
+  min-height: 314px;
+}
+
+.personalised-inputs-page .pi-card-content {
+  min-height: 0;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap {
+  display: block;
+  width: calc(100% - 28px);
+  height: 82px;
+  margin: 0 14px 13px;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #f1eadf;
+  clip-path: none;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap::before {
+  display: none;
+}
+
+.personalised-inputs-page .pi-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(1.04) contrast(1.03);
+  transition: transform .45s cubic-bezier(.2, .8, .2, 1), filter .3s ease;
+}
+
+.personalised-inputs-page .pi-solution-card:hover .pi-card-photo {
+  filter: saturate(1.1) contrast(1.06);
+  transform: scale(1.06);
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-solution-card {
+    grid-template-rows: minmax(0, 1fr) 74px;
+    min-height: 286px;
+  }
+
+  .personalised-inputs-page .pi-card-photo-wrap {
+    height: 74px;
+    margin-bottom: 11px;
+  }
+}
+
+/* Process panel sizing: align it with the upper content width instead of stretching edge-to-edge. */
+.personalised-inputs-page .detail-process-section {
+  overflow: visible;
+  padding: 54px 0 62px;
+  background:
+    radial-gradient(circle at 8% 14%, rgba(185, 213, 232, .38), transparent 25%),
+    linear-gradient(180deg, #f5f9fc 0%, #ffffff 100%);
+}
+
+.personalised-inputs-page .detail-process-section::after {
+  display: none;
+}
+
+.personalised-inputs-page .detail-process-layout {
+  width: min(1450px, calc(100% - 48px));
+  grid-template-columns: minmax(270px, 300px) minmax(0, 1fr);
+  gap: 38px;
+  padding: 48px 54px;
+  border-radius: 24px;
+  background:
+    linear-gradient(90deg, rgba(7, 19, 24, .97) 0%, rgba(7, 19, 24, .9) 54%, rgba(7, 19, 24, .94) 100%),
+    url('./assets/banner.png') center 43% / cover no-repeat;
+  box-shadow: 0 20px 42px rgba(15, 23, 42, .18);
+}
+
+.personalised-inputs-page .detail-process-heading {
+  min-height: 154px;
+}
+
+.personalised-inputs-page .detail-process-grid {
+  min-width: 0;
+}
+
+@media (max-width: 950px) {
+  .personalised-inputs-page .detail-process-layout {
+    width: calc(100% - 40px);
+    padding: 40px 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .detail-process-section {
+    padding: 34px 0 46px;
+  }
+
+  .personalised-inputs-page .detail-process-layout {
+    width: calc(100% - 28px);
+    gap: 29px;
+    padding: 31px 21px 34px;
+    border-radius: 20px;
+  }
+}
+
+/* Final touchpoint card layout: eliminate the empty lower area and balance the image. */
+.personalised-inputs-page .pi-solution-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(135px, .85fr);
+  grid-template-rows: 1fr;
+  min-height: 232px;
+  align-items: stretch;
+  border: 1.5px solid rgba(255, 196, 0, .68);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, .06), 0 0 0 3px rgba(255, 196, 0, .06);
+}
+
+.personalised-inputs-page .pi-card-content {
+  width: auto;
+  min-height: 0;
+  padding: 25px 12px 25px 20px;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.personalised-inputs-page .pi-card-badge-icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap {
+  display: block;
+  width: calc(100% - 14px);
+  height: calc(100% - 28px);
+  margin: 14px 14px 14px 0;
+  align-self: center;
+  border-radius: 16px;
+  clip-path: none;
+}
+
+.personalised-inputs-page .pi-card-photo-wrap::before {
+  display: none;
+}
+
+.personalised-inputs-page .pi-card-photo {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+
+@media (max-width: 600px) {
+  .personalised-inputs-page .pi-solution-card {
+    grid-template-columns: minmax(0, 1.12fr) minmax(124px, .88fr);
+    grid-template-rows: 1fr;
+    min-height: 216px;
+  }
+
+  .personalised-inputs-page .pi-card-content {
+    padding: 22px 9px 22px 16px;
+  }
+
+  .personalised-inputs-page .pi-card-photo-wrap {
+    width: calc(100% - 10px);
+    height: calc(100% - 20px);
+    margin: 10px 10px 10px 0;
+  }
+
+  .personalised-inputs-page .pi-card-title {
+    font-size: 17px;
+  }
+
+  .personalised-inputs-page .pi-card-desc {
+    font-size: 12.5px;
   }
 }

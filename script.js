@@ -320,10 +320,71 @@ const closeEnquiryBtn = document.getElementById('closeEnquiryModal');
 const enquiryForm = document.getElementById('enquiryPopupForm');
 const popupFeedback = document.getElementById('popupFeedback');
 const popupSelect = document.getElementById('popupRequirement');
+const popupService = document.getElementById('popupService');
 const popupSubmitBtn = document.getElementById('popupSubmitBtn');
 
-function openEnquiryModal() {
+const enquiryServiceOptions = {
+  'personalised-inputs': [
+    'Doctor Inputs',
+    'Desk Accessories',
+    'Calendars & Planners',
+    'Patient Engagement Kits',
+    'Promotional Merchandise',
+    'Custom Campaign Kits'
+  ],
+  'corporate-gifting': [
+    'Executive Gift Sets',
+    'Employee Welcome Kits',
+    'Client Appreciation Gifts',
+    'Festive Gift Boxes',
+    'Premium Drinkware',
+    'Custom Gift Hampers'
+  ],
+  'events-exhibitions': [
+    'Event Starter Kits',
+    'Exhibition Displays',
+    'Conference Gifting',
+    'Launch Experiences',
+    'Booth Essentials',
+    'Event Merchandise'
+  ],
+  'branding-marketing': [
+    'Brand Identity Kits',
+    'Campaign Collateral',
+    'Digital Brand Assets',
+    'Packaging & Print',
+    'Promotional Branding',
+    'Custom Brand Experiences'
+  ]
+};
+
+function populateServiceOptions(category = '') {
+  if (!popupService) return;
+
+  popupService.innerHTML = '<option value="" selected>What would you like us to create? *</option>';
+  const options = enquiryServiceOptions[category] || [];
+
+  options.forEach((label) => {
+    const option = document.createElement('option');
+    option.value = label.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    option.textContent = label;
+    popupService.appendChild(option);
+  });
+
+  popupService.disabled = options.length === 0;
+  popupService.classList.remove('selected-active');
+}
+
+function openEnquiryModal(category = '') {
   if (!enquiryModal) return;
+
+  const selectedCategory = category || document.body.dataset.enquiryCategory || '';
+  if (popupSelect) {
+    popupSelect.value = selectedCategory;
+    popupSelect.classList.toggle('selected-active', Boolean(selectedCategory));
+  }
+  populateServiceOptions(selectedCategory);
+
   enquiryModal.classList.add('is-open');
   enquiryModal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
@@ -346,7 +407,7 @@ document.querySelectorAll('[data-open-enquiry], .nav-cta, .enquire-now-trigger')
   btn.addEventListener('click', (e) => {
     if (enquiryModal) {
       e.preventDefault();
-      openEnquiryModal();
+      openEnquiryModal(btn.dataset.enquiryCategory || '');
     }
   });
 });
@@ -380,6 +441,7 @@ if (popupSelect) {
     } else {
       this.classList.remove('selected-active');
     }
+    populateServiceOptions(this.value);
   });
 }
 
@@ -392,9 +454,10 @@ if (enquiryForm && popupFeedback) {
     const email = document.getElementById('popupEmail');
     const phone = document.getElementById('popupPhone');
     const requirement = document.getElementById('popupRequirement');
+    const service = document.getElementById('popupService');
 
     let isValid = true;
-    [name, email, phone, requirement].forEach((field) => {
+    [name, email, phone, requirement, service].forEach((field) => {
       if (field) {
         const box = field.closest('.popup-input-box');
         if (!field.value.trim()) {
@@ -426,7 +489,12 @@ if (enquiryForm && popupFeedback) {
 
     setTimeout(() => {
       enquiryForm.reset();
-      if (popupSelect) popupSelect.classList.remove('selected-active');
+      const pageCategory = document.body.dataset.enquiryCategory || '';
+      if (popupSelect) {
+        popupSelect.value = pageCategory;
+        popupSelect.classList.toggle('selected-active', Boolean(pageCategory));
+      }
+      populateServiceOptions(pageCategory);
       if (popupSubmitBtn) {
         popupSubmitBtn.disabled = false;
         popupSubmitBtn.style.opacity = '1';

@@ -5,8 +5,8 @@
 - Workspace: ryze marketing
 - Technology: HTML/CSS/JavaScript
 - Active file at refresh: None
-- Local code graph: 6 files · 6 edges · 0 matched flows
-- Refreshed: 2026-11-24T09:10:59.480Z
+- Local code graph: 10 files · 10 edges · 0 matched flows
+- Refreshed: 2026-11-24T11:40:14.575Z
 
 ## Framework Intelligence (V4.7.8)
 - Profiles: html-static
@@ -17,6 +17,9 @@
 ### Pages / views
 - pages/contact.html
 - pages/about.html
+- pages/deatilspage/Branding & Marketing.html
+- pages/deatilspage/Corporate Gifting.html
+- pages/deatilspage/Events & Exhibitions.html
 - pages/deatilspage/Personalised Inputs.html
 - pages/industries.html
 
@@ -30,6 +33,9 @@
 - pages/contact.html
 - index.html
 - pages/about.html
+- pages/deatilspage/Branding & Marketing.html
+- pages/deatilspage/Corporate Gifting.html
+- pages/deatilspage/Events & Exhibitions.html
 - pages/deatilspage/Personalised Inputs.html
 - pages/industries.html
 - styles.css
@@ -51,4 +57,5 @@
 - .openai/hosting.json
 - .technomantra/workspace-index.json
 - .vscode/settings.json
+- category-detail-loader.js
 - script.js

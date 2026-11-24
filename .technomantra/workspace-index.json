@@ -1,7 +1,7 @@
 {
   "version": 2,
   "workspace": "ryze marketing",
-  "builtAt": "2026-11-24T09:10:59.186Z",
+  "builtAt": "2026-11-24T11:26:34.601Z",
   "reason": "files renamed",
   "policy": {
     "localOnly": true,
@@ -10,7 +10,7 @@
     "incremental": true
   },
   "stats": {
-    "reused": 21,
+    "reused": 25,
     "rescanned": 3,
     "skipped": 0
   },
@@ -52,23 +52,23 @@
     },
     {
       "path": ".clinerules/10-technomantra-project-memory.md",
-      "size": 1687,
-      "mtimeMs": 1795511455521.972,
-      "hash": "05ea240fe07f203589adac9d6362e4abdee55ef7061c5b1e27db585244a17e4c",
+      "size": 1987,
+      "mtimeMs": 1795519591197.7268,
+      "hash": "1a3cb7b74c757b6b1f9963fb6c642cf24180f992bb8d7f9a1be2076ab746619d",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-code-knowledge.md",
-      "size": 2021,
-      "mtimeMs": 1795511455520.9722,
-      "hash": "b4a32b98b69069897c466a8be87057123fb79056db034d47c5e39b126874af6d",
+      "size": 2807,
+      "mtimeMs": 1795519591196.722,
+      "hash": "14c8bba45a2cb4316b5f089b7908f9ea4f3accc302541a71d6d3cae516bf7491",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-patch-index.md",
       "size": 708,
-      "mtimeMs": 1795511454985.333,
-      "hash": "1136d7f5eef712b43d10d62612efd9d9e0140f298427ed947a55a0764de71490",
+      "mtimeMs": 1795519590895.4055,
+      "hash": "f5be8e0e63e7f10a1e93e8c5c15326eda659704d1b369fe1ad54d75e5830a5b2",
       "locators": []
     },
     {
@@ -135,10 +135,17 @@
       "locators": []
     },
     {
+      "path": "category-detail-loader.js",
+      "size": 10645,
+      "mtimeMs": 1795519116391.3054,
+      "hash": "5a42cf6d898bf043e613997e947ff3ce23d21524eed37a177a0702cdcdf7a8e6",
+      "locators": []
+    },
+    {
       "path": "index.html",
-      "size": 69443,
-      "mtimeMs": 1795510734295.2292,
-      "hash": "36c84bcff83a858390993702fd4407c3a1b0e9fe3bb6ec5c8f697bd100263f18",
+      "size": 69875,
+      "mtimeMs": 1795519142782.3818,
+      "hash": "ce0e30d3a77f01a5592f68cb07404f084c169a00d6001b82fe62cb7814ee9d17",
       "locators": [
         {
           "kind": "class",
@@ -544,9 +551,9 @@
     },
     {
       "path": "pages/about.html",
-      "size": 34214,
-      "mtimeMs": 1795510735460.416,
-      "hash": "d2915ef57515f25fac9b9490627b72d2c932eef1391a5d8d7c834a023e20fb09",
+      "size": 34273,
+      "mtimeMs": 1795516117296.1763,
+      "hash": "01fae552961e7fca0fdeaf516bd79bbb9ec13754859477eb3a15da3de1ba651d",
       "locators": [
         {
           "kind": "class",
@@ -952,9 +959,9 @@
     },
     {
       "path": "pages/contact.html",
-      "size": 36518,
-      "mtimeMs": 1795510737271.651,
-      "hash": "43708c0a7b60be4dc837100592cee04ad3e92e5a72e31b98c4665272bc140387",
+      "size": 36577,
+      "mtimeMs": 1795516119252.1445,
+      "hash": "ff13aa68859a281575bd53a09ab90e9b3ea6b1b57c8d110c025d90a523e95008",
       "locators": [
         {
           "kind": "class",
@@ -1359,10 +1366,79 @@
       ]
     },
     {
+      "path": "pages/deatilspage/Branding & Marketing.html",
+      "size": 718,
+      "mtimeMs": 1795516052703.2378,
+      "hash": "e368963f0cc871fc56cf17eb22a321f304ef8858ae44f76e36927dfb3beb0b56",
+      "locators": [
+        {
+          "kind": "class",
+          "name": ".detail-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".personalised-inputs-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".category-loader-page",
+          "line": 10
+        }
+      ]
+    },
+    {
+      "path": "pages/deatilspage/Corporate Gifting.html",
+      "size": 700,
+      "mtimeMs": 1795516050699.6067,
+      "hash": "bce6e2b5c2d5e202d1e64d37da7fe060f2882ef6560e2692827f0d4893934a55",
+      "locators": [
+        {
+          "kind": "class",
+          "name": ".detail-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".personalised-inputs-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".category-loader-page",
+          "line": 10
+        }
+      ]
+    },
+    {
+      "path": "pages/deatilspage/Events & Exhibitions.html",
+      "size": 716,
+      "mtimeMs": 1795516051670.5972,
+      "hash": "d40fd94e651dfe87d98ef87c2f1571c548d5a0ed5a7629f0c351fc3da5dc420f",
+      "locators": [
+        {
+          "kind": "class",
+          "name": ".detail-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".personalised-inputs-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".category-loader-page",
+          "line": 10
+        }
+      ]
+    },
+    {
       "path": "pages/deatilspage/Personalised Inputs.html",
-      "size": 17872,
-      "mtimeMs": 1795510996893.9033,
-      "hash": "8bd71ca58889a8a51e0f2f89f644433b0c548fff350470af6840c838df02ef6e",
+      "size": 32037,
+      "mtimeMs": 1795519129246.689,
+      "hash": "453150f5e3ca1b9936df11b231eab7e0a890f7bf0935cb6075b831bb98869ed0",
       "locators": [
         {
           "kind": "class",
@@ -1396,381 +1472,381 @@
         },
         {
           "kind": "id",
-          "name": "#icon-gift",
+          "name": "#icon-stethoscope",
           "line": 15
         },
         {
           "kind": "id",
-          "name": "#icon-handshake",
+          "name": "#icon-gift",
           "line": 16
         },
         {
           "kind": "id",
-          "name": "#icon-diamond",
+          "name": "#icon-handshake",
           "line": 17
         },
         {
           "kind": "id",
-          "name": "#icon-calendar",
+          "name": "#icon-diamond",
           "line": 18
         },
         {
           "kind": "id",
-          "name": "#icon-layers",
+          "name": "#icon-calendar",
           "line": 19
         },
         {
           "kind": "id",
-          "name": "#icon-users",
+          "name": "#icon-layers",
           "line": 20
         },
         {
           "kind": "id",
-          "name": "#icon-bulb",
+          "name": "#icon-users",
           "line": 21
         },
         {
           "kind": "id",
-          "name": "#icon-target",
+          "name": "#icon-bulb",
           "line": 22
         },
         {
           "kind": "id",
-          "name": "#icon-pin",
+          "name": "#icon-gear",
           "line": 23
         },
         {
           "kind": "id",
-          "name": "#icon-phone",
+          "name": "#icon-truck",
           "line": 24
         },
         {
           "kind": "id",
-          "name": "#icon-mail",
+          "name": "#icon-target",
           "line": 25
         },
         {
           "kind": "id",
-          "name": "#icon-megaphone",
+          "name": "#icon-pin",
           "line": 26
         },
         {
-          "kind": "class",
-          "name": ".site-header",
+          "kind": "id",
+          "name": "#icon-phone",
+          "line": 27
+        },
+        {
+          "kind": "id",
+          "name": "#icon-mail",
+          "line": 28
+        },
+        {
+          "kind": "id",
+          "name": "#icon-megaphone",
           "line": 29
         },
         {
           "kind": "class",
-          "name": ".container",
-          "line": 30
-        },
-        {
-          "kind": "class",
-          "name": ".nav-wrap",
-          "line": 30
-        },
-        {
-          "kind": "class",
-          "name": ".brand",
-          "line": 31
-        },
-        {
-          "kind": "class",
-          "name": ".logo-image",
+          "name": ".site-header",
           "line": 32
         },
         {
           "kind": "class",
-          "name": ".menu-toggle",
+          "name": ".container",
+          "line": 33
+        },
+        {
+          "kind": "class",
+          "name": ".nav-wrap",
+          "line": 33
+        },
+        {
+          "kind": "class",
+          "name": ".brand",
           "line": 34
+        },
+        {
+          "kind": "class",
+          "name": ".logo-image",
+          "line": 35
+        },
+        {
+          "kind": "class",
+          "name": ".menu-toggle",
+          "line": 37
         },
         {
           "kind": "id",
           "name": "#main-nav",
-          "line": 37
+          "line": 40
         },
         {
           "kind": "class",
           "name": ".main-nav",
-          "line": 37
+          "line": 40
         },
         {
           "kind": "class",
           "name": ".nav-links",
-          "line": 38
-        },
-        {
-          "kind": "class",
-          "name": ".nav-dropdown-wrap",
           "line": 41
         },
         {
           "kind": "class",
+          "name": ".nav-dropdown-wrap",
+          "line": 44
+        },
+        {
+          "kind": "class",
           "name": ".nav-dropdown-trigger",
-          "line": 42
-        },
-        {
-          "kind": "class",
-          "name": ".nav-chevron",
-          "line": 43
-        },
-        {
-          "kind": "class",
-          "name": ".nav-dropdown",
           "line": 45
         },
         {
           "kind": "class",
-          "name": ".active",
+          "name": ".nav-chevron",
           "line": 46
         },
         {
           "kind": "class",
+          "name": ".nav-dropdown",
+          "line": 48
+        },
+        {
+          "kind": "class",
+          "name": ".active",
+          "line": 49
+        },
+        {
+          "kind": "class",
           "name": ".nav-cta",
-          "line": 55
+          "line": 58
         },
         {
           "kind": "class",
           "name": ".contact-hero-section",
-          "line": 61
-        },
-        {
-          "kind": "class",
-          "name": ".detail-contact-hero-section",
-          "line": 61
+          "line": 65
         },
         {
           "kind": "class",
           "name": ".contact-hero-inner",
-          "line": 63
-        },
-        {
-          "kind": "class",
-          "name": ".contact-breadcrumb",
-          "line": 64
-        },
-        {
-          "kind": "class",
-          "name": ".crumb-separator",
-          "line": 66
-        },
-        {
-          "kind": "class",
-          "name": ".crumb-current",
           "line": 67
         },
         {
           "kind": "class",
-          "name": ".contact-hero-title",
-          "line": 69
-        },
-        {
-          "kind": "heading",
-          "name": "Personalised",
-          "line": 69
+          "name": ".contact-breadcrumb",
+          "line": 68
         },
         {
           "kind": "class",
-          "name": ".contact-hero-subtitle",
+          "name": ".crumb-separator",
           "line": 70
         },
         {
           "kind": "class",
-          "name": ".contact-hero-bar",
-          "line": 71
+          "name": ".crumb-current",
+          "line": 73
         },
         {
           "kind": "class",
-          "name": ".detail-hero",
+          "name": ".contact-hero-title",
+          "line": 75
+        },
+        {
+          "kind": "heading",
+          "name": "Personalised",
+          "line": 75
+        },
+        {
+          "kind": "class",
+          "name": ".contact-hero-subtitle",
           "line": 76
         },
         {
           "kind": "class",
-          "name": ".detail-container",
+          "name": ".contact-hero-bar",
           "line": 77
         },
         {
           "kind": "class",
-          "name": ".detail-hero-grid",
-          "line": 77
-        },
-        {
-          "kind": "class",
-          "name": ".detail-hero-copy",
-          "line": 78
-        },
-        {
-          "kind": "class",
-          "name": ".detail-breadcrumb",
-          "line": 79
-        },
-        {
-          "kind": "class",
-          "name": ".detail-kicker",
-          "line": 82
-        },
-        {
-          "kind": "id",
-          "name": "#personalised-title",
-          "line": 83
-        },
-        {
-          "kind": "heading",
-          "name": "Thoughtful inputs that make every",
+          "name": ".pi-hero-section",
           "line": 83
         },
         {
           "kind": "class",
-          "name": ".detail-hero-lead",
+          "name": ".pi-hero-container",
           "line": 84
         },
         {
           "kind": "class",
-          "name": ".detail-hero-actions",
-          "line": 85
-        },
-        {
-          "kind": "class",
-          "name": ".detail-primary-button",
+          "name": ".pi-hero-grid",
           "line": 86
         },
         {
           "kind": "class",
-          "name": ".detail-secondary-button",
-          "line": 87
+          "name": ".pi-hero-visual-col",
+          "line": 89
         },
         {
           "kind": "class",
-          "name": ".detail-hero-visual",
+          "name": ".pi-collage-wrap",
           "line": 90
         },
         {
           "kind": "class",
-          "name": ".detail-hero-image-frame",
+          "name": ".pi-collage-img",
           "line": 91
         },
         {
           "kind": "class",
-          "name": ".detail-image-accent",
-          "line": 93
+          "name": ".pi-hero-content-col",
+          "line": 96
         },
         {
           "kind": "class",
-          "name": ".detail-hero-note",
-          "line": 95
+          "name": ".pi-dot-pattern",
+          "line": 98
         },
         {
           "kind": "class",
-          "name": ".detail-intro-section",
-          "line": 100
-        },
-        {
-          "kind": "class",
-          "name": ".detail-intro-grid",
-          "line": 101
-        },
-        {
-          "kind": "class",
-          "name": ".detail-section-heading",
-          "line": 102
+          "name": ".pi-overview-pill",
+          "line": 105
         },
         {
           "kind": "id",
-          "name": "#personalisation-heading",
-          "line": 104
-        },
-        {
-          "kind": "heading",
-          "name": "Make your brand feel",
-          "line": 104
+          "name": "#personalised-title",
+          "line": 107
         },
         {
           "kind": "class",
-          "name": ".detail-intro-copy",
-          "line": 106
+          "name": ".pi-hero-title",
+          "line": 107
         },
         {
           "kind": "class",
-          "name": ".detail-stat-row",
+          "name": ".highlight-yellow",
+          "line": 108
+        },
+        {
+          "kind": "class",
+          "name": ".pi-hero-lead",
           "line": 111
         },
         {
           "kind": "class",
-          "name": ".detail-stat",
-          "line": 112
+          "name": ".pi-hero-actions",
+          "line": 115
+        },
+        {
+          "kind": "class",
+          "name": ".pi-btn-primary",
+          "line": 116
+        },
+        {
+          "kind": "class",
+          "name": ".pi-btn-arrow",
+          "line": 118
+        },
+        {
+          "kind": "class",
+          "name": ".pi-btn-secondary",
+          "line": 120
+        },
+        {
+          "kind": "class",
+          "name": ".pi-features-bar",
+          "line": 129
+        },
+        {
+          "kind": "class",
+          "name": ".pi-features-left",
+          "line": 130
+        },
+        {
+          "kind": "class",
+          "name": ".pi-features-title",
+          "line": 131
+        },
+        {
+          "kind": "heading",
+          "name": "Why Personalisation",
+          "line": 131
+        },
+        {
+          "kind": "class",
+          "name": ".pi-features-items",
+          "line": 133
+        },
+        {
+          "kind": "class",
+          "name": ".pi-feature-item",
+          "line": 134
+        },
+        {
+          "kind": "class",
+          "name": ".pi-feature-icon-wrap",
+          "line": 135
+        },
+        {
+          "kind": "class",
+          "name": ".pi-feature-icon",
+          "line": 136
+        },
+        {
+          "kind": "class",
+          "name": ".pi-feature-text",
+          "line": 138
+        },
+        {
+          "kind": "class",
+          "name": ".pi-feature-divider",
+          "line": 140
+        },
+        {
+          "kind": "class",
+          "name": ".pi-features-swoop",
+          "line": 156
         },
         {
           "kind": "id",
           "name": "#solutions",
-          "line": 118
+          "line": 166
         },
         {
           "kind": "class",
-          "name": ".detail-solutions-section",
-          "line": 118
+          "name": ".pi-solutions-section",
+          "line": 166
         },
         {
           "kind": "class",
-          "name": ".detail-centered-heading",
-          "line": 120
+          "name": ".pi-solutions-header",
+          "line": 168
+        },
+        {
+          "kind": "class",
+          "name": ".pi-solutions-kicker",
+          "line": 169
+        },
+        {
+          "kind": "class",
+          "name": ".pi-solutions-kicker-line",
+          "line": 170
+        },
+        {
+          "kind": "class",
+          "name": ".pi-solutions-kicker-text",
+          "line": 171
         },
         {
           "kind": "id",
-          "name": "#solutions-heading",
-          "line": 122
-        },
-        {
-          "kind": "heading",
-          "name": "Personalised solutions for",
-          "line": 122
-        },
-        {
-          "kind": "class",
-          "name": ".detail-solutions-grid",
-          "line": 125
-        },
-        {
-          "kind": "class",
-          "name": ".detail-solution-card",
-          "line": 126
-        },
-        {
-          "kind": "heading",
-          "name": "Doctor Inputs",
-          "line": 126
-        },
-        {
-          "kind": "heading",
-          "name": "Desk Accessories",
-          "line": 127
-        },
-        {
-          "kind": "heading",
-          "name": "Calendars &amp; Planners",
-          "line": 128
-        },
-        {
-          "kind": "heading",
-          "name": "Patient Engagement Kits",
-          "line": 129
-        },
-        {
-          "kind": "heading",
-          "name": "Promotional Merchandise",
-          "line": 130
-        },
-        {
-          "kind": "heading",
-          "name": "Custom Campaign Kits",
-          "line": 131
+          "name": "#touchpoint-heading",
+          "line": 174
         }
       ]
     },
     {
       "path": "pages/industries.html",
-      "size": 34233,
-      "mtimeMs": 1795510736407.0554,
-      "hash": "2f26e2b592edc8691ca84c738c3ad19c1d90cc605a42be0a654590cce0505876",
+      "size": 34292,
+      "mtimeMs": 1795516118269.7769,
+      "hash": "148d0f915e1b72fb5ab49a26f50ea91a57223690206cc18f224d8e3d9ccf8d21",
       "locators": [
         {
           "kind": "class",
@@ -2194,9 +2270,9 @@
     },
     {
       "path": "styles.css",
-      "size": 216394,
-      "mtimeMs": 1795510889374.5752,
-      "hash": "6ec5f64dc8fb217ec4527fde2494b87aea2781b4a31e9dd08162e63b0b5c928e",
+      "size": 264152,
+      "mtimeMs": 1795515787568.7595,
+      "hash": "96759563211e4908052acca87c7d3aac0eff4d304dd52e229529e86092d9519c",
       "locators": [
         {
           "kind": "custom-property",
