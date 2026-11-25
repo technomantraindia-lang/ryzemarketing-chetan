@@ -1,8 +1,8 @@
 {
   "version": 2,
   "workspace": "ryze marketing",
-  "builtAt": "2026-11-24T11:48:07.508Z",
-  "reason": "files renamed",
+  "builtAt": "2026-11-25T03:37:10.071Z",
+  "reason": "startup",
   "policy": {
     "localOnly": true,
     "sendFullIndexToAi": false,
@@ -10,8 +10,8 @@
     "incremental": true
   },
   "stats": {
-    "reused": 25,
-    "rescanned": 3,
+    "reused": 18,
+    "rescanned": 10,
     "skipped": 0
   },
   "files": [
@@ -53,28 +53,28 @@
     {
       "path": ".clinerules/10-technomantra-project-memory.md",
       "size": 1987,
-      "mtimeMs": 1795520884199.4512,
-      "hash": "9b79caa45b67280c07330b7a46c1d31ca318776683bbdfe5fb98613b74714abd",
+      "mtimeMs": 1795577822305.19,
+      "hash": "7256a884ac21f19601355ca0327ab92bf6540b8fca5ee6560d8f7889c028072b",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-code-knowledge.md",
       "size": 2815,
-      "mtimeMs": 1795520884198.9116,
-      "hash": "9a0357f85b6a9768912d2bbafaf9ef9b0dc6f62e413f3c971ad0c30b052acdb2",
+      "mtimeMs": 1795577822305.19,
+      "hash": "a13a053f218392eb661e313a7f062dad50189f2be1554c2221fdada9829e549a",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-patch-index.md",
       "size": 708,
-      "mtimeMs": 1795520883938.1565,
-      "hash": "a2bc145685c788557ea5039a480f6a096f79a4114e608229209ede35703c740e",
+      "mtimeMs": 1795520887505.6377,
+      "hash": "c4fdc0a66f026ac764b0fcb32a373cb3ba6bb64e6d715ef15352b6269ae1cea6",
       "locators": []
     },
     {
       "path": ".clinerules/12-technomantra-task-capsules.md",
       "size": 2443,
-      "mtimeMs": 1795520417202.284,
+      "mtimeMs": 1795577829905.566,
       "hash": "cd1855e5329edb10df1474dae7cb7df09b6efd80c9373f8d388e0e1a7c3eec9e",
       "locators": []
     },
@@ -143,9 +143,9 @@
     },
     {
       "path": "index.html",
-      "size": 71136,
-      "mtimeMs": 1795520368670.6868,
-      "hash": "cf7ab127399717b69ceb1b17803749dd616b416277b8050432442697232f4024",
+      "size": 71168,
+      "mtimeMs": 1795521488236.9365,
+      "hash": "e696609c660201d7e9a496772e0c60b331459f56ff202c7c2bc99382b796fc1b",
       "locators": [
         {
           "kind": "class",
@@ -551,9 +551,9 @@
     },
     {
       "path": "pages/about.html",
-      "size": 35465,
-      "mtimeMs": 1795520405830.1472,
-      "hash": "6a1ef73a83b347efddabde5195799b0ebc739fa2d37e1674a47b60a308a0fd66",
+      "size": 35497,
+      "mtimeMs": 1795521490171.3442,
+      "hash": "048e489c1eab47bd5548cabdea33d08f973726a854519d7bba00512beecdcc7a",
       "locators": [
         {
           "kind": "class",
@@ -959,9 +959,9 @@
     },
     {
       "path": "pages/contact.html",
-      "size": 40343,
-      "mtimeMs": 1795520766760.5237,
-      "hash": "45662c36e49c56bfd5fa7b6a50431ad12a976da923645b406fb945b372853d0c",
+      "size": 40375,
+      "mtimeMs": 1795521494090.231,
+      "hash": "87270e62b58d40cc5a507d9a9aa75df7bebf93429080b70d677caa03c840be5b",
       "locators": [
         {
           "kind": "class",
@@ -1436,9 +1436,9 @@
     },
     {
       "path": "pages/deatilspage/Personalised Inputs.html",
-      "size": 33288,
-      "mtimeMs": 1795520781989.4417,
-      "hash": "178cbf45d8c484e06f0f620b043a24867407939e6c962af17ef74f7e77070d43",
+      "size": 33323,
+      "mtimeMs": 1795521376598.974,
+      "hash": "48b077d25b4356b3859ae4a45e2b55bb6874fb9cd28351c2852bf68675277a74",
       "locators": [
         {
           "kind": "class",
@@ -1844,9 +1844,9 @@
     },
     {
       "path": "pages/industries.html",
-      "size": 35484,
-      "mtimeMs": 1795520408193.719,
-      "hash": "e51c8052896cff7f4cf1844b3dd63b72580dffdf627cc6658d74bdf292460e0c",
+      "size": 35516,
+      "mtimeMs": 1795521491976.818,
+      "hash": "deec4008b60bd9fd5903f062964e2eecdaf7e0211910abfefe5be99951252856",
       "locators": [
         {
           "kind": "class",
@@ -2275,9 +2275,9 @@
     },
     {
       "path": "styles.css",
-      "size": 264125,
-      "mtimeMs": 1795520796830.322,
-      "hash": "7e04f00482f5f7d6ef0c79cda4e65da8f6fe183510fb927b50e8b0f2ed630336",
+      "size": 270300,
+      "mtimeMs": 1795521585259.5242,
+      "hash": "3b25fb472cbc7555f9184be5332519ed09472cdbc6c11c99ee18fd82be5858a4",
       "locators": [
         {
           "kind": "custom-property",

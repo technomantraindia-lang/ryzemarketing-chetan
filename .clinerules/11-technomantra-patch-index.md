@@ -4,9 +4,9 @@
 
 - Workspace: ryze marketing
 - Indexed: 28 source files
-- Reused unchanged: 25
-- Rescanned: 3
-- Built: 2026-11-24T11:48:07.508Z
+- Reused unchanged: 18
+- Rescanned: 10
+- Built: 2026-11-25T03:37:10.071Z
 
 ## Retrieval policy
 - The native resolver reads the local index and injects at most five task-ranked candidate paths/locators.
