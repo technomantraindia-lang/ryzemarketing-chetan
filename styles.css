@@ -13810,6 +13810,66 @@ pointer-events: auto;
   color: #101f2f;
 }
 
+/* Portfolio cards: one consistent content rhythm and CTA position. */
+.portfolio-gallery-grid .portfolio-grid-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-gallery-grid .portfolio-card-media {
+  border-radius: 23px 23px 0 0;
+}
+
+.portfolio-gallery-grid .portfolio-card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 222px;
+  padding: 24px 28px 25px;
+}
+
+.portfolio-gallery-grid .portfolio-card-body h2 {
+  min-height: 67px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.portfolio-gallery-grid .portfolio-card-body > p {
+  height: 47px;
+  margin: 10px 0 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.portfolio-gallery-grid .portfolio-card-link {
+  margin-top: auto;
+  align-self: flex-start;
+  min-width: 184px;
+  justify-content: space-between;
+}
+
+/* Remove the oversized empty space inside portfolio cards. */
+.portfolio-gallery-grid .portfolio-card-body {
+  min-height: 176px;
+  padding: 20px 28px 20px;
+}
+
+.portfolio-gallery-grid .portfolio-card-body h2 {
+  height: 42px;
+  min-height: 42px;
+}
+
+.portfolio-gallery-grid .portfolio-card-body > p {
+  height: 44px;
+  margin: 8px 0 10px;
+}
+
+.portfolio-gallery-grid .portfolio-card-link {
+  margin-top: 0;
+}
+
 /* Center the homepage portfolio card copy. */
 .portfolio-section .portfolio-card-body {
   text-align: center;
