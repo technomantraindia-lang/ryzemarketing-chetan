@@ -2,12 +2,13 @@
 
 > Structural local index. Read current source before editing. Secrets are intentionally excluded.
 
-- Indexed source files: 10
-- Structural edges: 10
+- Indexed source files: 12
+- Structural edges: 12
 - Matched end-to-end flows: 0
-- Updated: 2026-11-25T03:37:02.303Z
+- Updated: 2026-11-27T11:56:27.043Z
 
 ## Dependency edges
+- IMPORT pages/portfolio.html -> styles.css, script.js
 - IMPORT pages/contact.html -> styles.css, script.js
 - IMPORT index.html -> styles.css, script.js
 - IMPORT pages/about.html -> styles.css, script.js
@@ -16,6 +17,7 @@
 - IMPORT pages/deatilspage/Events & Exhibitions.html -> styles.css, category-detail-loader.js
 - IMPORT pages/deatilspage/Personalised Inputs.html -> styles.css, script.js
 - IMPORT pages/industries.html -> styles.css, script.js
+- IMPORT pages/industry-detail.html -> styles.css, script.js
 
 ## Database references
 - DB category-detail-loader.js -> meaningful, day, lasting, useful, a
@@ -23,9 +25,10 @@
 
 ## Symbols
 - SYMBOL category-detail-loader.js: highlight, setText, updateVerticalLinks, applyCategory
-- SYMBOL script.js: populateServiceOptions, openEnquiryModal, closeEnquiryModal, closeVerticalsDropdown, getScrollStep, updateActiveDot, getTestimonialStep, moveToNextTestimonial, startTestimonialsCarousel, resetTestimonialPosition
+- SYMBOL script.js: populateServiceOptions, openEnquiryModal, closeEnquiryModal, closeVerticalsDropdown, closePortfolioDetail, openPortfolioDetail, openPortfolio, showHeroSlide, getScrollStep, updateActiveDot
 
 ## UI/style selectors
+- UI pages/portfolio.html: #icon-chevron, #icon-arrow, #icon-bulb, #icon-medical, #icon-stethoscope, #icon-gift, #icon-users, #icon-layers, #icon-calendar, #icon-megaphone, #icon-pin, #icon-handshake, #icon-diamond, #icon-mail
 - UI pages/contact.html: #icon-chevron, #icon-arrow, #icon-pin, #icon-phone, #icon-mail, #icon-linkedin, #icon-instagram, #icon-youtube, #icon-gift, #icon-handshake, #icon-diamond, #icon-medical, #icon-calendar, #icon-megaphone
 - UI index.html: #icon-chevron, #icon-layers, #icon-users, #icon-arrow, #icon-diamond, #icon-sliders, #icon-bulb, #icon-chat, #icon-box, #icon-calendar-check, #icon-chart, #icon-target, #icon-mountain, #icon-building
 - UI pages/about.html: #icon-chevron, #icon-arrow, #icon-pin, #icon-phone, #icon-mail, #icon-linkedin, #icon-instagram, #icon-youtube, #icon-gift, #icon-handshake, #icon-diamond, #icon-medical, #icon-calendar, #icon-megaphone
@@ -34,3 +37,4 @@
 - UI pages/deatilspage/Events & Exhibitions.html: .detail-page, .personalised-inputs-page, .category-loader-page
 - UI pages/deatilspage/Personalised Inputs.html: #icon-chevron, #icon-arrow, #icon-medical, #icon-stethoscope, #icon-gift, #icon-handshake, #icon-diamond, #icon-calendar, #icon-layers, #icon-users, #icon-bulb, #icon-gear, #icon-truck, #icon-target
 - UI pages/industries.html: #icon-chevron, #icon-arrow, #icon-pin, #icon-phone, #icon-mail, #icon-linkedin, #icon-instagram, #icon-youtube, #icon-gift, #icon-diamond, #icon-handshake, #icon-calendar, #icon-megaphone, #icon-layers
+- UI pages/industry-detail.html: #industry-detail-nav, #detailBreadcrumb, #detailTitle, #detailIntro, #detailCta, #detailHeroImage, #detailHeadingIndustry, #detailRequirements, #detailSolution, #detailServices, .industry-detail-page, .site-header, .container, .nav-wrap

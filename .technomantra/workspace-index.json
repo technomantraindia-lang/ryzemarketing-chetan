@@ -1,8 +1,8 @@
 {
   "version": 2,
   "workspace": "ryze marketing",
-  "builtAt": "2026-11-25T03:37:10.071Z",
-  "reason": "startup",
+  "builtAt": "2026-11-27T11:56:26.944Z",
+  "reason": "files deleted",
   "policy": {
     "localOnly": true,
     "sendFullIndexToAi": false,
@@ -10,8 +10,8 @@
     "incremental": true
   },
   "stats": {
-    "reused": 18,
-    "rescanned": 10,
+    "reused": 17,
+    "rescanned": 13,
     "skipped": 0
   },
   "files": [
@@ -53,29 +53,29 @@
     {
       "path": ".clinerules/10-technomantra-project-memory.md",
       "size": 1987,
-      "mtimeMs": 1795577822305.19,
-      "hash": "7256a884ac21f19601355ca0327ab92bf6540b8fca5ee6560d8f7889c028072b",
+      "mtimeMs": 1795761760448.745,
+      "hash": "4a98d6d232378b6f6ca5ee4ee8f09454e934f7c6591f4ef4cd81e5a3c5f2c624",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-code-knowledge.md",
       "size": 2815,
-      "mtimeMs": 1795577822305.19,
-      "hash": "a13a053f218392eb661e313a7f062dad50189f2be1554c2221fdada9829e549a",
+      "mtimeMs": 1795761760448.745,
+      "hash": "f8afad0e9b0227e786c773775c06e1244b1ca5cb618d99edc3445c8ccad8f0f1",
       "locators": []
     },
     {
       "path": ".clinerules/11-technomantra-patch-index.md",
       "size": 708,
-      "mtimeMs": 1795520887505.6377,
-      "hash": "c4fdc0a66f026ac764b0fcb32a373cb3ba6bb64e6d715ef15352b6269ae1cea6",
+      "mtimeMs": 1795761760155.4414,
+      "hash": "7e093e118c0b825759e77e8e5032cd0ae0cbf400615154262687291f6ba42fe0",
       "locators": []
     },
     {
       "path": ".clinerules/12-technomantra-task-capsules.md",
-      "size": 2443,
-      "mtimeMs": 1795577829905.566,
-      "hash": "cd1855e5329edb10df1474dae7cb7df09b6efd80c9373f8d388e0e1a7c3eec9e",
+      "size": 2476,
+      "mtimeMs": 1795770213166.3774,
+      "hash": "cb12b9ceb486e6351414231fbed492eba1992b6a1b609caa7e52fa86cc4d3e76",
       "locators": []
     },
     {
@@ -143,9 +143,9 @@
     },
     {
       "path": "index.html",
-      "size": 71168,
-      "mtimeMs": 1795521488236.9365,
-      "hash": "e696609c660201d7e9a496772e0c60b331459f56ff202c7c2bc99382b796fc1b",
+      "size": 86318,
+      "mtimeMs": 1795775283073.4514,
+      "hash": "74b27992a35c2bd3ab2c2fe0dcc7d9c329f4afd9df3c8ee9e2636af52e84478c",
       "locators": [
         {
           "kind": "class",
@@ -430,130 +430,130 @@
         {
           "kind": "class",
           "name": ".nav-cta",
-          "line": 234
+          "line": 235
         },
         {
           "kind": "id",
           "name": "#top",
-          "line": 239
+          "line": 240
         },
         {
           "kind": "class",
           "name": ".marquee-strip",
-          "line": 240
-        },
-        {
-          "kind": "class",
-          "name": ".body-marquee-top",
-          "line": 240
-        },
-        {
-          "kind": "class",
-          "name": ".marquee-track",
           "line": 241
         },
         {
           "kind": "class",
-          "name": ".marquee-group",
+          "name": ".body-marquee-top",
+          "line": 241
+        },
+        {
+          "kind": "class",
+          "name": ".marquee-track",
           "line": 242
         },
         {
           "kind": "class",
-          "name": ".marquee-item",
+          "name": ".marquee-group",
           "line": 243
         },
         {
           "kind": "class",
-          "name": ".hero",
-          "line": 278
+          "name": ".marquee-item",
+          "line": 244
         },
         {
           "kind": "class",
-          "name": ".hero-video",
+          "name": ".hero",
           "line": 279
         },
         {
           "kind": "class",
+          "name": ".hero-inner",
+          "line": 280
+        },
+        {
+          "kind": "class",
+          "name": ".hero-background",
+          "line": 281
+        },
+        {
+          "kind": "class",
+          "name": ".hero-background-slide",
+          "line": 282
+        },
+        {
+          "kind": "class",
+          "name": ".is-active",
+          "line": 282
+        },
+        {
+          "kind": "class",
+          "name": ".hero-background-overlay",
+          "line": 285
+        },
+        {
+          "kind": "class",
+          "name": ".hero-copy",
+          "line": 286
+        },
+        {
+          "kind": "class",
+          "name": ".hero-brand",
+          "line": 287
+        },
+        {
+          "kind": "heading",
+          "name": "Ideas. Experiences.",
+          "line": 288
+        },
+        {
+          "kind": "heading",
+          "name": "Your Partner in Corporate Gifting &amp; Marketing Solutions.",
+          "line": 289
+        },
+        {
+          "kind": "class",
+          "name": ".hero-description",
+          "line": 290
+        },
+        {
+          "kind": "class",
+          "name": ".hero-actions",
+          "line": 291
+        },
+        {
+          "kind": "class",
+          "name": ".hero-primary-button",
+          "line": 292
+        },
+        {
+          "kind": "class",
+          "name": ".hero-secondary-button",
+          "line": 293
+        },
+        {
+          "kind": "class",
           "name": ".body-marquee-after",
-          "line": 284
+          "line": 299
         },
         {
           "kind": "id",
           "name": "#about",
-          "line": 323
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference",
-          "line": 323
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape",
-          "line": 324
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape-top",
-          "line": 324
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-shape-bottom",
-          "line": 325
-        },
-        {
-          "kind": "class",
-          "name": ".about-reference-inner",
-          "line": 326
-        },
-        {
-          "kind": "class",
-          "name": ".about-collage-wrap",
-          "line": 327
-        },
-        {
-          "kind": "class",
-          "name": ".about-collage-ring",
-          "line": 328
-        },
-        {
-          "kind": "class",
-          "name": ".about-collage",
-          "line": 329
-        },
-        {
-          "kind": "class",
-          "name": ".about-copy",
-          "line": 332
-        },
-        {
-          "kind": "class",
-          "name": ".about-kicker",
-          "line": 333
-        },
-        {
-          "kind": "class",
-          "name": ".about-lead",
-          "line": 335
-        },
-        {
-          "kind": "class",
-          "name": ".about-mission-grid",
           "line": 338
         },
         {
           "kind": "class",
-          "name": ".about-mission-card",
-          "line": 339
+          "name": ".about-reference",
+          "line": 338
         }
       ]
     },
     {
       "path": "pages/about.html",
-      "size": 35497,
-      "mtimeMs": 1795521490171.3442,
-      "hash": "048e489c1eab47bd5548cabdea33d08f973726a854519d7bba00512beecdcc7a",
+      "size": 38746,
+      "mtimeMs": 1795767258908.1018,
+      "hash": "b22a91b0e56570b29988a4deec0c9024cb8eb9b05c19b1d009c9e325eef6fb50",
       "locators": [
         {
           "kind": "class",
@@ -652,316 +652,316 @@
         },
         {
           "kind": "id",
-          "name": "#icon-rocket",
+          "name": "#icon-mountain",
           "line": 30
         },
         {
           "kind": "id",
-          "name": "#icon-bulb",
+          "name": "#icon-rocket",
           "line": 31
         },
         {
           "kind": "id",
-          "name": "#icon-chat",
+          "name": "#icon-bulb",
           "line": 32
         },
         {
           "kind": "id",
-          "name": "#icon-box",
+          "name": "#icon-chat",
           "line": 33
         },
         {
           "kind": "id",
-          "name": "#icon-calendar-check",
+          "name": "#icon-box",
           "line": 34
         },
         {
           "kind": "id",
-          "name": "#icon-chart",
+          "name": "#icon-calendar-check",
           "line": 35
         },
         {
           "kind": "id",
-          "name": "#icon-quality",
+          "name": "#icon-chart",
           "line": 36
         },
         {
           "kind": "id",
-          "name": "#icon-users",
+          "name": "#icon-quality",
           "line": 37
+        },
+        {
+          "kind": "id",
+          "name": "#icon-users",
+          "line": 38
         },
         {
           "kind": "class",
           "name": ".site-header",
-          "line": 41
+          "line": 42
         },
         {
           "kind": "class",
           "name": ".container",
-          "line": 42
-        },
-        {
-          "kind": "class",
-          "name": ".nav-wrap",
-          "line": 42
-        },
-        {
-          "kind": "class",
-          "name": ".brand",
           "line": 43
         },
         {
           "kind": "class",
-          "name": ".logo-image",
+          "name": ".nav-wrap",
+          "line": 43
+        },
+        {
+          "kind": "class",
+          "name": ".brand",
           "line": 44
         },
         {
           "kind": "class",
+          "name": ".logo-image",
+          "line": 45
+        },
+        {
+          "kind": "class",
           "name": ".menu-toggle",
-          "line": 47
+          "line": 48
         },
         {
           "kind": "id",
           "name": "#main-nav",
-          "line": 51
-        },
-        {
-          "kind": "class",
-          "name": ".main-nav",
-          "line": 51
-        },
-        {
-          "kind": "class",
-          "name": ".nav-links",
           "line": 52
         },
         {
           "kind": "class",
-          "name": ".active",
-          "line": 54
+          "name": ".main-nav",
+          "line": 52
         },
         {
           "kind": "class",
-          "name": ".nav-dropdown-wrap",
+          "name": ".nav-links",
+          "line": 53
+        },
+        {
+          "kind": "class",
+          "name": ".active",
           "line": 55
         },
         {
           "kind": "class",
-          "name": ".nav-dropdown-trigger",
+          "name": ".nav-dropdown-wrap",
           "line": 56
         },
         {
           "kind": "class",
-          "name": ".nav-chevron",
+          "name": ".nav-dropdown-trigger",
           "line": 57
         },
         {
           "kind": "class",
+          "name": ".nav-chevron",
+          "line": 58
+        },
+        {
+          "kind": "class",
           "name": ".nav-dropdown",
-          "line": 59
+          "line": 60
         },
         {
           "kind": "class",
           "name": ".nav-cta",
-          "line": 69
+          "line": 71
         },
         {
           "kind": "id",
           "name": "#top",
-          "line": 74
-        },
-        {
-          "kind": "class",
-          "name": ".contact-hero-section",
           "line": 76
         },
         {
           "kind": "class",
           "name": ".about-hero-section",
-          "line": 76
-        },
-        {
-          "kind": "class",
-          "name": ".contact-hero-inner",
           "line": 78
         },
         {
           "kind": "class",
-          "name": ".contact-breadcrumb",
+          "name": ".about-hero-container",
           "line": 79
         },
         {
           "kind": "class",
-          "name": ".crumb-separator",
+          "name": ".about-hero-content",
           "line": 81
         },
         {
           "kind": "class",
-          "name": ".crumb-current",
+          "name": ".about-hero-breadcrumb",
           "line": 82
         },
         {
           "kind": "class",
-          "name": ".contact-hero-title",
-          "line": 84
-        },
-        {
-          "kind": "heading",
-          "name": "About",
+          "name": ".breadcrumb-separator",
           "line": 84
         },
         {
           "kind": "class",
-          "name": ".contact-hero-subtitle",
+          "name": ".breadcrumb-current",
           "line": 85
         },
         {
           "kind": "class",
-          "name": ".contact-hero-bar",
-          "line": 86
+          "name": ".about-hero-title",
+          "line": 87
+        },
+        {
+          "kind": "heading",
+          "name": "About",
+          "line": 87
         },
         {
           "kind": "class",
-          "name": ".about-who-section",
-          "line": 92
+          "name": ".about-hero-subtitle",
+          "line": 88
         },
         {
           "kind": "class",
-          "name": ".about-who-layout",
-          "line": 93
+          "name": ".about-hero-line",
+          "line": 89
         },
         {
           "kind": "class",
-          "name": ".about-who-visual-col",
-          "line": 95
-        },
-        {
-          "kind": "class",
-          "name": ".about-who-card",
+          "name": ".about-editorial-section",
           "line": 96
         },
         {
           "kind": "class",
-          "name": ".about-who-img",
+          "name": ".about-editorial-layout",
           "line": 97
         },
         {
           "kind": "class",
-          "name": ".about-who-corner-accent",
+          "name": ".about-editorial-visual",
           "line": 98
         },
         {
           "kind": "class",
-          "name": ".about-who-copy-col",
-          "line": 107
+          "name": ".about-editorial-image-frame",
+          "line": 99
         },
         {
           "kind": "class",
-          "name": ".who-kicker-bar",
-          "line": 108
+          "name": ".about-editorial-thumbnails",
+          "line": 102
         },
         {
           "kind": "class",
-          "name": ".who-kicker-line",
+          "name": ".about-editorial-copy",
           "line": 109
         },
         {
           "kind": "class",
-          "name": ".who-kicker-text",
+          "name": ".about-editorial-kicker",
           "line": 110
         },
         {
           "kind": "id",
-          "name": "#who-we-are-title",
-          "line": 112
-        },
-        {
-          "kind": "class",
-          "name": ".about-who-heading",
-          "line": 112
+          "name": "#about-editorial-title",
+          "line": 111
         },
         {
           "kind": "heading",
-          "name": "A Strategic Marketing Partner for",
+          "name": "Bringing Ideas,",
+          "line": 111
+        },
+        {
+          "kind": "class",
+          "name": ".about-editorial-rule",
           "line": 112
         },
         {
           "kind": "class",
-          "name": ".about-who-text",
+          "name": ".about-editorial-body",
           "line": 113
         },
         {
           "kind": "class",
-          "name": ".about-expertise-section",
-          "line": 122
-        },
-        {
-          "kind": "class",
-          "name": ".expertise-header-center",
+          "name": ".about-vm-section",
           "line": 124
         },
         {
-          "kind": "class",
-          "name": ".editorial-about-heading",
+          "kind": "id",
+          "name": "#about-purpose-title",
           "line": 125
         },
         {
           "kind": "class",
-          "name": ".editorial-about-kicker",
+          "name": ".about-vm-grid",
+          "line": 125
+        },
+        {
+          "kind": "class",
+          "name": ".vm-card",
           "line": 126
         },
         {
-          "kind": "id",
-          "name": "#expertise-heading",
-          "line": 127
+          "kind": "class",
+          "name": ".vm-card-vision",
+          "line": 126
         },
         {
-          "kind": "heading",
-          "name": "Our",
+          "kind": "class",
+          "name": ".vm-card-body",
           "line": 127
         },
         {
           "kind": "class",
-          "name": ".about-expertise-grid",
+          "name": ".vm-badge-row",
+          "line": 128
+        },
+        {
+          "kind": "class",
+          "name": ".vm-badge",
+          "line": 129
+        },
+        {
+          "kind": "class",
+          "name": ".vm-card-copy",
           "line": 131
         },
         {
           "kind": "class",
-          "name": ".about-exp-card",
+          "name": ".vm-card-title",
+          "line": 132
+        },
+        {
+          "kind": "heading",
+          "name": "Our Vision",
+          "line": 132
+        },
+        {
+          "kind": "class",
+          "name": ".vm-card-desc",
           "line": 133
         },
         {
           "kind": "class",
-          "name": ".exp-icon-badge",
-          "line": 134
-        },
-        {
-          "kind": "class",
-          "name": ".exp-icon",
-          "line": 135
-        },
-        {
-          "kind": "class",
-          "name": ".exp-card-title",
+          "name": ".vm-card-mission",
           "line": 137
         },
         {
           "kind": "heading",
-          "name": "Corporate Gifting",
-          "line": 137
+          "name": "Our Mission",
+          "line": 143
         },
         {
           "kind": "class",
-          "name": ".exp-card-desc",
-          "line": 138
+          "name": ".vm-card-philosophy",
+          "line": 148
         }
       ]
     },
     {
       "path": "pages/contact.html",
-      "size": 40375,
-      "mtimeMs": 1795521494090.231,
-      "hash": "87270e62b58d40cc5a507d9a9aa75df7bebf93429080b70d677caa03c840be5b",
+      "size": 47706,
+      "mtimeMs": 1795767260229.0554,
+      "hash": "67c01dfc67a3449e9f36ccd7a79345412b11455fec896ab26a87142e2871e617",
       "locators": [
         {
           "kind": "class",
@@ -1106,262 +1106,262 @@
         {
           "kind": "class",
           "name": ".active",
-          "line": 56
+          "line": 57
         },
         {
           "kind": "class",
           "name": ".nav-cta",
-          "line": 58
+          "line": 59
         },
         {
           "kind": "id",
           "name": "#top",
-          "line": 63
+          "line": 64
         },
         {
           "kind": "class",
           "name": ".contact-hero-section",
-          "line": 65
+          "line": 66
         },
         {
           "kind": "class",
           "name": ".contact-hero-inner",
-          "line": 67
-        },
-        {
-          "kind": "class",
-          "name": ".contact-breadcrumb",
           "line": 68
         },
         {
           "kind": "class",
-          "name": ".crumb-separator",
-          "line": 70
+          "name": ".contact-breadcrumb",
+          "line": 69
         },
         {
           "kind": "class",
-          "name": ".crumb-current",
+          "name": ".crumb-separator",
           "line": 71
         },
         {
           "kind": "class",
+          "name": ".crumb-current",
+          "line": 72
+        },
+        {
+          "kind": "class",
           "name": ".contact-hero-title",
-          "line": 73
+          "line": 74
         },
         {
           "kind": "heading",
           "name": "Contact",
-          "line": 73
-        },
-        {
-          "kind": "class",
-          "name": ".contact-hero-subtitle",
           "line": 74
         },
         {
           "kind": "class",
-          "name": ".contact-hero-bar",
+          "name": ".contact-hero-subtitle",
           "line": 75
         },
         {
           "kind": "class",
-          "name": ".contact-main-section",
-          "line": 81
+          "name": ".contact-hero-bar",
+          "line": 76
         },
         {
           "kind": "class",
-          "name": ".contact-main-grid",
+          "name": ".contact-main-section",
           "line": 82
         },
         {
           "kind": "class",
-          "name": ".contact-details-col",
-          "line": 85
+          "name": ".contact-main-grid",
+          "line": 83
         },
         {
           "kind": "class",
-          "name": ".contact-kicker",
+          "name": ".contact-details-col",
           "line": 86
         },
         {
           "kind": "class",
-          "name": ".kicker-bar",
+          "name": ".contact-kicker",
           "line": 87
         },
         {
           "kind": "class",
-          "name": ".kicker-text",
+          "name": ".kicker-bar",
           "line": 88
         },
         {
           "kind": "class",
+          "name": ".kicker-text",
+          "line": 89
+        },
+        {
+          "kind": "class",
           "name": ".contact-main-title",
-          "line": 91
+          "line": 92
         },
         {
           "kind": "heading",
           "name": "We'd Love to",
-          "line": 91
+          "line": 92
         },
         {
           "kind": "class",
           "name": ".contact-lead-text",
-          "line": 93
+          "line": 94
         },
         {
           "kind": "class",
           "name": ".contact-channel-cards",
-          "line": 97
-        },
-        {
-          "kind": "class",
-          "name": ".contact-channel-item",
           "line": 98
         },
         {
           "kind": "class",
-          "name": ".channel-icon-badge",
+          "name": ".contact-channel-item",
           "line": 99
         },
         {
           "kind": "class",
-          "name": ".ui-icon",
+          "name": ".channel-icon-badge",
           "line": 100
         },
         {
           "kind": "class",
-          "name": ".channel-text-group",
-          "line": 102
+          "name": ".ui-icon",
+          "line": 101
         },
         {
           "kind": "class",
-          "name": ".channel-meta-label",
+          "name": ".channel-text-group",
           "line": 103
         },
         {
           "kind": "class",
-          "name": ".channel-primary-val",
+          "name": ".channel-meta-label",
           "line": 104
         },
         {
           "kind": "class",
+          "name": ".channel-primary-val",
+          "line": 105
+        },
+        {
+          "kind": "class",
           "name": ".channel-action-arrow",
-          "line": 106
+          "line": 107
         },
         {
           "kind": "class",
           "name": ".address-channel-item",
-          "line": 124
+          "line": 125
         },
         {
           "kind": "class",
           "name": ".channel-address-sub",
-          "line": 131
+          "line": 132
         },
         {
           "kind": "class",
           "name": ".contact-divider-line",
-          "line": 139
+          "line": 140
         },
         {
           "kind": "class",
           "name": ".contact-social-section",
-          "line": 141
+          "line": 142
         },
         {
           "kind": "class",
           "name": ".social-header-wrap",
-          "line": 142
+          "line": 143
         },
         {
           "kind": "heading",
           "name": "Connect With Us",
-          "line": 143
-        },
-        {
-          "kind": "class",
-          "name": ".social-header-hint",
           "line": 144
         },
         {
           "kind": "class",
+          "name": ".social-header-hint",
+          "line": 145
+        },
+        {
+          "kind": "class",
           "name": ".contact-social-row",
-          "line": 146
+          "line": 147
         },
         {
           "kind": "class",
           "name": ".contact-social-btn",
-          "line": 147
-        },
-        {
-          "kind": "class",
-          "name": ".social-linkedin",
-          "line": 147
-        },
-        {
-          "kind": "class",
-          "name": ".social-icon",
           "line": 148
         },
         {
           "kind": "class",
+          "name": ".social-linkedin",
+          "line": 148
+        },
+        {
+          "kind": "class",
+          "name": ".social-icon",
+          "line": 149
+        },
+        {
+          "kind": "class",
           "name": ".social-instagram",
-          "line": 151
+          "line": 152
         },
         {
           "kind": "class",
           "name": ".social-youtube",
-          "line": 155
+          "line": 156
         },
         {
           "kind": "id",
           "name": "#contact-form-section",
-          "line": 164
+          "line": 165
         },
         {
           "kind": "class",
           "name": ".contact-form-wrapper",
-          "line": 164
+          "line": 165
         },
         {
           "kind": "class",
           "name": ".contact-form-card",
-          "line": 165
+          "line": 166
         },
         {
           "kind": "heading",
-          "name": "Send Us a Message",
-          "line": 166
+          "name": "Corporate Enquiry Form",
+          "line": 167
         },
         {
           "kind": "id",
           "name": "#contactForm",
-          "line": 168
+          "line": 169
         },
         {
           "kind": "class",
           "name": ".contact-form-grid",
-          "line": 168
+          "line": 169
         },
         {
           "kind": "class",
           "name": ".contact-field-row",
-          "line": 170
-        },
-        {
-          "kind": "class",
-          "name": ".contact-field-control",
           "line": 171
         },
         {
           "kind": "class",
-          "name": ".contact-input-box",
+          "name": ".contact-field-control",
           "line": 172
         },
         {
           "kind": "class",
-          "name": ".contact-field-icon",
+          "name": ".contact-input-box",
           "line": 173
+        },
+        {
+          "kind": "class",
+          "name": ".contact-field-icon",
+          "line": 174
         }
       ]
     },
@@ -1436,9 +1436,9 @@
     },
     {
       "path": "pages/deatilspage/Personalised Inputs.html",
-      "size": 33323,
-      "mtimeMs": 1795521376598.974,
-      "hash": "48b077d25b4356b3859ae4a45e2b55bb6874fb9cd28351c2852bf68675277a74",
+      "size": 33499,
+      "mtimeMs": 1795767261474.5127,
+      "hash": "61b0f16e2d2d7511da09b4a759fe005933ab902ad9900936b614cb920bffcf66",
       "locators": [
         {
           "kind": "class",
@@ -1618,235 +1618,235 @@
         {
           "kind": "class",
           "name": ".nav-cta",
-          "line": 58
+          "line": 59
         },
         {
           "kind": "class",
           "name": ".contact-hero-section",
-          "line": 65
+          "line": 66
         },
         {
           "kind": "class",
           "name": ".contact-hero-inner",
-          "line": 67
-        },
-        {
-          "kind": "class",
-          "name": ".contact-breadcrumb",
           "line": 68
         },
         {
           "kind": "class",
+          "name": ".contact-breadcrumb",
+          "line": 69
+        },
+        {
+          "kind": "class",
           "name": ".crumb-separator",
-          "line": 70
+          "line": 71
         },
         {
           "kind": "class",
           "name": ".crumb-current",
-          "line": 73
+          "line": 74
         },
         {
           "kind": "class",
           "name": ".contact-hero-title",
-          "line": 75
+          "line": 76
         },
         {
           "kind": "heading",
           "name": "Personalised",
-          "line": 75
-        },
-        {
-          "kind": "class",
-          "name": ".contact-hero-subtitle",
           "line": 76
         },
         {
           "kind": "class",
-          "name": ".contact-hero-bar",
+          "name": ".contact-hero-subtitle",
           "line": 77
         },
         {
           "kind": "class",
-          "name": ".pi-hero-section",
-          "line": 83
+          "name": ".contact-hero-bar",
+          "line": 78
         },
         {
           "kind": "class",
-          "name": ".pi-hero-container",
+          "name": ".pi-hero-section",
           "line": 84
         },
         {
           "kind": "class",
+          "name": ".pi-hero-container",
+          "line": 85
+        },
+        {
+          "kind": "class",
           "name": ".pi-hero-grid",
-          "line": 86
+          "line": 87
         },
         {
           "kind": "class",
           "name": ".pi-hero-visual-col",
-          "line": 89
-        },
-        {
-          "kind": "class",
-          "name": ".pi-collage-wrap",
           "line": 90
         },
         {
           "kind": "class",
-          "name": ".pi-collage-img",
+          "name": ".pi-collage-wrap",
           "line": 91
         },
         {
           "kind": "class",
+          "name": ".pi-collage-img",
+          "line": 92
+        },
+        {
+          "kind": "class",
           "name": ".pi-hero-content-col",
-          "line": 96
+          "line": 97
         },
         {
           "kind": "class",
           "name": ".pi-dot-pattern",
-          "line": 98
+          "line": 99
         },
         {
           "kind": "class",
           "name": ".pi-overview-pill",
-          "line": 105
+          "line": 106
         },
         {
           "kind": "id",
           "name": "#personalised-title",
-          "line": 107
-        },
-        {
-          "kind": "class",
-          "name": ".pi-hero-title",
-          "line": 107
-        },
-        {
-          "kind": "class",
-          "name": ".highlight-yellow",
           "line": 108
         },
         {
           "kind": "class",
+          "name": ".pi-hero-title",
+          "line": 108
+        },
+        {
+          "kind": "class",
+          "name": ".highlight-yellow",
+          "line": 109
+        },
+        {
+          "kind": "class",
           "name": ".pi-hero-lead",
-          "line": 111
+          "line": 112
         },
         {
           "kind": "class",
           "name": ".pi-hero-actions",
-          "line": 115
-        },
-        {
-          "kind": "class",
-          "name": ".pi-btn-primary",
           "line": 116
         },
         {
           "kind": "class",
+          "name": ".pi-btn-primary",
+          "line": 117
+        },
+        {
+          "kind": "class",
           "name": ".pi-btn-arrow",
-          "line": 118
+          "line": 119
         },
         {
           "kind": "class",
           "name": ".pi-btn-secondary",
-          "line": 120
+          "line": 121
         },
         {
           "kind": "class",
           "name": ".pi-features-bar",
-          "line": 129
-        },
-        {
-          "kind": "class",
-          "name": ".pi-features-left",
           "line": 130
         },
         {
           "kind": "class",
-          "name": ".pi-features-title",
+          "name": ".pi-features-left",
           "line": 131
+        },
+        {
+          "kind": "class",
+          "name": ".pi-features-title",
+          "line": 132
         },
         {
           "kind": "heading",
           "name": "Why Personalisation",
-          "line": 131
+          "line": 132
         },
         {
           "kind": "class",
           "name": ".pi-features-items",
-          "line": 133
-        },
-        {
-          "kind": "class",
-          "name": ".pi-feature-item",
           "line": 134
         },
         {
           "kind": "class",
-          "name": ".pi-feature-icon-wrap",
+          "name": ".pi-feature-item",
           "line": 135
         },
         {
           "kind": "class",
-          "name": ".pi-feature-icon",
+          "name": ".pi-feature-icon-wrap",
           "line": 136
         },
         {
           "kind": "class",
+          "name": ".pi-feature-icon",
+          "line": 137
+        },
+        {
+          "kind": "class",
           "name": ".pi-feature-text",
-          "line": 138
+          "line": 139
         },
         {
           "kind": "class",
           "name": ".pi-feature-divider",
-          "line": 140
+          "line": 141
         },
         {
           "kind": "class",
           "name": ".pi-features-swoop",
-          "line": 156
+          "line": 157
         },
         {
           "kind": "id",
           "name": "#solutions",
-          "line": 166
+          "line": 167
         },
         {
           "kind": "class",
           "name": ".pi-solutions-section",
-          "line": 166
+          "line": 167
         },
         {
           "kind": "class",
           "name": ".pi-solutions-header",
-          "line": 168
-        },
-        {
-          "kind": "class",
-          "name": ".pi-solutions-kicker",
           "line": 169
         },
         {
           "kind": "class",
-          "name": ".pi-solutions-kicker-line",
+          "name": ".pi-solutions-kicker",
           "line": 170
         },
         {
           "kind": "class",
-          "name": ".pi-solutions-kicker-text",
+          "name": ".pi-solutions-kicker-line",
           "line": 171
+        },
+        {
+          "kind": "class",
+          "name": ".pi-solutions-kicker-text",
+          "line": 172
         },
         {
           "kind": "id",
           "name": "#touchpoint-heading",
-          "line": 174
+          "line": 175
         }
       ]
     },
     {
       "path": "pages/industries.html",
-      "size": 35516,
-      "mtimeMs": 1795521491976.818,
-      "hash": "deec4008b60bd9fd5903f062964e2eecdaf7e0211910abfefe5be99951252856",
+      "size": 35772,
+      "mtimeMs": 1795779309115.5752,
+      "hash": "9093f6b4c519011c0bafcb2846688f265de1c6894af38283b7a3a9b9324c674b",
       "locators": [
         {
           "kind": "class",
@@ -2051,233 +2051,869 @@
         {
           "kind": "class",
           "name": ".nav-cta",
-          "line": 70
+          "line": 71
         },
         {
           "kind": "id",
           "name": "#top",
-          "line": 75
+          "line": 76
         },
         {
           "kind": "class",
           "name": ".contact-hero-section",
-          "line": 77
+          "line": 78
         },
         {
           "kind": "class",
           "name": ".industries-hero-section",
-          "line": 77
+          "line": 78
         },
         {
           "kind": "class",
           "name": ".contact-hero-inner",
-          "line": 79
-        },
-        {
-          "kind": "class",
-          "name": ".contact-breadcrumb",
           "line": 80
         },
         {
           "kind": "class",
-          "name": ".crumb-separator",
-          "line": 82
+          "name": ".contact-breadcrumb",
+          "line": 81
         },
         {
           "kind": "class",
-          "name": ".crumb-current",
+          "name": ".crumb-separator",
           "line": 83
         },
         {
           "kind": "class",
+          "name": ".crumb-current",
+          "line": 84
+        },
+        {
+          "kind": "class",
           "name": ".contact-hero-title",
-          "line": 85
+          "line": 86
         },
         {
           "kind": "heading",
           "name": "Industries",
-          "line": 85
-        },
-        {
-          "kind": "class",
-          "name": ".contact-hero-subtitle",
           "line": 86
         },
         {
           "kind": "class",
-          "name": ".contact-hero-bar",
+          "name": ".contact-hero-subtitle",
           "line": 87
         },
         {
           "kind": "class",
+          "name": ".contact-hero-bar",
+          "line": 88
+        },
+        {
+          "kind": "class",
           "name": ".industries-main-section",
-          "line": 93
+          "line": 94
         },
         {
           "kind": "class",
           "name": ".industries-header-wrap",
-          "line": 96
-        },
-        {
-          "kind": "class",
-          "name": ".who-kicker-bar",
           "line": 97
         },
         {
           "kind": "class",
-          "name": ".who-kicker-line",
+          "name": ".who-kicker-bar",
           "line": 98
         },
         {
           "kind": "class",
-          "name": ".who-kicker-text",
+          "name": ".who-kicker-line",
           "line": 99
+        },
+        {
+          "kind": "class",
+          "name": ".who-kicker-text",
+          "line": 100
         },
         {
           "kind": "id",
           "name": "#industries-main-title",
-          "line": 102
-        },
-        {
-          "kind": "class",
-          "name": ".industries-section-title",
-          "line": 102
-        },
-        {
-          "kind": "class",
-          "name": ".industries-title-line",
           "line": 103
         },
         {
           "kind": "class",
-          "name": ".industries-title-highlight",
+          "name": ".industries-section-title",
+          "line": 103
+        },
+        {
+          "kind": "class",
+          "name": ".industries-title-line",
           "line": 104
         },
         {
           "kind": "class",
-          "name": ".industries-title-underline",
+          "name": ".industries-title-highlight",
           "line": 105
         },
         {
           "kind": "class",
+          "name": ".industries-title-underline",
+          "line": 106
+        },
+        {
+          "kind": "class",
           "name": ".industries-section-lead",
-          "line": 110
+          "line": 111
         },
         {
           "kind": "class",
           "name": ".industries-grid",
-          "line": 116
+          "line": 117
         },
         {
           "kind": "class",
           "name": ".industry-card",
-          "line": 119
-        },
-        {
-          "kind": "class",
-          "name": ".industry-card-img-wrap",
           "line": 120
         },
         {
           "kind": "class",
-          "name": ".industry-badge",
-          "line": 122
+          "name": ".is-primary",
+          "line": 120
         },
         {
           "kind": "class",
-          "name": ".industry-badge-icon",
+          "name": ".industry-card-img-wrap",
+          "line": 121
+        },
+        {
+          "kind": "class",
+          "name": ".industry-badge",
           "line": 123
         },
         {
           "kind": "class",
+          "name": ".industry-badge-icon",
+          "line": 124
+        },
+        {
+          "kind": "class",
           "name": ".industry-card-body",
-          "line": 126
-        },
-        {
-          "kind": "class",
-          "name": ".industry-card-title",
-          "line": 127
-        },
-        {
-          "kind": "heading",
-          "name": "Pharmaceuticals &amp; Healthcare",
           "line": 127
         },
         {
           "kind": "class",
-          "name": ".industry-card-desc",
+          "name": ".industry-primary-label",
           "line": 128
         },
         {
           "kind": "class",
-          "name": ".industry-corner-accent",
+          "name": ".industry-card-title",
+          "line": 129
+        },
+        {
+          "kind": "heading",
+          "name": "Pharmaceuticals &amp; Healthcare",
+          "line": 129
+        },
+        {
+          "kind": "class",
+          "name": ".industry-card-desc",
           "line": 130
+        },
+        {
+          "kind": "class",
+          "name": ".industry-learn-more",
+          "line": 131
+        },
+        {
+          "kind": "class",
+          "name": ".industry-corner-accent",
+          "line": 133
         },
         {
           "kind": "heading",
           "name": "FMCG",
-          "line": 146
+          "line": 149
         },
         {
           "kind": "heading",
           "name": "Banking &amp; Financial Services",
-          "line": 165
+          "line": 169
         },
         {
           "kind": "heading",
           "name": "Insurance",
-          "line": 184
+          "line": 189
         },
         {
           "kind": "heading",
           "name": "Paints &amp; Coatings",
-          "line": 203
+          "line": 209
+        }
+      ]
+    },
+    {
+      "path": "pages/industry-detail.html",
+      "size": 11370,
+      "mtimeMs": 1795775811451.692,
+      "hash": "1b75b075d3c55089b996f9fa633ae2a538f899b3f78f6c0c58f2c7eae88e552f",
+      "locators": [
+        {
+          "kind": "class",
+          "name": ".industry-detail-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".site-header",
+          "line": 11
+        },
+        {
+          "kind": "class",
+          "name": ".container",
+          "line": 12
+        },
+        {
+          "kind": "class",
+          "name": ".nav-wrap",
+          "line": 12
+        },
+        {
+          "kind": "class",
+          "name": ".brand",
+          "line": 13
+        },
+        {
+          "kind": "class",
+          "name": ".menu-toggle",
+          "line": 14
+        },
+        {
+          "kind": "id",
+          "name": "#industry-detail-nav",
+          "line": 15
+        },
+        {
+          "kind": "class",
+          "name": ".main-nav",
+          "line": 15
+        },
+        {
+          "kind": "class",
+          "name": ".nav-links",
+          "line": 16
+        },
+        {
+          "kind": "class",
+          "name": ".active",
+          "line": 20
+        },
+        {
+          "kind": "class",
+          "name": ".nav-cta",
+          "line": 24
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-hero",
+          "line": 30
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-hero-inner",
+          "line": 31
+        },
+        {
+          "kind": "id",
+          "name": "#detailBreadcrumb",
+          "line": 33
+        },
+        {
+          "kind": "class",
+          "name": ".contact-breadcrumb",
+          "line": 33
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-kicker",
+          "line": 34
+        },
+        {
+          "kind": "id",
+          "name": "#detailTitle",
+          "line": 35
         },
         {
           "kind": "heading",
-          "name": "Cement",
-          "line": 222
+          "name": "Industry Solutions",
+          "line": 35
+        },
+        {
+          "kind": "id",
+          "name": "#detailIntro",
+          "line": 36
+        },
+        {
+          "kind": "id",
+          "name": "#detailCta",
+          "line": 37
+        },
+        {
+          "kind": "class",
+          "name": ".button",
+          "line": 37
+        },
+        {
+          "kind": "id",
+          "name": "#detailHeroImage",
+          "line": 39
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-hero-media",
+          "line": 39
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-content",
+          "line": 43
+        },
+        {
+          "kind": "id",
+          "name": "#detailHeadingIndustry",
+          "line": 45
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-heading",
+          "line": 45
         },
         {
           "kind": "heading",
-          "name": "Tiles &amp; Building Materials",
-          "line": 241
+          "name": "Solutions shaped for",
+          "line": 45
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-grid",
+          "line": 46
+        },
+        {
+          "kind": "id",
+          "name": "#detailRequirements",
+          "line": 47
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-panel",
+          "line": 47
         },
         {
           "kind": "heading",
-          "name": "Consumer Durables",
-          "line": 260
+          "name": "Typical requirements",
+          "line": 47
+        },
+        {
+          "kind": "id",
+          "name": "#detailSolution",
+          "line": 48
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-panel-highlight",
+          "line": 48
+        },
+        {
+          "kind": "heading",
+          "name": "Our approach",
+          "line": 48
+        },
+        {
+          "kind": "heading",
+          "name": "Execution support",
+          "line": 49
+        },
+        {
+          "kind": "id",
+          "name": "#detailServices",
+          "line": 51
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-services",
+          "line": 51
+        },
+        {
+          "kind": "heading",
+          "name": "Relevant solutions",
+          "line": 51
+        },
+        {
+          "kind": "class",
+          "name": ".cta-reference",
+          "line": 55
+        },
+        {
+          "kind": "class",
+          "name": ".industry-detail-cta",
+          "line": 55
+        },
+        {
+          "kind": "heading",
+          "name": "Bring your next industry brief",
+          "line": 55
+        },
+        {
+          "kind": "class",
+          "name": ".site-footer",
+          "line": 58
+        },
+        {
+          "kind": "class",
+          "name": ".reference-footer",
+          "line": 58
+        },
+        {
+          "kind": "heading",
+          "name": "Ideas. Experiences. Impact.",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "path": "pages/portfolio.html",
+      "size": 19085,
+      "mtimeMs": 1795776011589.8816,
+      "hash": "8a4c325ae78b40f77e9169210fa8be6305afa6f830e6f76c5ccf019ccf636643",
+      "locators": [
+        {
+          "kind": "class",
+          "name": ".portfolio-case-page",
+          "line": 10
+        },
+        {
+          "kind": "class",
+          "name": ".svg-sprite",
+          "line": 11
+        },
+        {
+          "kind": "id",
+          "name": "#icon-chevron",
+          "line": 12
+        },
+        {
+          "kind": "id",
+          "name": "#icon-arrow",
+          "line": 13
+        },
+        {
+          "kind": "id",
+          "name": "#icon-bulb",
+          "line": 14
+        },
+        {
+          "kind": "id",
+          "name": "#icon-medical",
+          "line": 15
+        },
+        {
+          "kind": "id",
+          "name": "#icon-stethoscope",
+          "line": 16
+        },
+        {
+          "kind": "id",
+          "name": "#icon-gift",
+          "line": 17
+        },
+        {
+          "kind": "id",
+          "name": "#icon-users",
+          "line": 18
+        },
+        {
+          "kind": "id",
+          "name": "#icon-layers",
+          "line": 19
+        },
+        {
+          "kind": "id",
+          "name": "#icon-calendar",
+          "line": 20
+        },
+        {
+          "kind": "id",
+          "name": "#icon-megaphone",
+          "line": 21
+        },
+        {
+          "kind": "id",
+          "name": "#icon-pin",
+          "line": 22
+        },
+        {
+          "kind": "id",
+          "name": "#icon-handshake",
+          "line": 23
+        },
+        {
+          "kind": "id",
+          "name": "#icon-diamond",
+          "line": 24
+        },
+        {
+          "kind": "id",
+          "name": "#icon-mail",
+          "line": 25
+        },
+        {
+          "kind": "id",
+          "name": "#icon-phone",
+          "line": 26
+        },
+        {
+          "kind": "class",
+          "name": ".site-header",
+          "line": 29
+        },
+        {
+          "kind": "class",
+          "name": ".container",
+          "line": 30
+        },
+        {
+          "kind": "class",
+          "name": ".nav-wrap",
+          "line": 30
+        },
+        {
+          "kind": "class",
+          "name": ".brand",
+          "line": 31
+        },
+        {
+          "kind": "class",
+          "name": ".logo-image",
+          "line": 32
+        },
+        {
+          "kind": "class",
+          "name": ".menu-toggle",
+          "line": 34
+        },
+        {
+          "kind": "id",
+          "name": "#main-nav",
+          "line": 37
+        },
+        {
+          "kind": "class",
+          "name": ".main-nav",
+          "line": 37
+        },
+        {
+          "kind": "class",
+          "name": ".nav-links",
+          "line": 38
+        },
+        {
+          "kind": "class",
+          "name": ".nav-dropdown-wrap",
+          "line": 41
+        },
+        {
+          "kind": "class",
+          "name": ".nav-dropdown-trigger",
+          "line": 42
+        },
+        {
+          "kind": "class",
+          "name": ".nav-dropdown",
+          "line": 43
+        },
+        {
+          "kind": "class",
+          "name": ".active",
+          "line": 51
+        },
+        {
+          "kind": "class",
+          "name": ".nav-cta",
+          "line": 54
+        },
+        {
+          "kind": "class",
+          "name": ".contact-hero-section",
+          "line": 60
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-contact-hero",
+          "line": 60
+        },
+        {
+          "kind": "class",
+          "name": ".contact-hero-inner",
+          "line": 62
+        },
+        {
+          "kind": "class",
+          "name": ".contact-breadcrumb",
+          "line": 63
+        },
+        {
+          "kind": "class",
+          "name": ".crumb-separator",
+          "line": 65
+        },
+        {
+          "kind": "class",
+          "name": ".crumb-current",
+          "line": 66
+        },
+        {
+          "kind": "class",
+          "name": ".contact-hero-title",
+          "line": 68
+        },
+        {
+          "kind": "heading",
+          "name": "Our",
+          "line": 68
+        },
+        {
+          "kind": "class",
+          "name": ".contact-hero-subtitle",
+          "line": 69
+        },
+        {
+          "kind": "class",
+          "name": ".contact-hero-bar",
+          "line": 70
+        },
+        {
+          "kind": "id",
+          "name": "#portfolio-grid",
+          "line": 75
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-gallery",
+          "line": 75
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-filter-bar",
+          "line": 77
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-filter",
+          "line": 78
+        },
+        {
+          "kind": "class",
+          "name": ".is-active",
+          "line": 78
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-gallery-grid",
+          "line": 85
+        },
+        {
+          "kind": "id",
+          "name": "#personalised-inputs",
+          "line": 86
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-grid-card",
+          "line": 86
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-card-media",
+          "line": 87
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-card-body",
+          "line": 88
+        },
+        {
+          "kind": "heading",
+          "name": "Doctor Engagement Input Programme",
+          "line": 89
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-card-link",
+          "line": 91
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-case-facts",
+          "line": 92
+        },
+        {
+          "kind": "id",
+          "name": "#corporate-gifting",
+          "line": 98
+        },
+        {
+          "kind": "heading",
+          "name": "Premium Corporate Gift Collection",
+          "line": 101
+        },
+        {
+          "kind": "id",
+          "name": "#events-exhibitions",
+          "line": 110
+        },
+        {
+          "kind": "heading",
+          "name": "Brand Experience at an Exhibition",
+          "line": 113
+        },
+        {
+          "kind": "id",
+          "name": "#branding-marketing",
+          "line": 122
+        },
+        {
+          "kind": "heading",
+          "name": "Integrated Brand Communication Kit",
+          "line": 125
+        },
+        {
+          "kind": "id",
+          "name": "#portfolioDetailModal",
+          "line": 138
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal",
+          "line": 138
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal-card",
+          "line": 139
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal-close",
+          "line": 140
+        },
+        {
+          "kind": "id",
+          "name": "#portfolioDetailImage",
+          "line": 141
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal-media",
+          "line": 141
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal-content",
+          "line": 142
+        },
+        {
+          "kind": "id",
+          "name": "#portfolioDetailCategory",
+          "line": 143
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal-category",
+          "line": 143
+        },
+        {
+          "kind": "id",
+          "name": "#portfolioDetailTitle",
+          "line": 144
+        },
+        {
+          "kind": "id",
+          "name": "#portfolioDetailIntro",
+          "line": 145
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal-intro",
+          "line": 145
+        },
+        {
+          "kind": "id",
+          "name": "#portfolioDetailFacts",
+          "line": 146
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-detail-modal-facts",
+          "line": 146
+        },
+        {
+          "kind": "class",
+          "name": ".portfolio-case-cta",
+          "line": 147
+        },
+        {
+          "kind": "id",
+          "name": "#contact",
+          "line": 152
+        },
+        {
+          "kind": "class",
+          "name": ".cta-reference",
+          "line": 152
+        },
+        {
+          "kind": "class",
+          "name": ".cta-reference-corner",
+          "line": 153
+        },
+        {
+          "kind": "class",
+          "name": ".cta-reference-corner-left",
+          "line": 153
+        },
+        {
+          "kind": "class",
+          "name": ".cta-reference-corner-right",
+          "line": 154
         }
       ]
     },
     {
       "path": "script.js",
-      "size": 18588,
-      "mtimeMs": 1795520765482.069,
-      "hash": "bab9a2e368e056413cbfe4371581d92ccd15938ac4635bc50e76ba00cd13df8b",
+      "size": 23856,
+      "mtimeMs": 1795771027937.5554,
+      "hash": "ed8dd82d55e8b492bdf1d96dab131461a2979655fd81955fd0c6983c1fd57614",
       "locators": [
         {
           "kind": "function",
           "name": "populateServiceOptions",
-          "line": 362
+          "line": 481
         },
         {
           "kind": "function",
           "name": "openEnquiryModal",
-          "line": 379
+          "line": 498
         },
         {
           "kind": "function",
           "name": "closeEnquiryModal",
-          "line": 399
+          "line": 518
         }
       ]
     },
     {
       "path": "styles.css",
-      "size": 270300,
-      "mtimeMs": 1795521585259.5242,
-      "hash": "3b25fb472cbc7555f9184be5332519ed09472cdbc6c11c99ee18fd82be5858a4",
+      "size": 414908,
+      "mtimeMs": 1795780308253.8293,
+      "hash": "9faf2227544783b6d749a038d6f22c9a3e9dae5068cc2767bfbdc877e12d2e5c",
       "locators": [
         {
           "kind": "custom-property",
@@ -2330,354 +2966,354 @@
           "line": 13
         },
         {
-          "kind": "property-use",
-          "name": "--ink",
-          "line": 27
+          "kind": "selector",
+          "name": ".pharma-marketing-section",
+          "line": 17
         },
         {
-          "kind": "property-use",
-          "name": "--sans",
+          "kind": "selector",
+          "name": ".pharma-marketing-section::after",
           "line": 28
         },
         {
           "kind": "selector",
-          "name": ".svg-sprite",
-          "line": 48
+          "name": ".pharma-marketing-section::before",
+          "line": 36
         },
         {
           "kind": "selector",
-          "name": ".marquee-icon",
-          "line": 60
+          "name": ".pharma-section-glow",
+          "line": 56
         },
         {
           "kind": "selector",
-          "name": ".social-icon",
-          "line": 70
+          "name": ".pharma-section-glow-left",
+          "line": 63
         },
         {
           "kind": "selector",
-          "name": ".button-icon",
-          "line": 74
+          "name": ".pharma-section-glow-right",
+          "line": 71
         },
         {
           "kind": "selector",
-          "name": ".nav-chevron",
-          "line": 80
+          "name": ".pharma-marketing-inner",
+          "line": 79
         },
         {
           "kind": "selector",
-          "name": ".container",
-          "line": 87
+          "name": ".pharma-marketing-visual",
+          "line": 90
         },
         {
           "kind": "selector",
-          "name": ".site-header",
-          "line": 93
+          "name": ".pharma-visual-backdrop",
+          "line": 95
         },
         {
           "kind": "selector",
-          "name": ".nav-wrap",
-          "line": 106
+          "name": ".pharma-visual-backdrop::after",
+          "line": 104
         },
         {
           "kind": "selector",
-          "name": ".brand",
-          "line": 113
+          "name": ".pharma-visual-main",
+          "line": 112
         },
         {
           "kind": "selector",
-          "name": ".logo-image",
-          "line": 121
-        },
-        {
-          "kind": "selector",
-          "name": ".main-nav",
+          "name": ".pharma-visual-main img",
           "line": 127
         },
         {
           "kind": "selector",
-          "name": ".nav-links",
-          "line": 138
+          "name": ".pharma-visual-card span",
+          "line": 137
         },
         {
           "kind": "selector",
-          "name": ".nav-links>a",
+          "name": ".pharma-visual-label",
           "line": 146
         },
         {
           "kind": "selector",
-          "name": ".nav-links>a:hover",
-          "line": 155
+          "name": ".pharma-visual-label .ui-icon",
+          "line": 158
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown-wrap",
-          "line": 159
+          "name": ".pharma-visual-card",
+          "line": 163
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown-trigger",
-          "line": 166
+          "name": ".pharma-visual-card img",
+          "line": 174
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown-trigger:focus-visible",
-          "line": 182
+          "name": ".pharma-visual-card-top",
+          "line": 188
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown-trigger .nav-chevron",
-          "line": 186
+          "name": ".pharma-visual-card-bottom",
+          "line": 194
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown-wrap:focus-within .nav-dropdown-trigger .nav-chevron",
-          "line": 191
+          "name": ".pharma-visual-orbit",
+          "line": 200
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown",
-          "line": 195
+          "name": ".pharma-marketing-copy",
+          "line": 214
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown::before",
-          "line": 213
-        },
-        {
-          "kind": "property-use",
-          "name": "--yellow",
-          "line": 221
+          "name": ".pharma-marketing-kicker",
+          "line": 218
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown a",
-          "line": 224
+          "name": ".pharma-marketing-kicker span",
+          "line": 229
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown a:first-child",
-          "line": 235
+          "name": ".pharma-marketing-copy h2",
+          "line": 237
         },
         {
           "kind": "selector",
-          "name": ".nav-dropdown a:focus-visible",
-          "line": 240
-        },
-        {
-          "kind": "selector",
-          "name": ".nav-dropdown-wrap.is-open .nav-dropdown",
+          "name": ".pharma-marketing-copy h2 em",
           "line": 248
         },
         {
           "kind": "selector",
-          "name": ".nav-links>a.active",
-          "line": 255
+          "name": ".pharma-marketing-lead",
+          "line": 253
         },
         {
           "kind": "selector",
-          "name": ".nav-links>a.active::after",
-          "line": 259
+          "name": ".pharma-service-list",
+          "line": 261
         },
         {
           "kind": "selector",
-          "name": ".button",
-          "line": 272
+          "name": ".pharma-service-list span",
+          "line": 268
         },
         {
           "kind": "selector",
-          "name": ".nav-cta",
+          "name": ".pharma-service-list .ui-icon",
           "line": 283
         },
         {
           "kind": "selector",
-          "name": ".button:hover",
-          "line": 292
+          "name": ".pharma-marketing-actions",
+          "line": 293
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-marketing-actions .button",
+          "line": 301
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-text-link",
+          "line": 316
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-marketing-actions .button-icon",
+          "line": 331
         },
         {
           "kind": "property-use",
-          "name": "--yellow-dark",
-          "line": 294
+          "name": "--ink",
+          "line": 422
+        },
+        {
+          "kind": "property-use",
+          "name": "--sans",
+          "line": 423
         },
         {
           "kind": "selector",
-          "name": ".menu-toggle",
-          "line": 297
+          "name": ".svg-sprite",
+          "line": 443
         },
         {
           "kind": "selector",
-          "name": ".menu-toggle span",
-          "line": 306
+          "name": ".marquee-icon",
+          "line": 455
         },
         {
           "kind": "selector",
-          "name": ".hero",
-          "line": 315
+          "name": ".social-icon",
+          "line": 465
         },
         {
           "kind": "selector",
-          "name": ".hero-video",
-          "line": 324
+          "name": ".button-icon",
+          "line": 469
         },
         {
           "kind": "selector",
-          "name": ".body-marquee-later",
-          "line": 335
+          "name": ".nav-chevron",
+          "line": 475
         },
         {
           "kind": "selector",
-          "name": ".marquee-strip",
-          "line": 339
+          "name": ".container",
+          "line": 482
         },
         {
           "kind": "selector",
-          "name": ".marquee-strip::after",
-          "line": 353
-        },
-        {
-          "kind": "selector",
-          "name": ".marquee-strip::before",
-          "line": 364
-        },
-        {
-          "kind": "selector",
-          "name": ".marquee-track",
-          "line": 374
-        },
-        {
-          "kind": "selector",
-          "name": ".marquee-group",
-          "line": 380
-        },
-        {
-          "kind": "selector",
-          "name": ".marquee-item",
-          "line": 386
-        },
-        {
-          "kind": "selector",
-          "name": ".marquee-group>i",
-          "line": 405
-        },
-        {
-          "kind": "selector",
-          "name": ".marquee-strip:hover .marquee-track",
-          "line": 413
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference",
-          "line": 428
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference-inner",
-          "line": 436
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage-wrap",
-          "line": 447
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage-wrap::before",
-          "line": 458
-        },
-        {
-          "kind": "selector",
-          "name": ".about-collage",
-          "line": 471
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference-shape-top",
-          "line": 485
-        },
-        {
-          "kind": "selector",
-          "name": ".about-reference-shape-bottom",
+          "name": ".pharma-page-hero",
           "line": 489
         },
         {
           "kind": "selector",
-          "name": ".about-reference-shape-bottom::after",
-          "line": 493
+          "name": ".pharma-page-hero::after",
+          "line": 496
         },
         {
           "kind": "selector",
-          "name": ".about-copy",
-          "line": 505
+          "name": ".pharma-page-hero-inner",
+          "line": 508
         },
         {
           "kind": "selector",
-          "name": ".cta-reference-kicker",
-          "line": 511
+          "name": ".pharma-page-hero-copy",
+          "line": 517
         },
         {
           "kind": "selector",
-          "name": ".cta-reference-kicker span",
+          "name": ".pharma-page-hero-copy .pharma-marketing-kicker",
+          "line": 521
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-hero-copy h1",
           "line": 525
         },
         {
           "kind": "selector",
-          "name": ".about-copy h2",
-          "line": 533
+          "name": ".pharma-page-section-heading h2 em",
+          "line": 536
         },
         {
           "kind": "selector",
-          "name": ".about-copy h2>span",
-          "line": 543
+          "name": ".pharma-page-hero-copy > p:not(.pharma-marketing-kicker)",
+          "line": 541
         },
         {
           "kind": "selector",
-          "name": ".about-copy h2 em",
-          "line": 548
+          "name": ".pharma-page-hero-copy .pharma-marketing-actions",
+          "line": 549
         },
         {
           "kind": "selector",
-          "name": ".about-copy h2 em::after",
-          "line": 554
+          "name": ".pharma-page-hero-copy .pharma-text-link",
+          "line": 553
         },
         {
           "kind": "selector",
-          "name": ".about-lead",
-          "line": 566
+          "name": ".pharma-page-hero-visual",
+          "line": 557
         },
         {
           "kind": "selector",
-          "name": ".about-mission-grid",
-          "line": 574
+          "name": ".pharma-page-hero-visual img",
+          "line": 568
         },
         {
           "kind": "selector",
-          "name": ".about-mission-card",
-          "line": 581
+          "name": ".pharma-page-hero-note",
+          "line": 577
         },
         {
           "kind": "selector",
-          "name": ".about-mission-card:hover",
-          "line": 594
+          "name": ".pharma-page-hero-note strong",
+          "line": 592
         },
         {
           "kind": "selector",
-          "name": ".about-mission-icon",
-          "line": 599
+          "name": ".pharma-page-hero-note span",
+          "line": 597
         },
         {
           "kind": "selector",
-          "name": ".about-mission-icon .ui-icon",
-          "line": 610
+          "name": ".pharma-page-intro",
+          "line": 601
         },
         {
           "kind": "selector",
-          "name": ".about-mission-card h3",
-          "line": 616
+          "name": ".pharma-page-intro-grid",
+          "line": 606
         },
         {
           "kind": "selector",
-          "name": ".about-mission-card p",
-          "line": 623
+          "name": ".pharma-page-section-heading h2",
+          "line": 615
+        },
+        {
+          "kind": "property-use",
+          "name": "--display-font",
+          "line": 619
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-intro-grid > p",
+          "line": 625
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-services",
+          "line": 632
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-section-heading",
+          "line": 637
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-section-heading .pharma-marketing-kicker",
+          "line": 643
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-service-grid",
+          "line": 647
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-service-grid article",
+          "line": 655
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-service-grid article:hover",
+          "line": 664
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-service-grid img",
+          "line": 669
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-service-grid article > div",
+          "line": 676
+        },
+        {
+          "kind": "selector",
+          "name": ".pharma-page-service-grid article > div > span",
+          "line": 680
         }
       ]
     }

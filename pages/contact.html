@@ -43,7 +43,7 @@
             <a href="./about.html">About Us</a>
             <div class="nav-dropdown-wrap">
               <button class="nav-dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">
-                Our Verticals <svg class="nav-chevron"><use href="#icon-chevron" /></svg>
+                Our Solutions <svg class="nav-chevron"><use href="#icon-chevron" /></svg>
               </button>
               <div class="nav-dropdown" role="menu">
                 <a href="./deatilspage/Personalised%20Inputs.html" role="menuitem">Personalised Inputs</a>
@@ -52,10 +52,11 @@
                 <a href="./deatilspage/Branding%20%26%20Marketing.html" role="menuitem">Branding &amp; Marketing</a>
               </div>
             </div>
-            <a href="./industries.html">Industries</a>
+            <a href="./industries.html">Industries We Serve</a>
+            <a href="./portfolio.html">Our Portfolio</a>
             <a class="active" href="./contact.html">Contact Us</a>
           </div>
-          <a class="nav-cta" href="#contact-form-section">Enquire Now <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
+          <a class="nav-cta" href="#contact-form-section">Request a Quote <svg class="button-icon"><use href="#icon-arrow" /></svg></a>
         </nav>
       </div>
     </header>
@@ -163,9 +164,9 @@
           <!-- Right Column: Form Card with Signature Yellow Offset Frame -->
           <div class="contact-form-wrapper" id="contact-form-section">
             <div class="contact-form-card">
-              <h2>Send Us a Message</h2>
+              <h2>Corporate Enquiry Form</h2>
 
-              <form class="contact-form-grid" id="contactForm" action="#" method="POST" novalidate>
+              <form class="contact-form-grid" id="contactForm" action="mailto:hello@ryzemarketing.in" method="POST" enctype="text/plain" novalidate>
                 <!-- Row 1: Name & Company -->
                 <div class="contact-field-row">
                   <div class="contact-field-control">
@@ -187,22 +188,21 @@
                           <path d="M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16M9 9h1M9 13h1M9 17h1M14 9h1M14 13h1M14 17h1" />
                         </svg>
                       </span>
-                      <input type="text" id="contactCompany" name="company" placeholder="Your Company (Optional)" />
+                      <input type="text" id="contactCompany" name="company" placeholder="Company Name *" required />
                     </div>
                   </div>
                 </div>
 
-                <!-- Row 2: Email & Phone -->
+                <!-- Row 2: Designation & Phone -->
                 <div class="contact-field-row">
                   <div class="contact-field-control">
                     <div class="contact-input-box">
                       <span class="contact-field-icon" aria-hidden="true">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                          <rect x="3" y="5" width="18" height="14" rx="2" />
-                          <path d="m3 7 9 6 9-6" />
+                          <path d="M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16M9 9h1M9 13h1M9 17h1M14 9h1M14 13h1M14 17h1" />
                         </svg>
                       </span>
-                      <input type="email" id="contactEmail" name="email" placeholder="Email Address *" required />
+                      <input type="text" id="contactDesignation" name="designation" placeholder="Designation (Optional)" />
                     </div>
                   </div>
 
@@ -213,62 +213,69 @@
                           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
                       </span>
-                      <input type="tel" id="contactPhone" name="phone" placeholder="Phone Number *" required />
+                      <input type="tel" id="contactPhone" name="phone" placeholder="Mobile Number *" required />
                     </div>
                   </div>
                 </div>
 
-                <!-- Row 3: Interest / Service -->
-                <div class="contact-field-row full">
+                <!-- Row 3: Business Email & Industry -->
+                <div class="contact-field-row">
+                  <div class="contact-field-control">
+                    <div class="contact-input-box">
+                      <span class="contact-field-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
+                      </span>
+                      <input type="email" id="contactEmail" name="email" placeholder="Business Email *" required />
+                    </div>
+                  </div>
                   <div class="contact-field-control">
                     <div class="contact-input-box contact-select-wrap">
                       <span class="contact-field-icon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                          <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                          <polyline points="2 17 12 22 22 17" />
-                          <polyline points="2 12 12 17 22 12" />
-                        </svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 21s6-5.1 6-10a6 6 0 1 0-12 0c0 4.9 6 10 6 10Z" /><circle cx="12" cy="11" r="2" /></svg>
                       </span>
-                      <select id="contactService" name="service" required>
-                        <option value="" disabled selected>Interest / Service *</option>
-                        <option value="corporate-gifting">Corporate Gifting</option>
-                        <option value="personalised-inputs">Personalised Inputs</option>
-                        <option value="events-exhibitions">Events &amp; Exhibitions</option>
-                        <option value="branding-marketing">Branding &amp; Marketing</option>
+                      <select id="contactIndustry" name="industry" required>
+                        <option value="" disabled selected>Industry *</option>
+                        <option value="pharmaceuticals-healthcare">Pharmaceuticals &amp; Healthcare</option>
+                        <option value="fmcg">FMCG</option>
+                        <option value="banking-financial-services">Banking &amp; Financial Services</option>
+                        <option value="insurance">Insurance</option>
+                        <option value="paints-coatings">Paints &amp; Coatings</option>
+                        <option value="cement-building-materials">Cement &amp; Building Materials</option>
+                        <option value="tiles-building-materials">Tiles &amp; Building Materials</option>
+                        <option value="manufacturing-other">Manufacturing &amp; Other Industries</option>
                       </select>
-                      <span class="contact-select-arrow" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                          <polyline points="6 9 12 15 18 9" />
-                        </svg>
-                      </span>
+                      <span class="contact-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9" /></svg></span>
                     </div>
                   </div>
                 </div>
 
+                <!-- Row 4: Services Required (multi-select) -->
                 <div class="contact-field-row full">
                   <div class="contact-field-control">
-                    <div class="contact-input-box contact-select-wrap">
+                    <div class="contact-service-picker" id="contactServicePicker">
                       <span class="contact-field-icon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                          <path d="M4 7h16M4 12h16M4 17h16" />
-                          <circle cx="8" cy="7" r="2" fill="currentColor" stroke="none" />
-                          <circle cx="16" cy="12" r="2" fill="currentColor" stroke="none" />
-                          <circle cx="10" cy="17" r="2" fill="currentColor" stroke="none" />
-                        </svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 7h16M4 12h16M4 17h16" /><circle cx="8" cy="7" r="2" fill="currentColor" stroke="none" /><circle cx="16" cy="12" r="2" fill="currentColor" stroke="none" /><circle cx="10" cy="17" r="2" fill="currentColor" stroke="none" /></svg>
                       </span>
-                      <select id="contactServiceDetail" name="service_detail" required disabled>
-                        <option value="" selected>What would you like us to create? *</option>
-                      </select>
-                      <span class="contact-select-arrow" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                          <polyline points="6 9 12 15 18 9" />
-                        </svg>
-                      </span>
+                      <button type="button" class="contact-service-trigger" id="contactServiceTrigger" aria-expanded="false" aria-controls="contactServiceDropdown">
+                        <span class="contact-service-trigger-copy">
+                          <span class="contact-field-label" id="contact-service-label">Services Required <em>*</em></span>
+                          <span class="contact-service-summary" id="contactServiceSummary">Choose one or more services</span>
+                        </span>
+                        <svg class="contact-service-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="6 9 12 15 18 9" /></svg>
+                      </button>
+                      <div class="contact-service-dropdown" id="contactServiceDropdown" role="group" aria-labelledby="contact-service-label" hidden>
+                        <div class="contact-service-choice-grid">
+                          <label class="contact-service-choice"><input type="checkbox" name="service[]" value="personalised-inputs" /><span class="service-checkmark" aria-hidden="true"></span><span class="service-choice-text">Personalised Inputs</span></label>
+                          <label class="contact-service-choice"><input type="checkbox" name="service[]" value="corporate-gifting" /><span class="service-checkmark" aria-hidden="true"></span><span class="service-choice-text">Corporate Gifting</span></label>
+                          <label class="contact-service-choice"><input type="checkbox" name="service[]" value="events-exhibitions" /><span class="service-checkmark" aria-hidden="true"></span><span class="service-choice-text">Events &amp; Exhibitions</span></label>
+                          <label class="contact-service-choice"><input type="checkbox" name="service[]" value="branding-marketing" /><span class="service-checkmark" aria-hidden="true"></span><span class="service-choice-text">Branding &amp; Marketing</span></label>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <!-- Row 4: Your Message -->
+                <!-- Row 5: Project Requirement -->
                 <div class="contact-field-row full">
                   <div class="contact-field-control">
                     <div class="contact-input-box contact-textarea-wrap">
@@ -277,15 +284,39 @@
                           <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                         </svg>
                       </span>
-                      <textarea id="contactMessage" name="message" rows="4" placeholder="Your Message *" required></textarea>
+                      <textarea id="contactMessage" name="message" rows="4" placeholder="Project Requirement *" required></textarea>
                     </div>
                   </div>
+                </div>
+
+                <!-- Row 6: Estimated Budget -->
+                <div class="contact-field-row full">
+                  <div class="contact-field-control">
+                    <div class="contact-input-box contact-select-wrap">
+                      <span class="contact-field-icon" aria-hidden="true"><span class="rupee-symbol">&#8377;</span></span>
+                      <select id="contactBudget" name="budget">
+                        <option value="" selected>Estimated Budget (Optional)</option>
+                        <option value="under-50000">Under ₹50,000</option>
+                        <option value="50000-200000">₹50,000 – ₹2,00,000</option>
+                        <option value="200000-500000">₹2,00,000 – ₹5,00,000</option>
+                        <option value="above-500000">Above ₹5,00,000</option>
+                        <option value="to-be-discussed">To be discussed</option>
+                      </select>
+                      <span class="contact-select-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9" /></svg></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Honeypot spam protection -->
+                <div class="contact-honeypot" aria-hidden="true">
+                  <label for="contactWebsite">Leave this field empty</label>
+                  <input type="text" id="contactWebsite" name="website" tabindex="-1" autocomplete="off" />
                 </div>
 
                 <!-- Action Button -->
                 <div class="contact-submit-row">
                   <button type="submit" class="contact-submit-btn" id="contactSubmitBtn">
-                    <span>Send Message</span>
+                    <span>Submit Enquiry</span>
                     <svg class="button-icon" aria-hidden="true"><use href="#icon-arrow" /></svg>
                   </button>
                 </div>
@@ -386,6 +417,11 @@
       </section>
     </main>
 
+    <a class="contact-whatsapp-float" href="https://wa.me/919930735797?text=Hello%20Ryze%20Marketing%2C%20I%20would%20like%20to%20discuss%20a%20business%20requirement." target="_blank" rel="noopener noreferrer" aria-label="Chat with Ryze Marketing on WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.84 11.84 0 0 0 12.08 0C5.53 0 .2 5.32.2 11.88c0 2.09.55 4.13 1.59 5.92L.1 24l6.34-1.66a11.86 11.86 0 0 0 5.64 1.44h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.18-1.24-6.17-3.47-8.4ZM12.09 21.8h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.76.98 1-3.67-.23-.38a9.9 9.9 0 0 1-1.52-5.26C2.18 6.42 6.62 2 12.09 2c2.65 0 5.14 1.03 7.01 2.9a9.84 9.84 0 0 1 2.9 7.01c0 5.47-4.45 9.89-9.91 9.89Zm5.43-7.41c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.21 5.09 4.5.71.31 1.27.5 1.7.64.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z" /></svg>
+      <span>WhatsApp</span>
+    </a>
+
     <!-- 5. Marquee Strip (from home page) -->
     <section class="marquee-strip footer-marquee" aria-label="Corporate gifting solutions">
       <div class="marquee-track">
@@ -415,7 +451,7 @@
           <p>A B2B corporate gifting and marketing solutions company, helping businesses build stronger relationships and create meaningful brand experiences.</p>
         </div>
         <div class="footer-column">
-          <h3>Our Verticals</h3>
+          <h3>Our Solutions</h3>
           <a href="./deatilspage/Personalised%20Inputs.html"><svg class="footer-icon"><use href="#icon-medical" /></svg><span>Personalised Inputs</span></a>
           <a href="../index.html#solutions"><svg class="footer-icon"><use href="#icon-gift" /></svg><span>Corporate Gifting</span></a>
           <a href="../index.html#solutions"><svg class="footer-icon"><use href="#icon-calendar" /></svg><span>Events &amp; Exhibitions</span></a>
@@ -426,6 +462,7 @@
           <a href="./about.html"><span class="footer-arrow">›</span><span>About Us</span></a>
           <a href="../index.html#approach"><span class="footer-arrow">›</span><span>Our Approach</span></a>
           <a href="./industries.html"><span class="footer-arrow">›</span><span>Industries We Serve</span></a>
+          <a href="./portfolio.html"><span class="footer-arrow">›</span><span>Our Portfolio</span></a>
           <a href="../index.html#why-choose"><span class="footer-arrow">›</span><span>Why Ryze</span></a>
           <a href="./contact.html"><span class="footer-arrow">›</span><span>Contact Us</span></a>
         </div>
@@ -612,60 +649,66 @@
       (function() {
         const form = document.getElementById('contactForm');
         const feedback = document.getElementById('contactFeedback');
-        const select = document.getElementById('contactService');
-        const serviceDetail = document.getElementById('contactServiceDetail');
-        const serviceOptions = window.ryzeEnquiryServiceOptions || {};
+        const industry = document.getElementById('contactIndustry');
+        const honeypot = document.getElementById('contactWebsite');
+        const servicePicker = document.getElementById('contactServicePicker');
+        const serviceTrigger = document.getElementById('contactServiceTrigger');
+        const serviceDropdown = document.getElementById('contactServiceDropdown');
+        const serviceSummary = document.getElementById('contactServiceSummary');
+        const serviceChoices = Array.from(document.querySelectorAll('input[name="service[]"]'));
 
-        function populateServiceDetails(category) {
-          if (!serviceDetail) return;
-
-          serviceDetail.innerHTML = '<option value="" selected>What would you like us to create? *</option>';
-          const options = serviceOptions[category] || [];
-          options.forEach(function(label) {
-            const option = document.createElement('option');
-            option.value = label.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-            option.textContent = label;
-            serviceDetail.appendChild(option);
-          });
-          serviceDetail.disabled = options.length === 0;
-          serviceDetail.classList.remove('selected-active');
+        function updateServiceSummary() {
+          if (!serviceSummary) return;
+          const selected = serviceChoices.filter(choice => choice.checked).map(choice => choice.closest('label').querySelector('.service-choice-text').textContent.trim());
+          serviceSummary.textContent = selected.length ? (selected.length < 3 ? selected.join(', ') : `${selected.length} services selected`) : 'Choose one or more services';
+          serviceSummary.classList.toggle('is-selected', selected.length > 0);
         }
 
-        if (select) {
-          select.addEventListener('change', function() {
-            if (this.value) {
-              this.classList.add('selected-active');
-            } else {
-              this.classList.remove('selected-active');
-            }
-            populateServiceDetails(this.value);
-          });
-
-          const categoryFromUrl = new URLSearchParams(window.location.search).get('category');
-          if (categoryFromUrl && serviceOptions[categoryFromUrl]) {
-            select.value = categoryFromUrl;
-            select.classList.add('selected-active');
-          }
+        function closeServiceDropdown() {
+          if (!servicePicker || !serviceTrigger || !serviceDropdown) return;
+          servicePicker.classList.remove('is-open');
+          serviceTrigger.setAttribute('aria-expanded', 'false');
+          serviceDropdown.hidden = true;
         }
-        populateServiceDetails(select ? select.value : '');
+
+        if (serviceTrigger && serviceDropdown) {
+          serviceTrigger.addEventListener('click', function() {
+            const willOpen = serviceDropdown.hidden;
+            serviceDropdown.hidden = !willOpen;
+            servicePicker.classList.toggle('is-open', willOpen);
+            serviceTrigger.setAttribute('aria-expanded', String(willOpen));
+          });
+        }
+
+        serviceChoices.forEach(choice => choice.addEventListener('change', updateServiceSummary));
+        document.addEventListener('click', function(event) {
+          if (servicePicker && !servicePicker.contains(event.target)) closeServiceDropdown();
+        });
+        document.addEventListener('keydown', function(event) {
+          if (event.key === 'Escape') closeServiceDropdown();
+        });
+        updateServiceSummary();
 
         if (form && feedback) {
           form.addEventListener('submit', function(e) {
             e.preventDefault();
 
             const name = document.getElementById('contactName');
+            const company = document.getElementById('contactCompany');
             const email = document.getElementById('contactEmail');
             const phone = document.getElementById('contactPhone');
-            const service = document.getElementById('contactService');
-            const serviceDetailField = document.getElementById('contactServiceDetail');
             const message = document.getElementById('contactMessage');
             const submitBtn = document.getElementById('contactSubmitBtn');
 
+            if (honeypot && honeypot.value.trim()) {
+              return;
+            }
+
             let isValid = true;
-            [name, email, phone, service, serviceDetailField, message].forEach(field => {
+            [name, company, email, phone, industry, message].forEach(field => {
               if (field) {
                 const box = field.closest('.contact-input-box');
-                if (!field.value.trim()) {
+                if (!String(field.value || '').trim()) {
                   isValid = false;
                   if (box) box.classList.add('has-error');
                 } else {
@@ -673,6 +716,15 @@
                 }
               }
             });
+
+            const selectedServices = serviceChoices.filter(choice => choice.checked).map(choice => choice.closest('label').querySelector('.service-choice-text').textContent.trim());
+            const serviceBox = servicePicker;
+            if (!selectedServices.length) {
+              isValid = false;
+              if (serviceBox) serviceBox.classList.add('has-error');
+            } else if (serviceBox) {
+              serviceBox.classList.remove('has-error');
+            }
 
             // Basic email validation
             if (email && email.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) {
@@ -687,21 +739,37 @@
               return;
             }
 
-            // Simulate submission
             submitBtn.disabled = true;
             submitBtn.style.opacity = '0.7';
-            submitBtn.innerHTML = 'Sending...';
+            submitBtn.innerHTML = 'Preparing Enquiry...';
 
             setTimeout(function() {
+              const budget = document.getElementById('contactBudget');
+              const designation = document.getElementById('contactDesignation');
+              const subject = encodeURIComponent(`Ryze Marketing enquiry from ${name.value.trim()}`);
+              const body = encodeURIComponent([
+                `Full Name: ${name.value.trim()}`,
+                `Company Name: ${company.value.trim()}`,
+                `Designation: ${designation.value.trim() || 'Not provided'}`,
+                `Mobile Number: ${phone.value.trim()}`,
+                `Business Email: ${email.value.trim()}`,
+                `Industry: ${industry.options[industry.selectedIndex].text}`,
+                `Service Required: ${selectedServices.join(', ')}`,
+                `Estimated Budget: ${budget.value ? budget.options[budget.selectedIndex].text : 'Not provided'}`,
+                '',
+                `Project Requirement: ${message.value.trim()}`
+              ].join('\n'));
+              window.location.href = `mailto:hello@ryzemarketing.in?subject=${subject}&body=${body}`;
+
               form.reset();
-              if (select) select.classList.remove('selected-active');
-              populateServiceDetails('');
+              updateServiceSummary();
+              closeServiceDropdown();
               submitBtn.disabled = false;
               submitBtn.style.opacity = '1';
-              submitBtn.innerHTML = '<span>Send Message</span><svg class="button-icon" aria-hidden="true"><use href="#icon-arrow" /></svg>';
+              submitBtn.innerHTML = '<span>Submit Enquiry</span><svg class="button-icon" aria-hidden="true"><use href="#icon-arrow" /></svg>';
 
               feedback.className = 'contact-feedback-msg success';
-              feedback.textContent = 'Thank you! Your message has been sent successfully. Our team will get back to you shortly.';
+              feedback.textContent = 'Your enquiry is ready. Your email app is opening to send it to Ryze Marketing.';
 
               setTimeout(function() {
                 feedback.className = 'contact-feedback-msg';
@@ -711,9 +779,9 @@
           });
 
           // Clear errors on input
-          form.querySelectorAll('input, select, textarea').forEach(input => {
+            form.querySelectorAll('input, select, textarea').forEach(input => {
             input.addEventListener('input', function() {
-              const box = this.closest('.contact-input-box');
+              const box = this.closest('.contact-input-box, .contact-service-picker');
               if (box) box.classList.remove('has-error');
               if (feedback.classList.contains('error')) {
                 feedback.className = 'contact-feedback-msg';

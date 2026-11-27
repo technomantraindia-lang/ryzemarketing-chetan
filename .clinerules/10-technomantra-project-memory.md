@@ -4,9 +4,9 @@
 
 - Workspace: ryze marketing
 - Technology: HTML/CSS/JavaScript
-- Active file at refresh: None
-- Local code graph: 10 files · 10 edges · 0 matched flows
-- Refreshed: 2026-11-25T03:37:02.305Z
+- Active file at refresh: pages/portfolio.html
+- Local code graph: 12 files · 12 edges · 0 matched flows
+- Refreshed: 2026-11-27T11:56:27.048Z
 
 ## Framework Intelligence (V4.7.8)
 - Profiles: html-static
@@ -15,6 +15,7 @@
 - index.html
 
 ### Pages / views
+- pages/portfolio.html
 - pages/contact.html
 - pages/about.html
 - pages/deatilspage/Branding & Marketing.html
@@ -22,6 +23,7 @@
 - pages/deatilspage/Events & Exhibitions.html
 - pages/deatilspage/Personalised Inputs.html
 - pages/industries.html
+- pages/industry-detail.html
 
 ### Styles
 - styles.css
@@ -30,6 +32,7 @@
 - pages/contact.html
 
 ## High-value project files
+- pages/portfolio.html
 - pages/contact.html
 - index.html
 - pages/about.html
@@ -38,6 +41,7 @@
 - pages/deatilspage/Events & Exhibitions.html
 - pages/deatilspage/Personalised Inputs.html
 - pages/industries.html
+- pages/industry-detail.html
 - styles.css
 - .clinerules/05-technomantra-execution-mode.md
 - .clinerules/06-technomantra-developer-mode.md

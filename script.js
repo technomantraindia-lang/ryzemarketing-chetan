@@ -48,6 +48,107 @@ window.addEventListener('scroll', () => {
 const year = document.querySelector('[data-year]');
 if (year) year.textContent = new Date().getFullYear();
 
+// Portfolio cards open a case-study popup on the homepage, with a page fallback elsewhere.
+const portfolioDetailModal = document.querySelector('#portfolioDetailModal');
+const portfolioDetailImage = document.querySelector('#portfolioDetailImage');
+const portfolioDetailCategory = document.querySelector('#portfolioDetailCategory');
+const portfolioDetailTitle = document.querySelector('#portfolioDetailTitle');
+const portfolioDetailIntro = document.querySelector('#portfolioDetailIntro');
+const portfolioDetailFacts = document.querySelector('#portfolioDetailFacts');
+
+const closePortfolioDetail = () => {
+  if (!portfolioDetailModal) return;
+  portfolioDetailModal.classList.remove('is-open');
+  portfolioDetailModal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('portfolio-modal-open');
+};
+
+const openPortfolioDetail = (card) => {
+  if (!portfolioDetailModal) {
+    window.location.href = card.dataset.portfolioLink;
+    return;
+  }
+
+  const image = card.querySelector('.portfolio-card-media img, .portfolio-case-image img');
+  const category = card.querySelector('.portfolio-card-category, .portfolio-card-tag, .portfolio-case-category');
+  const title = card.querySelector('h3, h2');
+  const intro = card.querySelector('.portfolio-card-body > p, .portfolio-case-intro');
+  const facts = card.querySelector('.portfolio-case-study dl, .portfolio-case-facts');
+
+  if (portfolioDetailImage && image) {
+    portfolioDetailImage.src = image.src;
+    portfolioDetailImage.alt = image.alt;
+  }
+  if (portfolioDetailCategory && category) portfolioDetailCategory.textContent = category.textContent;
+  if (portfolioDetailTitle && title) portfolioDetailTitle.textContent = title.textContent;
+  if (portfolioDetailIntro && intro) portfolioDetailIntro.textContent = intro.textContent;
+  if (portfolioDetailFacts && facts) portfolioDetailFacts.innerHTML = facts.innerHTML;
+
+  portfolioDetailModal.classList.add('is-open');
+  portfolioDetailModal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('portfolio-modal-open');
+};
+
+document.querySelectorAll('[data-portfolio-link], [data-portfolio-popup]').forEach((card) => {
+  const openPortfolio = () => openPortfolioDetail(card);
+
+  if (card.matches('[data-portfolio-popup]')) {
+    const trigger = card.querySelector('[data-portfolio-learn-more]');
+    if (trigger) trigger.addEventListener('click', (event) => {
+      event.preventDefault();
+      openPortfolio();
+    });
+    return;
+  }
+
+  card.addEventListener('click', (event) => {
+    if (event.target.closest('a, button, input, select, textarea')) return;
+    openPortfolio();
+  });
+
+  card.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    event.preventDefault();
+    openPortfolio();
+  });
+});
+
+if (portfolioDetailModal) {
+  portfolioDetailModal.addEventListener('click', (event) => {
+    if (event.target === portfolioDetailModal || event.target.closest('[data-close-portfolio-modal]')) {
+      closePortfolioDetail();
+    }
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closePortfolioDetail();
+  });
+}
+
+// Homepage portfolio "Learn More" links go to the dedicated portfolio page.
+document.querySelectorAll('[data-portfolio-link] .portfolio-case-study summary').forEach((summary) => {
+  const card = summary.closest('[data-portfolio-link]');
+  if (!card) return;
+  summary.addEventListener('click', (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    window.location.href = card.dataset.portfolioLink;
+  });
+});
+
+// Filter the portfolio gallery without leaving the page.
+const portfolioFilters = document.querySelectorAll('[data-portfolio-filter]');
+const portfolioGalleryCards = document.querySelectorAll('.portfolio-grid-card[data-portfolio-category]');
+portfolioFilters.forEach((filter) => {
+  filter.addEventListener('click', () => {
+    const selected = filter.dataset.portfolioFilter;
+    portfolioFilters.forEach((item) => item.classList.toggle('is-active', item === filter));
+    portfolioGalleryCards.forEach((card) => {
+      const shouldShow = selected === 'all' || card.dataset.portfolioCategory === selected;
+      card.classList.toggle('is-filtered-out', !shouldShow);
+    });
+  });
+});
+
 // Keep the business verticals directly below the About section in the page flow.
 const aboutSection = document.querySelector('.about-reference:not(.about-reference-later)');
 const verticalsSection = document.querySelector('.verticals-showcase');
@@ -62,13 +163,31 @@ if (brandsPlacementSection && testimonialsPlacementSection) {
   testimonialsPlacementSection.insertAdjacentElement('beforebegin', brandsPlacementSection);
 }
 
-const heroVideo = document.querySelector('.hero-video');
-if (heroVideo) {
-  heroVideo.defaultPlaybackRate = 0.8;
-  heroVideo.playbackRate = 0.8;
-  heroVideo.addEventListener('loadedmetadata', () => {
-    heroVideo.playbackRate = 0.8;
-  }, { once: true });
+// Keep Our Work directly below Industries We Serve in the homepage flow.
+const portfolioPlacementSection = document.querySelector('.portfolio-section');
+const industriesPlacementSection = document.querySelector('.industries-section');
+if (portfolioPlacementSection && industriesPlacementSection) {
+  industriesPlacementSection.insertAdjacentElement('afterend', portfolioPlacementSection);
+}
+
+// Homepage hero banner: rotate the full background artwork with a left-to-right 3D slide.
+const heroBackground = document.querySelector('[data-hero-background]');
+if (heroBackground) {
+  const heroSlides = Array.from(heroBackground.querySelectorAll('.hero-background-slide'));
+  let heroIndex = 0;
+  let heroTimer;
+
+  const showHeroSlide = (nextIndex) => {
+    const previousIndex = heroIndex;
+    heroIndex = (nextIndex + heroSlides.length) % heroSlides.length;
+    heroSlides.forEach((slide, index) => {
+      slide.classList.remove('is-active', 'is-exit');
+      if (index === heroIndex) slide.classList.add('is-active');
+      if (index === previousIndex && index !== heroIndex) slide.classList.add('is-exit');
+    });
+  };
+
+  heroTimer = window.setInterval(() => showHeroSlide(heroIndex + 1), 4200);
 }
 
 // Four Business Verticals Carousel Slider
@@ -134,7 +253,7 @@ if (sliderTrack) {
 const testimonialsSection = document.querySelector('.testimonials-section');
 const testimonialsTrack = document.querySelector('.testimonials-track');
 
-if (testimonialsSection && testimonialsTrack) {
+if (testimonialsSection && testimonialsTrack && !testimonialsSection.classList.contains('commitment-section')) {
   const originalTestimonialCards = Array.from(testimonialsTrack.children);
   const originalCardCount = originalTestimonialCards.length;
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -270,7 +389,7 @@ if (brandsSection) {
 
 // Home page entrance animations: reveal each visible section once as it enters the viewport.
 const homeEntranceSections = [
-  { selector: '.hero', targets: ['.hero-video'], name: 'hero' },
+  { selector: '.hero', targets: ['.hero-inner'], name: 'hero' },
   { selector: '.about-reference:not([aria-hidden="true"])', targets: ['.about-reference-inner'], name: 'about' },
   { selector: '.why-choose-section', targets: ['.why-choose-layout'], name: 'why' },
   { selector: '.verticals-showcase', targets: ['.verticals-container'], name: 'verticals' },
